@@ -32,7 +32,7 @@ if __name__ == "__main__":
         "&& mv $OUT bohrium-by-night/test/python/numpytest.py.json "\
         "&& cd bohrium-by-night && git commit -am 'nightly-test' && git push"
 
-    cmd = "./press.py ../bohrium suites/numpytest.py --publish-cmd='%s' --wait --runs 1"%pub
+    cmd = "./press.py ../bohrium suites/numpytest.py --slurm --wait --runs 1 --publish-cmd='%s'"%pub
     print cmd
     p = subprocess.Popen(
         cmd,
