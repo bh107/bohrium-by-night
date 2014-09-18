@@ -1,0 +1,131 @@
+#!/usr/bin/env python
+import subprocess
+import argparse
+import json
+import sys
+import os
+import tempfile
+
+def bash_cmd(cmd, cwd=None):
+    print cmd
+    p = subprocess.Popen(
+        cmd,
+        stdout  = subprocess.PIPE,
+        stderr  = subprocess.PIPE,
+        shell = True,
+        cwd=cwd
+    )
+    out, err = p.communicate()
+    print out,
+    print err,
+
+def parser_bohrium_src(parser, path):
+    """Check that 'path' points to the Bohrium source dir"""
+    path = os.path.expanduser(path)
+    if os.path.isdir(path):
+        return os.path.abspath(path)
+    else:
+        parser.error("The path %s does not exist!"%path)
+
+def parser_is_file(parser, path):
+    """Check that 'path' points to a file"""
+    path = os.path.expanduser(path)
+    if os.path.isfile(path):
+        return os.path.abspath(path)
+    else:
+        parser.error("The path %s does not point to a file!"%path)
+
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser(description='Run the benchmark suite and generate a rst-file.', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument(
+        'bohrium_src',
+        help='Path to the Bohrium source-code.',
+        type=lambda x: parser_bohrium_src(parser, x)
+    )
+    parser.add_argument(
+        'benchpress_src',
+        help='Path to the Benchpress source-code.',
+        type=lambda x: parser_bohrium_src(parser, x)
+    )
+    parser.add_argument(
+        '--ssh-key',
+        default="~/.ssh/bhbuilder_rsa",
+        help='The ssh key to use when accessing the git repos',
+        type=lambda x: parser_is_file(parser, x)
+    )
+    parser.add_argument(
+        '--no-slurm',
+        action="store_true",
+        help="Disable the use of SLURM -- the benchmark runs locally"
+    )
+    args = parser.parse_args()
+
+    if args.no_slurm:
+        slurm = ''
+    else:
+        slurm = '--slurm'
+
+    #First we run/submit the benchmark suite
+    tmpdir = tempfile.mkdtemp()
+    bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; "\
+             "git clone git@bitbucket.org:bohrium/bohrium-by-night.git'", cwd=tmpdir)
+    tmpdir += "/bohrium-by-night" #move to the git repos
+    cmd = "./press.py %s suites/daily_benchmark.py --no-perf --wait --runs 3 %s --publish-cmd='mv $OUT "\
+          "%s/benchmark/daily.py.json'"%(args.bohrium_src, slurm, tmpdir)
+    bash_cmd(cmd, cwd=args.benchpress_src)
+
+    #And we commit the result
+    bash_cmd("git add benchmark/daily.py.json", cwd=tmpdir)
+    bash_cmd("git commit -m 'nightly-benchmark'", cwd=tmpdir)
+    bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; git push'", cwd=tmpdir)
+
+    #Then we generate and commit graphs
+    bash_cmd("./gen.graphs.py --type=daily %s/benchmark/daily.py.json "\
+             "--output %s/benchmark/gfx"%(tmpdir,tmpdir), cwd=args.benchpress_src)
+
+    bash_cmd("git add benchmark/gfx", cwd=tmpdir)
+    bash_cmd("git commit -m 'nightly-benchmark-gfx'", cwd=tmpdir)
+    bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; git push'", cwd=tmpdir)
+
+    #Finally we generate and commits the reStructuredText file
+    with open("%s/benchmark/daily.py.json"%tmpdir, 'r') as f:
+        data = json.load(f)
+        meta = data['meta']
+
+        #Write header
+        rst = \
+"""
+Python Benchmark Suite
+======================
+
+Running %s on Octuplets
+    commit: `#%s <https://bitbucket.org/bohrium/bohrium/commits/%s>`_,
+    time: %s.
+
+"""%(meta['suite'], meta['rev'], meta['rev'], meta['started'])
+
+        #We handle one script at a time
+        for script, alias in zip(set([d['script'] for d in data['runs']]), \
+                                 set([d['script_alias'] for d in data['runs']])):
+            #Write title
+            rst += "%s\n"%alias
+            rst += "-"*len(alias) + "\n\n"
+
+            #Write the executed commands
+            for r in data['runs']:
+                if script == r['script']:
+                    rst += "%s/%s: ``%s``\n\n"%(r['bridge_alias'],
+                            r['engine_alias'],' '.join(r['cmd']))
+            rst += "\n\n"
+
+            #Write the graphs
+            rst += ".. image:: https://bytebucket.org/bohrium/bohrium-by-night"\
+                   "/raw/master/benchmark/gfx/%s_runtime.png\n\n"%script
+        print rst
+        with open("%s/benchmark/daily.py.rst"%tmpdir,'w') as f:
+            f.write(rst)
+
+        bash_cmd("git add %s/benchmark/daily.py.rst"%tmpdir, cwd=tmpdir)
+        bash_cmd("git commit -m 'nightly-benchmark-rst'", cwd=tmpdir)
+        bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; git push'", cwd=tmpdir)
