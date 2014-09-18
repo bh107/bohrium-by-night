@@ -72,17 +72,17 @@ if __name__ == "__main__":
              "git clone git@bitbucket.org:bohrium/bohrium-by-night.git'", cwd=tmpdir)
     tmpdir += "/bohrium-by-night" #move to the git repos
     cmd = "./press.py %s suites/numpytest.py --no-perf --wait --runs 1 %s --publish-cmd='mv $OUT "\
-          "%s/test/python/numpytest.py.json'"%(args.bohrium_src, slurm, tmpdir)
+          "%s/test/numpytest.py.json'"%(args.bohrium_src, slurm, tmpdir)
     bash_cmd(cmd, cwd=args.benchpress_src)
 
     #Then we commit the result
-    bash_cmd("git add test/python/numpytest.py.json", cwd=tmpdir)
+    bash_cmd("git add test/numpytest.py.json", cwd=tmpdir)
     bash_cmd("git commit -m 'nightly-test'", cwd=tmpdir)
     bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; git push'", cwd=tmpdir)
 
     #Finally we generate and commits the reStructuredText file
 
-    with open("%s/test/python/numpytest.py.json"%tmpdir, 'r') as f:
+    with open("%s/test/numpytest.py.json"%tmpdir, 'r') as f:
         data = json.load(f)
         meta = data['meta']
 
@@ -106,9 +106,9 @@ Running %s on Octuplets
                 e = e.replace("\n", "\n  ")
                 rst += "  %s\n  %s\n"%(o,e)
         print rst
-        with open("%s/test/python/numpytest.py.rst"%tmpdir,'w') as f:
+        with open("%s/test/numpytest.py.rst"%tmpdir,'w') as f:
             f.write(rst)
 
-        bash_cmd("git add %s/test/python/numpytest.py.rst"%tmpdir, cwd=tmpdir)
+        bash_cmd("git add %s/test/numpytest.py.rst"%tmpdir, cwd=tmpdir)
         bash_cmd("git commit -m 'nightly-test-rst'", cwd=tmpdir)
         bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; git push'", cwd=tmpdir)
