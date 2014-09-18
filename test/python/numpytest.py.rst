@@ -2,14 +2,11 @@
 Python Test Suite
 =================
 
-The result::
+The result of running suites/numpytest.py on Octuplets (commit 88335e0b0a721a97d5d4977fc8a3d842f4626957, time 2014-09-18 12:57:15.699593)::
 
   *** Testing the equivalency of Bohrium-NumPy and NumPy ***
-  Testing test_reduce.py/reduce/reduce
-  Testing test_reduce.py/reduce1D/reduce
-  Testing test_reduce.py/reduce_bool/boolean
-  Testing test_reduce.py/reduce_sum/add_reduce
-  Testing test_reduce.py/reduce_sum/sum
+  Testing test_array_create.py/array_create/zeros
   ************************ Finish ************************
   
+  [84302 refs]
   
