@@ -2,7 +2,9 @@
 Python Test Suite
 =================
 
-Running suites/numpytest.py on Octuplets (commit 88335e0b0a721a97d5d4977fc8a3d842f4626957, time 2014-09-18 13:12:16.347289).
+Running suites/numpytest.py on Octuplets
+    commit: #88335e0b0a721a97d5d4977fc8a3d842f4626957
+    time: 2014-09-18 13:14:02.077877.
 
 The CPU results::
 
