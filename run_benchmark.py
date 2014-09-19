@@ -106,11 +106,13 @@ Running %s on Octuplets
 """%(meta['suite'], meta['rev'], meta['rev'], meta['started'])
 
         #We handle one script at a time
-        for script, alias in zip(set([d['script'] for d in data['runs']]), \
-                                 set([d['script_alias'] for d in data['runs']])):
-            #Write title
-            rst += "%s\n"%alias
-            rst += "-"*len(alias) + "\n\n"
+        for script in set([d['script'] for d in data['runs']]):
+            for r in data['runs']:
+                if script == r['script']:
+                    #Write title
+                    rst += "%s\n"%r['script_alias']
+                    rst += "-"*len(r['script_alias']) + "\n\n"
+                    break
 
             #Write the executed commands
             for r in data['runs']:
