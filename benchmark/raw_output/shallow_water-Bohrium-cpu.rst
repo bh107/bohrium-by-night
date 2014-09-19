@@ -8,7 +8,8 @@ Running Shallow Water on Octuplets using Bohrium/CPU
 
     command: ``python benchmark/Python/shallow_water.py --size=100*100*10 --bohrium=False``
 
-    stdout-00::
+Run 00
+~~~~~~    stdout-00::
 
         benchmark/Python/shallow_water.py - backend: None, bohrium: False, size: 100*100*10, elapsed-time: 0.041783
         
@@ -18,8 +19,9 @@ Running Shallow Water on Octuplets using Bohrium/CPU
         N/A
 
 
-|
-    stdout-01::
+
+Run 01
+~~~~~~    stdout-01::
 
         benchmark/Python/shallow_water.py - backend: None, bohrium: False, size: 100*100*10, elapsed-time: 0.041644
         
@@ -29,8 +31,9 @@ Running Shallow Water on Octuplets using Bohrium/CPU
         N/A
 
 
-|
-    stdout-02::
+
+Run 02
+~~~~~~    stdout-02::
 
         benchmark/Python/shallow_water.py - backend: None, bohrium: False, size: 100*100*10, elapsed-time: 0.042068
         
@@ -40,4 +43,4 @@ Running Shallow Water on Octuplets using Bohrium/CPU
         N/A
 
 
-|
+

@@ -8,7 +8,8 @@ Running Wire World on Octuplets using Bohrium/GPU
 
     command: ``python benchmark/Python/wireworld.py --size=10*10 --bohrium=False``
 
-    stdout-00::
+Run 00
+~~~~~~    stdout-00::
 
         benchmark/Python/wireworld.py - backend: None, bohrium: False, size: 10*10, elapsed-time: 0.012853
         
@@ -18,8 +19,9 @@ Running Wire World on Octuplets using Bohrium/GPU
         N/A
 
 
-|
-    stdout-01::
+
+Run 01
+~~~~~~    stdout-01::
 
         benchmark/Python/wireworld.py - backend: None, bohrium: False, size: 10*10, elapsed-time: 0.012709
         
@@ -29,8 +31,9 @@ Running Wire World on Octuplets using Bohrium/GPU
         N/A
 
 
-|
-    stdout-02::
+
+Run 02
+~~~~~~    stdout-02::
 
         benchmark/Python/wireworld.py - backend: None, bohrium: False, size: 10*10, elapsed-time: 0.012614
         
@@ -40,4 +43,4 @@ Running Wire World on Octuplets using Bohrium/GPU
         N/A
 
 
-|
+
