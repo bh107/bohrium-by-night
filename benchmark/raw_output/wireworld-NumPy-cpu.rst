@@ -8,11 +8,11 @@ Running Wire World on Octuplets using NumPy/CPU
 
     command: ``python benchmark/Python/wireworld.py --size=10*10 --bohrium=True``
 
-    stdout::
+    stdout-00::
 
         N/A
 
-    stderr::
+    stderr-00::
 
         Traceback (most recent call last):
           File "benchmark/Python/wireworld.py", line 72, in <module>
@@ -24,11 +24,13 @@ Running Wire World on Octuplets using NumPy/CPU
         AttributeError: 'module' object has no attribute 'tile'
         
 
-    stdout::
+
+
+    stdout-01::
 
         N/A
 
-    stderr::
+    stderr-01::
 
         Traceback (most recent call last):
           File "benchmark/Python/wireworld.py", line 72, in <module>
@@ -40,11 +42,13 @@ Running Wire World on Octuplets using NumPy/CPU
         AttributeError: 'module' object has no attribute 'tile'
         
 
-    stdout::
+
+
+    stdout-02::
 
         N/A
 
-    stderr::
+    stderr-02::
 
         Traceback (most recent call last):
           File "benchmark/Python/wireworld.py", line 72, in <module>
@@ -55,4 +59,6 @@ Running Wire World on Octuplets using NumPy/CPU
             data[1:-1,1:-1] = np.tile(np.array([
         AttributeError: 'module' object has no attribute 'tile'
         
+
+
 

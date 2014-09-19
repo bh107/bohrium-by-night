@@ -8,11 +8,11 @@ Running Lattice Boltzmann D2Q9 on Octuplets using NumPy/CPU
 
     command: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=100*100*10 --bohrium=True``
 
-    stdout::
+    stdout-00::
 
         N/A
 
-    stderr::
+    stderr-00::
 
         Traceback (most recent call last):
           File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 229, in <module>
@@ -24,11 +24,13 @@ Running Lattice Boltzmann D2Q9 on Octuplets using NumPy/CPU
         AttributeError: 'module' object has no attribute 'asarray'
         
 
-    stdout::
+
+
+    stdout-01::
 
         N/A
 
-    stderr::
+    stderr-01::
 
         Traceback (most recent call last):
           File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 229, in <module>
@@ -40,11 +42,13 @@ Running Lattice Boltzmann D2Q9 on Octuplets using NumPy/CPU
         AttributeError: 'module' object has no attribute 'asarray'
         
 
-    stdout::
+
+
+    stdout-02::
 
         N/A
 
-    stderr::
+    stderr-02::
 
         Traceback (most recent call last):
           File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 229, in <module>
@@ -55,4 +59,6 @@ Running Lattice Boltzmann D2Q9 on Octuplets using NumPy/CPU
             t_3d    = np.asarray(t)[:, np.newaxis, np.newaxis]
         AttributeError: 'module' object has no attribute 'asarray'
         
+
+
 

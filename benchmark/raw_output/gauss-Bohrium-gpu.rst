@@ -8,30 +8,36 @@ Running Gauss Elimination on Octuplets using Bohrium/GPU
 
     command: ``python benchmark/Python/gauss.py --size=100 --bohrium=False``
 
-    stdout::
+    stdout-00::
 
         benchmark/Python/gauss.py - backend: None, bohrium: False, size: 100, elapsed-time: 0.008042
         
 
-    stderr::
+    stderr-00::
 
         N/A
 
-    stdout::
+
+
+    stdout-01::
 
         benchmark/Python/gauss.py - backend: None, bohrium: False, size: 100, elapsed-time: 0.008177
         
 
-    stderr::
+    stderr-01::
 
         N/A
 
-    stdout::
+
+
+    stdout-02::
 
         benchmark/Python/gauss.py - backend: None, bohrium: False, size: 100, elapsed-time: 0.008006
         
 
-    stderr::
+    stderr-02::
 
         N/A
+
+
 

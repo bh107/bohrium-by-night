@@ -8,30 +8,36 @@ Running Wire World on Octuplets using Bohrium/CPU
 
     command: ``python benchmark/Python/wireworld.py --size=10*10 --bohrium=False``
 
-    stdout::
+    stdout-00::
 
         benchmark/Python/wireworld.py - backend: None, bohrium: False, size: 10*10, elapsed-time: 0.013436
         
 
-    stderr::
+    stderr-00::
 
         N/A
 
-    stdout::
+
+
+    stdout-01::
 
         benchmark/Python/wireworld.py - backend: None, bohrium: False, size: 10*10, elapsed-time: 0.013111
         
 
-    stderr::
+    stderr-01::
 
         N/A
 
-    stdout::
+
+
+    stdout-02::
 
         benchmark/Python/wireworld.py - backend: None, bohrium: False, size: 10*10, elapsed-time: 0.012862
         
 
-    stderr::
+    stderr-02::
 
         N/A
+
+
 

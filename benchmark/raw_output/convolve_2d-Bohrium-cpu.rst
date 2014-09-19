@@ -8,11 +8,11 @@ Running Convolution 2D on Octuplets using Bohrium/CPU
 
     command: ``python benchmark/Python/convolve_2d.py --size=5 --bohrium=False``
 
-    stdout::
+    stdout-00::
 
         N/A
 
-    stderr::
+    stderr-00::
 
         Traceback (most recent call last):
           File "benchmark/Python/convolve_2d.py", line 60, in <module>
@@ -26,11 +26,13 @@ Running Convolution 2D on Octuplets using Bohrium/CPU
         IOError: [Errno 2] No such file or directory: '/tmp/Hell.jpg'
         
 
-    stdout::
+
+
+    stdout-01::
 
         N/A
 
-    stderr::
+    stderr-01::
 
         Traceback (most recent call last):
           File "benchmark/Python/convolve_2d.py", line 60, in <module>
@@ -44,11 +46,13 @@ Running Convolution 2D on Octuplets using Bohrium/CPU
         IOError: [Errno 2] No such file or directory: '/tmp/Hell.jpg'
         
 
-    stdout::
+
+
+    stdout-02::
 
         N/A
 
-    stderr::
+    stderr-02::
 
         Traceback (most recent call last):
           File "benchmark/Python/convolve_2d.py", line 60, in <module>
@@ -61,4 +65,6 @@ Running Convolution 2D on Octuplets using Bohrium/CPU
             fp = builtins.open(fp, "rb")
         IOError: [Errno 2] No such file or directory: '/tmp/Hell.jpg'
         
+
+
 

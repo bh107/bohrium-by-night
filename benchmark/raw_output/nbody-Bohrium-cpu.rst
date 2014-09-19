@@ -8,12 +8,12 @@ Running N-Body on Octuplets using Bohrium/CPU
 
     command: ``python benchmark/Python/nbody.py --size=100*10 --bohrium=False``
 
-    stdout::
+    stdout-00::
 
         benchmark/Python/nbody.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.060692
         
 
-    stderr::
+    stderr-00::
 
         benchmark/Python/nbody.py:54: FutureWarning: Numpy has detected that you (may be) writing to an array returned
         by numpy.diagonal or by selecting multiple fields in a record
@@ -45,12 +45,14 @@ Running N-Body on Octuplets using Bohrium/CPU
           np.diagonal(Fz)[:] = 0.0
         
 
-    stdout::
+
+
+    stdout-01::
 
         benchmark/Python/nbody.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.059107
         
 
-    stderr::
+    stderr-01::
 
         benchmark/Python/nbody.py:54: FutureWarning: Numpy has detected that you (may be) writing to an array returned
         by numpy.diagonal or by selecting multiple fields in a record
@@ -82,12 +84,14 @@ Running N-Body on Octuplets using Bohrium/CPU
           np.diagonal(Fz)[:] = 0.0
         
 
-    stdout::
+
+
+    stdout-02::
 
         benchmark/Python/nbody.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.059023
         
 
-    stderr::
+    stderr-02::
 
         benchmark/Python/nbody.py:54: FutureWarning: Numpy has detected that you (may be) writing to an array returned
         by numpy.diagonal or by selecting multiple fields in a record
@@ -118,4 +122,6 @@ Running N-Body on Octuplets using Bohrium/CPU
         arr.diagonal().copy() or arr[['f0','f1']].copy()).
           np.diagonal(Fz)[:] = 0.0
         
+
+
 

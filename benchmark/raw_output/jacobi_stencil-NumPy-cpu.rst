@@ -8,30 +8,36 @@ Running Jacobi Stencil on Octuplets using NumPy/CPU
 
     command: ``python benchmark/Python/jacobi_stencil.py --size=100*100*10 --bohrium=True``
 
-    stdout::
+    stdout-00::
 
         benchmark/Python/jacobi_stencil.py - backend: bohrium, bohrium: True, size: 100*100*10, elapsed-time: 0.122641
         
 
-    stderr::
+    stderr-00::
 
         N/A
 
-    stdout::
+
+
+    stdout-01::
 
         benchmark/Python/jacobi_stencil.py - backend: bohrium, bohrium: True, size: 100*100*10, elapsed-time: 0.091065
         
 
-    stderr::
+    stderr-01::
 
         N/A
 
-    stdout::
+
+
+    stdout-02::
 
         benchmark/Python/jacobi_stencil.py - backend: bohrium, bohrium: True, size: 100*100*10, elapsed-time: 0.110182
         
 
-    stderr::
+    stderr-02::
 
         N/A
+
+
 

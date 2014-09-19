@@ -8,30 +8,36 @@ Running Monte Carlo Pi on Octuplets using Bohrium/CPU
 
     command: ``python benchmark/Python/mc.py --size=100*10 --bohrium=False``
 
-    stdout::
+    stdout-00::
 
         benchmark/Python/mc.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.001070
         
 
-    stderr::
+    stderr-00::
 
         N/A
 
-    stdout::
+
+
+    stdout-01::
 
         benchmark/Python/mc.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.001020
         
 
-    stderr::
+    stderr-01::
 
         N/A
 
-    stdout::
+
+
+    stdout-02::
 
         benchmark/Python/mc.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.001016
         
 
-    stderr::
+    stderr-02::
 
         N/A
+
+
 

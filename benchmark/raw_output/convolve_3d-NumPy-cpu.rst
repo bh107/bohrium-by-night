@@ -8,13 +8,15 @@ Running Convolution 3D on Octuplets using NumPy/CPU
 
     command: ``python benchmark/Python/convolve_3d.py --size=5 --bohrium=True``
 
-    stdout::
+    stdout-00::
 
         N/A
 
-    stderr::
+    stderr-00::
 
         benchmark/Python/convolve_3d.py:23: RuntimeWarning: Encountering an operation not supported by Bohrium. It will be handled by the original NumPy.
           totalsum += kernel[filterZ + kernelrad, filterY + kernelrad, filterX + kernelrad]
         
+
+
 

@@ -8,30 +8,36 @@ Running Lattice Boltzmann D2Q9 on Octuplets using Bohrium/GPU
 
     command: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=100*100*10 --bohrium=False``
 
-    stdout::
+    stdout-00::
 
         benchmark/Python/lattice_boltzmann_D2Q9.py - backend: None, bohrium: False, size: 100*100*10, elapsed-time: 0.060758
         
 
-    stderr::
+    stderr-00::
 
         N/A
 
-    stdout::
+
+
+    stdout-01::
 
         benchmark/Python/lattice_boltzmann_D2Q9.py - backend: None, bohrium: False, size: 100*100*10, elapsed-time: 0.061713
         
 
-    stderr::
+    stderr-01::
 
         N/A
 
-    stdout::
+
+
+    stdout-02::
 
         benchmark/Python/lattice_boltzmann_D2Q9.py - backend: None, bohrium: False, size: 100*100*10, elapsed-time: 0.061488
         
 
-    stderr::
+    stderr-02::
 
         N/A
+
+
 

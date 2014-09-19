@@ -8,30 +8,36 @@ Running Snakes and Ladders on Octuplets using Bohrium/GPU
 
     command: ``python benchmark/Python/snakes_and_ladders.py --size=100*10 --bohrium=False``
 
-    stdout::
+    stdout-00::
 
         benchmark/Python/snakes_and_ladders.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.018509
         
 
-    stderr::
+    stderr-00::
 
         N/A
 
-    stdout::
+
+
+    stdout-01::
 
         benchmark/Python/snakes_and_ladders.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.008083
         
 
-    stderr::
+    stderr-01::
 
         N/A
 
-    stdout::
+
+
+    stdout-02::
 
         benchmark/Python/snakes_and_ladders.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.008174
         
 
-    stderr::
+    stderr-02::
 
         N/A
+
+
 

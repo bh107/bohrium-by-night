@@ -8,30 +8,36 @@ Running Shallow Water on Octuplets using Bohrium/GPU
 
     command: ``python benchmark/Python/shallow_water.py --size=100*100*10 --bohrium=False``
 
-    stdout::
+    stdout-00::
 
         benchmark/Python/shallow_water.py - backend: None, bohrium: False, size: 100*100*10, elapsed-time: 0.030569
         
 
-    stderr::
+    stderr-00::
 
         N/A
 
-    stdout::
+
+
+    stdout-01::
 
         benchmark/Python/shallow_water.py - backend: None, bohrium: False, size: 100*100*10, elapsed-time: 0.030425
         
 
-    stderr::
+    stderr-01::
 
         N/A
 
-    stdout::
+
+
+    stdout-02::
 
         benchmark/Python/shallow_water.py - backend: None, bohrium: False, size: 100*100*10, elapsed-time: 0.030251
         
 
-    stderr::
+    stderr-02::
 
         N/A
+
+
 
