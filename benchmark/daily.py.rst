@@ -4,12 +4,12 @@ Python Benchmark Suite
 
 Running suites/daily_benchmark.py on Octuplets
     commit: `#88335e0b0a721a97d5d4977fc8a3d842f4626957 <https://bitbucket.org/bohrium/bohrium/commits/88335e0b0a721a97d5d4977fc8a3d842f4626957>`_,
-    time: 2014-09-19 09:07:19.387053.
+    time: 2014-09-19 09:29:27.214230.
 
 Jacobi Stencil
 --------------
 
-Bohrium/CPU: ``python benchmark/Python/jacobi_stencil.py --size=100*100*10 --bohrium=True``
+NumPy/CPU: ``python benchmark/Python/jacobi_stencil.py --size=100*100*10 --bohrium=True``
 
 Bohrium/CPU: ``python benchmark/Python/jacobi_stencil.py --size=100*100*10 --bohrium=True``
 
@@ -22,7 +22,7 @@ Bohrium/GPU: ``python benchmark/Python/jacobi_stencil.py --size=100*100*10 --boh
 N-Body
 ------
 
-Bohrium/CPU: ``python benchmark/Python/nbody.py --size=100*10 --bohrium=True``
+NumPy/CPU: ``python benchmark/Python/nbody.py --size=100*10 --bohrium=True``
 
 Bohrium/CPU: ``python benchmark/Python/nbody.py --size=100*10 --bohrium=True``
 
@@ -35,7 +35,7 @@ Bohrium/GPU: ``python benchmark/Python/nbody.py --size=100*10 --bohrium=True``
 Shallow Water
 -------------
 
-Bohrium/CPU: ``python benchmark/Python/shallow_water.py --size=100*100*10 --bohrium=True``
+NumPy/CPU: ``python benchmark/Python/shallow_water.py --size=100*100*10 --bohrium=True``
 
 Bohrium/CPU: ``python benchmark/Python/shallow_water.py --size=100*100*10 --bohrium=True``
 
