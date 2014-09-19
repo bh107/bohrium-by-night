@@ -66,7 +66,7 @@ if __name__ == "__main__":
     else:
         slurm = '--slurm'
 
-    #First we run/submit the benchmark suite
+    #We run/submit the benchmark suite
     tmpdir = tempfile.mkdtemp()
     bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; "\
              "git clone git@bitbucket.org:bohrium/bohrium-by-night.git'", cwd=tmpdir)
@@ -75,18 +75,65 @@ if __name__ == "__main__":
           "%s/benchmark/daily.py.json'"%(args.bohrium_src, slurm, tmpdir)
     bash_cmd(cmd, cwd=args.benchpress_src)
 
-    #And we commit the result
+    #We commit the result
     bash_cmd("git add benchmark/daily.py.json", cwd=tmpdir)
     bash_cmd("git commit -m 'nightly-benchmark'", cwd=tmpdir)
     bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; git push'", cwd=tmpdir)
 
-    #Then we generate and commit graphs
+    #We generate and commit graphs
     bash_cmd("./gen.graphs.py --type=daily %s/benchmark/daily.py.json "\
              "--output %s/benchmark/gfx"%(tmpdir,tmpdir), cwd=args.benchpress_src)
-
     bash_cmd("git add benchmark/gfx", cwd=tmpdir)
     bash_cmd("git commit -m 'nightly-benchmark-gfx'", cwd=tmpdir)
     bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; git push'", cwd=tmpdir)
+
+    #We generate the raw output reStructuredText files
+    with open("%s/benchmark/daily.py.json"%tmpdir, 'r') as f:
+        data = json.load(f)
+        meta = data['meta']
+
+
+        #We write one rst-file per command
+        for script in set([d['script'] for d in data['runs']]):
+            for r in data['runs']:
+                if script == r['script']:
+                    #Write header
+                    rst = \
+"""
+Raw Benchmark Output
+====================
+
+Running %s on Octuplets using %s/%s
+    commit: `#%s <https://bitbucket.org/bohrium/bohrium/commits/%s>`_,
+    time: %s.
+
+    command: ``%s``
+
+"""%(r['script_alias'], r['bridge_alias'], r['engine_alias'], meta['rev'],\
+        meta['rev'], meta['started'], ' '.join(r['cmd']))
+
+                    #Write all outputs
+                    i = 0
+                    for o, e in zip(r['stdout'], r['stderr']):
+                        if len(o) == 0:
+                            o = "N/A"
+                        if len(e) == 0:
+                            e = "N/A"
+                        rst += "Run %02d\n~~~~~~\n"%i
+                        rst += "    stdout::\n\n        %s\n\n"%(o.replace("\n","\n        "))
+                        rst += "    stderr::\n\n        %s\n\n"%(e.replace("\n","\n        "))
+                        rst += "\n\n"
+                        i += 1
+                    print rst
+                    filename = "%s/benchmark/raw_output/%s-%s-%s.rst"%(tmpdir,r['script'],\
+                            r['bridge_alias'].replace(" ", "-"),r['engine'])
+
+                    with open(filename,'w') as f:
+                        f.write(rst)
+
+                    bash_cmd("git add %s"%filename, cwd=tmpdir)
+        bash_cmd("git commit -m 'nightly-benchmark-raw-output'", cwd=tmpdir)
+        bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; git push'", cwd=tmpdir)
 
     #Finally we generate and commits the reStructuredText file
     with open("%s/benchmark/daily.py.json"%tmpdir, 'r') as f:
@@ -117,8 +164,8 @@ Running %s on Octuplets
             #Write the executed commands
             for r in data['runs']:
                 if script == r['script']:
-                    rst += "%s/%s: ``%s``\n\n"%(r['bridge_alias'],
-                            r['engine_alias'],' '.join(r['cmd']))
+                    rst += "`%s/%s <raw_output/%s-%s-%s.rst>`_:"%(r['bridge_alias'], r['engine_alias'], r['script'], r['bridge_alias'].replace(" ", "-"),r['engine'])
+                    rst += " ``%s``\n\n"%(' '.join(r['cmd']))
             rst += "\n\n"
 
             #Write the graphs
