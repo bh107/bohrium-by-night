@@ -68,6 +68,7 @@ if __name__ == "__main__":
 
     #We run/submit the benchmark suite
     tmpdir = tempfile.mkdtemp()
+    tmpdir_root = tmpdir
     bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; "\
              "git clone git@bitbucket.org:bohrium/bohrium-by-night.git'", cwd=tmpdir)
     tmpdir += "/bohrium-by-night" #move to the git repos
@@ -124,7 +125,6 @@ Running %s on Octuplets using %s/%s
                         rst += "    stderr::\n\n        %s\n\n"%(e.replace("\n","\n        "))
                         rst += "\n\n"
                         i += 1
-                    print rst
                     filename = "%s/benchmark/raw_output/%s-%s-%s.rst"%(tmpdir,r['script'],\
                             r['bridge_alias'].replace(" ", "-"),r['engine'])
 
@@ -164,17 +164,19 @@ Running %s on Octuplets
             #Write the executed commands
             for r in data['runs']:
                 if script == r['script']:
-                    rst += "`%s/%s <raw_output/%s-%s-%s.rst>`_:"%(r['bridge_alias'], r['engine_alias'], r['script'], r['bridge_alias'].replace(" ", "-"),r['engine'])
+                    rst += "`%s/%s <raw_output/%s-%s-%s.rst>`_:"%(r['bridge_alias'], \
+                            r['engine_alias'], r['script'], \
+                            r['bridge_alias'].replace(" ", "-"),r['engine'])
                     rst += " ``%s``\n\n"%(' '.join(r['cmd']))
             rst += "\n\n"
 
             #Write the graphs
             rst += ".. image:: https://bytebucket.org/bohrium/bohrium-by-night"\
                    "/raw/master/benchmark/gfx/%s_runtime.png\n\n"%script
-        print rst
         with open("%s/benchmark/daily.py.rst"%tmpdir,'w') as f:
             f.write(rst)
 
         bash_cmd("git add %s/benchmark/daily.py.rst"%tmpdir, cwd=tmpdir)
         bash_cmd("git commit -m 'nightly-benchmark-rst'", cwd=tmpdir)
         bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; git push'", cwd=tmpdir)
+        bash_cmd("rm -Rf %s"%tmpdir_root)
