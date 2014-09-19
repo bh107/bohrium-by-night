@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running N-Body on Octuplets using Bohrium/GPU
-    commit: `#88335e0b0a721a97d5d4977fc8a3d842f4626957 <https://bitbucket.org/bohrium/bohrium/commits/88335e0b0a721a97d5d4977fc8a3d842f4626957>`_,
-    time: 2014-09-19 13:58:35.822246.
+    commit: `#e2eb8cda5af33d49993cdc9c0473aa962908adf4 <https://bitbucket.org/bohrium/bohrium/commits/e2eb8cda5af33d49993cdc9c0473aa962908adf4>`_,
+    time: 2014-09-19 14:10:40.065829.
 
     command: ``python benchmark/Python/nbody.py --size=100*10 --bohrium=True``
 
@@ -16,10 +16,14 @@ Run 00
 
     stderr::
 
-        Error in [cpu:impl]: /home/bhbuilder/.local/lib/libbh_ve_cpu.so: cannot open shared object file: No such file or directory
-        terminate called after throwing an instance of 'std::runtime_error'
-          what():  Error in the initialization of the VEM.
-        
+        Traceback (most recent call last):
+          File "benchmark/Python/nbody.py", line 12, in <module>
+            import util
+          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 9, in <module>
+            import bohrium as bh
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 1, in <module>
+            from array_create import *
+        ImportError: No module named array_create
         
 
 
@@ -32,10 +36,14 @@ Run 01
 
     stderr::
 
-        Error in [cpu:impl]: /home/bhbuilder/.local/lib/libbh_ve_cpu.so: cannot open shared object file: No such file or directory
-        terminate called after throwing an instance of 'std::runtime_error'
-          what():  Error in the initialization of the VEM.
-        
+        Traceback (most recent call last):
+          File "benchmark/Python/nbody.py", line 12, in <module>
+            import util
+          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 9, in <module>
+            import bohrium as bh
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 1, in <module>
+            from array_create import *
+        ImportError: No module named array_create
         
 
 
@@ -48,10 +56,14 @@ Run 02
 
     stderr::
 
-        Error in [cpu:impl]: /home/bhbuilder/.local/lib/libbh_ve_cpu.so: cannot open shared object file: No such file or directory
-        terminate called after throwing an instance of 'std::runtime_error'
-          what():  Error in the initialization of the VEM.
-        
+        Traceback (most recent call last):
+          File "benchmark/Python/nbody.py", line 12, in <module>
+            import util
+          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 9, in <module>
+            import bohrium as bh
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 1, in <module>
+            from array_create import *
+        ImportError: No module named array_create
         
 
 
