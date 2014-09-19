@@ -18,7 +18,7 @@ Running Matrix Multiplication on Octuplets using NumPy/CPU
         N/A
 
 
-
+|
     stdout-01::
 
         benchmark/Python/mxmul.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 0.004986
@@ -29,7 +29,7 @@ Running Matrix Multiplication on Octuplets using NumPy/CPU
         N/A
 
 
-
+|
     stdout-02::
 
         benchmark/Python/mxmul.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 0.009033
@@ -40,4 +40,4 @@ Running Matrix Multiplication on Octuplets using NumPy/CPU
         N/A
 
 
-
+|

@@ -46,7 +46,7 @@ Running N-Body on Octuplets using Bohrium/CPU
         
 
 
-
+|
     stdout-01::
 
         benchmark/Python/nbody.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.059107
@@ -85,7 +85,7 @@ Running N-Body on Octuplets using Bohrium/CPU
         
 
 
-
+|
     stdout-02::
 
         benchmark/Python/nbody.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.059023
@@ -124,4 +124,4 @@ Running N-Body on Octuplets using Bohrium/CPU
         
 
 
-
+|

@@ -18,7 +18,7 @@ Running Lattice Boltzmann D2Q9 on Octuplets using Bohrium/GPU
         N/A
 
 
-
+|
     stdout-01::
 
         benchmark/Python/lattice_boltzmann_D2Q9.py - backend: None, bohrium: False, size: 100*100*10, elapsed-time: 0.061713
@@ -29,7 +29,7 @@ Running Lattice Boltzmann D2Q9 on Octuplets using Bohrium/GPU
         N/A
 
 
-
+|
     stdout-02::
 
         benchmark/Python/lattice_boltzmann_D2Q9.py - backend: None, bohrium: False, size: 100*100*10, elapsed-time: 0.061488
@@ -40,4 +40,4 @@ Running Lattice Boltzmann D2Q9 on Octuplets using Bohrium/GPU
         N/A
 
 
-
+|

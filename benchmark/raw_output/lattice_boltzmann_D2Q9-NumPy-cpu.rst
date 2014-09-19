@@ -25,7 +25,7 @@ Running Lattice Boltzmann D2Q9 on Octuplets using NumPy/CPU
         
 
 
-
+|
     stdout-01::
 
         N/A
@@ -43,7 +43,7 @@ Running Lattice Boltzmann D2Q9 on Octuplets using NumPy/CPU
         
 
 
-
+|
     stdout-02::
 
         N/A
@@ -61,4 +61,4 @@ Running Lattice Boltzmann D2Q9 on Octuplets using NumPy/CPU
         
 
 
-
+|

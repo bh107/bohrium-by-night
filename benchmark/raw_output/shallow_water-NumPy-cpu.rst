@@ -18,7 +18,7 @@ Running Shallow Water on Octuplets using NumPy/CPU
         N/A
 
 
-
+|
     stdout-01::
 
         benchmark/Python/shallow_water.py - backend: bohrium, bohrium: True, size: 100*100*10, elapsed-time: 2.360021
@@ -29,7 +29,7 @@ Running Shallow Water on Octuplets using NumPy/CPU
         N/A
 
 
-
+|
     stdout-02::
 
         benchmark/Python/shallow_water.py - backend: bohrium, bohrium: True, size: 100*100*10, elapsed-time: 2.794491
@@ -40,4 +40,4 @@ Running Shallow Water on Octuplets using NumPy/CPU
         N/A
 
 
-
+|

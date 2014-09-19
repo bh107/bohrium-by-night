@@ -18,7 +18,7 @@ Running Monte Carlo Pi on Octuplets using Bohrium/CPU
         N/A
 
 
-
+|
     stdout-01::
 
         benchmark/Python/mc.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.001020
@@ -29,7 +29,7 @@ Running Monte Carlo Pi on Octuplets using Bohrium/CPU
         N/A
 
 
-
+|
     stdout-02::
 
         benchmark/Python/mc.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.001016
@@ -40,4 +40,4 @@ Running Monte Carlo Pi on Octuplets using Bohrium/CPU
         N/A
 
 
-
+|

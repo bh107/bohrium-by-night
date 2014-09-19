@@ -18,7 +18,7 @@ Running LU Factorization on Octuplets using Bohrium/GPU
         N/A
 
 
-
+|
     stdout-01::
 
         benchmark/Python/lu.py - backend: None, bohrium: False, size: 100, elapsed-time: 0.008904
@@ -29,7 +29,7 @@ Running LU Factorization on Octuplets using Bohrium/GPU
         N/A
 
 
-
+|
     stdout-02::
 
         benchmark/Python/lu.py - backend: None, bohrium: False, size: 100, elapsed-time: 0.008884
@@ -40,4 +40,4 @@ Running LU Factorization on Octuplets using Bohrium/GPU
         N/A
 
 
-
+|

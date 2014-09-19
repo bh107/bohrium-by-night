@@ -18,7 +18,7 @@ Running Snakes and Ladders on Octuplets using Bohrium/GPU
         N/A
 
 
-
+|
     stdout-01::
 
         benchmark/Python/snakes_and_ladders.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.008083
@@ -29,7 +29,7 @@ Running Snakes and Ladders on Octuplets using Bohrium/GPU
         N/A
 
 
-
+|
     stdout-02::
 
         benchmark/Python/snakes_and_ladders.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.008174
@@ -40,4 +40,4 @@ Running Snakes and Ladders on Octuplets using Bohrium/GPU
         N/A
 
 
-
+|

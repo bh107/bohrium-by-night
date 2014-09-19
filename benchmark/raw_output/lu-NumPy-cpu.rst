@@ -18,7 +18,7 @@ Running LU Factorization on Octuplets using NumPy/CPU
         N/A
 
 
-
+|
     stdout-01::
 
         benchmark/Python/lu.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 0.605685
@@ -29,7 +29,7 @@ Running LU Factorization on Octuplets using NumPy/CPU
         N/A
 
 
-
+|
     stdout-02::
 
         benchmark/Python/lu.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 0.582767
@@ -40,4 +40,4 @@ Running LU Factorization on Octuplets using NumPy/CPU
         N/A
 
 
-
+|

@@ -27,7 +27,7 @@ Running Convolution 2D on Octuplets using NumPy/CPU
         
 
 
-
+|
     stdout-01::
 
         N/A
@@ -47,7 +47,7 @@ Running Convolution 2D on Octuplets using NumPy/CPU
         
 
 
-
+|
     stdout-02::
 
         N/A
@@ -67,4 +67,4 @@ Running Convolution 2D on Octuplets using NumPy/CPU
         
 
 
-
+|
