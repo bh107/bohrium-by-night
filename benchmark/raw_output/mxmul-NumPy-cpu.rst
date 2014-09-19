@@ -9,7 +9,8 @@ Running Matrix Multiplication on Octuplets using NumPy/CPU
     command: ``python benchmark/Python/mxmul.py --size=100 --bohrium=True``
 
 Run 00
-~~~~~~    stdout-00::
+~~~~~~
+    stdout-00::
 
         benchmark/Python/mxmul.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 0.015062
         
@@ -21,7 +22,8 @@ Run 00
 
 
 Run 01
-~~~~~~    stdout-01::
+~~~~~~
+    stdout-01::
 
         benchmark/Python/mxmul.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 0.004986
         
@@ -33,7 +35,8 @@ Run 01
 
 
 Run 02
-~~~~~~    stdout-02::
+~~~~~~
+    stdout-02::
 
         benchmark/Python/mxmul.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 0.009033
         

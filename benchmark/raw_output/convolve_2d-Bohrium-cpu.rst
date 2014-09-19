@@ -9,7 +9,8 @@ Running Convolution 2D on Octuplets using Bohrium/CPU
     command: ``python benchmark/Python/convolve_2d.py --size=5 --bohrium=False``
 
 Run 00
-~~~~~~    stdout-00::
+~~~~~~
+    stdout-00::
 
         N/A
 
@@ -30,7 +31,8 @@ Run 00
 
 
 Run 01
-~~~~~~    stdout-01::
+~~~~~~
+    stdout-01::
 
         N/A
 
@@ -51,7 +53,8 @@ Run 01
 
 
 Run 02
-~~~~~~    stdout-02::
+~~~~~~
+    stdout-02::
 
         N/A
 

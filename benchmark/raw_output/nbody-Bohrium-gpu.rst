@@ -9,7 +9,8 @@ Running N-Body on Octuplets using Bohrium/GPU
     command: ``python benchmark/Python/nbody.py --size=100*10 --bohrium=False``
 
 Run 00
-~~~~~~    stdout-00::
+~~~~~~
+    stdout-00::
 
         benchmark/Python/nbody.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.060148
         
@@ -49,7 +50,8 @@ Run 00
 
 
 Run 01
-~~~~~~    stdout-01::
+~~~~~~
+    stdout-01::
 
         benchmark/Python/nbody.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.058412
         
@@ -89,7 +91,8 @@ Run 01
 
 
 Run 02
-~~~~~~    stdout-02::
+~~~~~~
+    stdout-02::
 
         benchmark/Python/nbody.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.062657
         

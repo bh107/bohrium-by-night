@@ -9,7 +9,8 @@ Running Lattice Boltzmann D2Q9 on Octuplets using NumPy/CPU
     command: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=100*100*10 --bohrium=True``
 
 Run 00
-~~~~~~    stdout-00::
+~~~~~~
+    stdout-00::
 
         N/A
 
@@ -28,7 +29,8 @@ Run 00
 
 
 Run 01
-~~~~~~    stdout-01::
+~~~~~~
+    stdout-01::
 
         N/A
 
@@ -47,7 +49,8 @@ Run 01
 
 
 Run 02
-~~~~~~    stdout-02::
+~~~~~~
+    stdout-02::
 
         N/A
 

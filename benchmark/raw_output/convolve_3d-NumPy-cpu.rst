@@ -9,7 +9,8 @@ Running Convolution 3D on Octuplets using NumPy/CPU
     command: ``python benchmark/Python/convolve_3d.py --size=5 --bohrium=True``
 
 Run 00
-~~~~~~    stdout-00::
+~~~~~~
+    stdout-00::
 
         N/A
 

@@ -9,7 +9,8 @@ Running Gauss Elimination on Octuplets using NumPy/CPU
     command: ``python benchmark/Python/gauss.py --size=100 --bohrium=True``
 
 Run 00
-~~~~~~    stdout-00::
+~~~~~~
+    stdout-00::
 
         benchmark/Python/gauss.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 0.849424
         
@@ -21,7 +22,8 @@ Run 00
 
 
 Run 01
-~~~~~~    stdout-01::
+~~~~~~
+    stdout-01::
 
         benchmark/Python/gauss.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 0.495682
         
@@ -33,7 +35,8 @@ Run 01
 
 
 Run 02
-~~~~~~    stdout-02::
+~~~~~~
+    stdout-02::
 
         benchmark/Python/gauss.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 0.511741
         
