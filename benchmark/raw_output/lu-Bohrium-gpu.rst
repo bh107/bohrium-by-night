@@ -4,18 +4,18 @@ Raw Benchmark Output
 
 Running LU Factorization on Octuplets using Bohrium/GPU
     commit: `#88335e0b0a721a97d5d4977fc8a3d842f4626957 <https://bitbucket.org/bohrium/bohrium/commits/88335e0b0a721a97d5d4977fc8a3d842f4626957>`_,
-    time: 2014-09-19 10:19:05.678551.
+    time: 2014-09-19 11:55:44.774166.
 
-    command: ``python benchmark/Python/lu.py --size=100 --bohrium=False``
+    command: ``python benchmark/Python/lu.py --size=100 --bohrium=True``
 
 Run 00
 ~~~~~~
-    stdout-00::
+    stdout::
 
-        benchmark/Python/lu.py - backend: None, bohrium: False, size: 100, elapsed-time: 0.009057
+        benchmark/Python/lu.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 1.527657
         
 
-    stderr-00::
+    stderr::
 
         N/A
 
@@ -23,12 +23,12 @@ Run 00
 
 Run 01
 ~~~~~~
-    stdout-01::
+    stdout::
 
-        benchmark/Python/lu.py - backend: None, bohrium: False, size: 100, elapsed-time: 0.008904
+        benchmark/Python/lu.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 1.525139
         
 
-    stderr-01::
+    stderr::
 
         N/A
 
@@ -36,12 +36,12 @@ Run 01
 
 Run 02
 ~~~~~~
-    stdout-02::
+    stdout::
 
-        benchmark/Python/lu.py - backend: None, bohrium: False, size: 100, elapsed-time: 0.008884
+        benchmark/Python/lu.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 1.536759
         
 
-    stderr-02::
+    stderr::
 
         N/A
 
