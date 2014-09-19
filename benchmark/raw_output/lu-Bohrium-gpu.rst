@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running LU Factorization on Octuplets using Bohrium/GPU
     commit: `#88335e0b0a721a97d5d4977fc8a3d842f4626957 <https://bitbucket.org/bohrium/bohrium/commits/88335e0b0a721a97d5d4977fc8a3d842f4626957>`_,
-    time: 2014-09-19 11:55:44.774166.
+    time: 2014-09-19 12:03:27.796773.
 
     command: ``python benchmark/Python/lu.py --size=100 --bohrium=True``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/lu.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 1.527657
+        benchmark/Python/lu.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 1.529271
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/lu.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 1.525139
+        benchmark/Python/lu.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 1.527043
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/lu.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 1.536759
+        benchmark/Python/lu.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 1.484072
         
 
     stderr::

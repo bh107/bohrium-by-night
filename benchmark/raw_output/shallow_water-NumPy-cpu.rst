@@ -4,15 +4,15 @@ Raw Benchmark Output
 
 Running Shallow Water on Octuplets using NumPy/CPU
     commit: `#88335e0b0a721a97d5d4977fc8a3d842f4626957 <https://bitbucket.org/bohrium/bohrium/commits/88335e0b0a721a97d5d4977fc8a3d842f4626957>`_,
-    time: 2014-09-19 11:55:44.774166.
+    time: 2014-09-19 12:03:27.796773.
 
-    command: ``python benchmark/Python/shallow_water.py --size=100*100*10 --bohrium=False``
+    command: ``python benchmark/Python/shallow_water.py --size=1000*1000*10 --bohrium=False``
 
 Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/shallow_water.py - backend: None, bohrium: False, size: 100*100*10, elapsed-time: 0.042099
+        benchmark/Python/shallow_water.py - backend: None, bohrium: False, size: 1000*1000*10, elapsed-time: 5.134606
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/shallow_water.py - backend: None, bohrium: False, size: 100*100*10, elapsed-time: 0.041449
+        benchmark/Python/shallow_water.py - backend: None, bohrium: False, size: 1000*1000*10, elapsed-time: 5.197769
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/shallow_water.py - backend: None, bohrium: False, size: 100*100*10, elapsed-time: 0.041497
+        benchmark/Python/shallow_water.py - backend: None, bohrium: False, size: 1000*1000*10, elapsed-time: 5.138384
         
 
     stderr::
