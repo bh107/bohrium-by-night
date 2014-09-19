@@ -8,30 +8,42 @@ Running Heat Equation on Octuplets using NumPy/CPU
 
     command: ``python benchmark/Python/heat_equation.py --size=100*100*10 --bohrium=True``
 
-    stdout::
+Run 00
+~~~~~~
+    stdout-00::
 
         benchmark/Python/heat_equation.py - backend: bohrium, bohrium: True, size: 100*100*10, elapsed-time: 0.148653
         
 
-    stderr::
+    stderr-00::
 
         N/A
 
-    stdout::
+
+
+Run 01
+~~~~~~
+    stdout-01::
 
         benchmark/Python/heat_equation.py - backend: bohrium, bohrium: True, size: 100*100*10, elapsed-time: 0.331226
         
 
-    stderr::
+    stderr-01::
 
         N/A
 
-    stdout::
+
+
+Run 02
+~~~~~~
+    stdout-02::
 
         benchmark/Python/heat_equation.py - backend: bohrium, bohrium: True, size: 100*100*10, elapsed-time: 0.370772
         
 
-    stderr::
+    stderr-02::
 
         N/A
+
+
 
