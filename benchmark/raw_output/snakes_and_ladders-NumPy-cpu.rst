@@ -4,18 +4,18 @@ Raw Benchmark Output
 
 Running Snakes and Ladders on Octuplets using NumPy/CPU
     commit: `#88335e0b0a721a97d5d4977fc8a3d842f4626957 <https://bitbucket.org/bohrium/bohrium/commits/88335e0b0a721a97d5d4977fc8a3d842f4626957>`_,
-    time: 2014-09-19 10:19:05.678551.
+    time: 2014-09-19 11:39:09.272977.
 
-    command: ``python benchmark/Python/snakes_and_ladders.py --size=100*10 --bohrium=True``
+    command: ``python benchmark/Python/snakes_and_ladders.py --size=100*10 --bohrium=False``
 
 Run 00
 ~~~~~~
-    stdout-00::
+    stdout::
 
-        benchmark/Python/snakes_and_ladders.py - backend: bohrium, bohrium: True, size: 100*10, elapsed-time: 0.178630
+        benchmark/Python/snakes_and_ladders.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.010678
         
 
-    stderr-00::
+    stderr::
 
         N/A
 
@@ -23,12 +23,12 @@ Run 00
 
 Run 01
 ~~~~~~
-    stdout-01::
+    stdout::
 
-        benchmark/Python/snakes_and_ladders.py - backend: bohrium, bohrium: True, size: 100*10, elapsed-time: 0.154659
+        benchmark/Python/snakes_and_ladders.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.006880
         
 
-    stderr-01::
+    stderr::
 
         N/A
 
@@ -36,12 +36,12 @@ Run 01
 
 Run 02
 ~~~~~~
-    stdout-02::
+    stdout::
 
-        benchmark/Python/snakes_and_ladders.py - backend: bohrium, bohrium: True, size: 100*10, elapsed-time: 0.103967
+        benchmark/Python/snakes_and_ladders.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.006901
         
 
-    stderr-02::
+    stderr::
 
         N/A
 
