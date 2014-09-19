@@ -4,47 +4,36 @@ Raw Benchmark Output
 
 Running N-Body on Octuplets using NumPy/CPU
     commit: `#88335e0b0a721a97d5d4977fc8a3d842f4626957 <https://bitbucket.org/bohrium/bohrium/commits/88335e0b0a721a97d5d4977fc8a3d842f4626957>`_,
-    time: 2014-09-19 12:03:27.796773.
+    time: 2014-09-19 13:52:30.322309.
 
-    command: ``python benchmark/Python/nbody.py --size=1000*10 --bohrium=False``
+    command: ``python benchmark/Python/nbody.py --size=100*10 --bohrium=False``
 
 Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/nbody.py - backend: None, bohrium: False, size: 1000*10, elapsed-time: 5.983898
-        
+        N/A
 
     stderr::
 
-        benchmark/Python/nbody.py:54: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(r)[:] = 1.0
-        benchmark/Python/nbody.py:67: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fx)[:] = 0.0
-        benchmark/Python/nbody.py:68: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fy)[:] = 0.0
-        benchmark/Python/nbody.py:69: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fz)[:] = 0.0
+        Traceback (most recent call last):
+          File "benchmark/Python/nbody.py", line 12, in <module>
+            import util
+          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 9, in <module>
+            import bohrium as bh
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 1, in <module>
+            from array_create import *
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/array_create.py", line 7, in <module>
+            import ndarray
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/ndarray.py", line 23, in <module>
+            from _util import dtype_equal
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
+            import bhc
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/bhc.py", line 28, in <module>
+            _bhc = swig_import_helper()
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/bhc.py", line 20, in swig_import_helper
+            import _bhc
+        ImportError: No module named _bhc
         
 
 
@@ -53,39 +42,28 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/nbody.py - backend: None, bohrium: False, size: 1000*10, elapsed-time: 6.015447
-        
+        N/A
 
     stderr::
 
-        benchmark/Python/nbody.py:54: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(r)[:] = 1.0
-        benchmark/Python/nbody.py:67: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fx)[:] = 0.0
-        benchmark/Python/nbody.py:68: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fy)[:] = 0.0
-        benchmark/Python/nbody.py:69: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fz)[:] = 0.0
+        Traceback (most recent call last):
+          File "benchmark/Python/nbody.py", line 12, in <module>
+            import util
+          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 9, in <module>
+            import bohrium as bh
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 1, in <module>
+            from array_create import *
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/array_create.py", line 7, in <module>
+            import ndarray
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/ndarray.py", line 23, in <module>
+            from _util import dtype_equal
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
+            import bhc
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/bhc.py", line 28, in <module>
+            _bhc = swig_import_helper()
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/bhc.py", line 20, in swig_import_helper
+            import _bhc
+        ImportError: No module named _bhc
         
 
 
@@ -94,39 +72,28 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/nbody.py - backend: None, bohrium: False, size: 1000*10, elapsed-time: 5.957342
-        
+        N/A
 
     stderr::
 
-        benchmark/Python/nbody.py:54: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(r)[:] = 1.0
-        benchmark/Python/nbody.py:67: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fx)[:] = 0.0
-        benchmark/Python/nbody.py:68: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fy)[:] = 0.0
-        benchmark/Python/nbody.py:69: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fz)[:] = 0.0
+        Traceback (most recent call last):
+          File "benchmark/Python/nbody.py", line 12, in <module>
+            import util
+          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 9, in <module>
+            import bohrium as bh
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 1, in <module>
+            from array_create import *
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/array_create.py", line 7, in <module>
+            import ndarray
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/ndarray.py", line 23, in <module>
+            from _util import dtype_equal
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
+            import bhc
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/bhc.py", line 28, in <module>
+            _bhc = swig_import_helper()
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/bhc.py", line 20, in swig_import_helper
+            import _bhc
+        ImportError: No module named _bhc
         
 
 
