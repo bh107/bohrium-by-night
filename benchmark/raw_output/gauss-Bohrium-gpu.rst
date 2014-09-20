@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Gauss Elimination on Octuplets using Bohrium/GPU
     commit: `#e2eb8cda5af33d49993cdc9c0473aa962908adf4 <https://bitbucket.org/bohrium/bohrium/commits/e2eb8cda5af33d49993cdc9c0473aa962908adf4>`_,
-    time: 2014-09-19 14:44:16.066393.
+    time: 2014-09-20 04:04:04.944559.
 
     command: ``python benchmark/Python/gauss.py --size=100 --bohrium=True``
 

@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Convolution 3D on Octuplets using Bohrium/GPU
     commit: `#e2eb8cda5af33d49993cdc9c0473aa962908adf4 <https://bitbucket.org/bohrium/bohrium/commits/e2eb8cda5af33d49993cdc9c0473aa962908adf4>`_,
-    time: 2014-09-19 14:44:16.066393.
+    time: 2014-09-20 04:04:04.944559.
 
     command: ``python benchmark/Python/convolve_3d.py --size=5 --bohrium=True``
 
@@ -16,14 +16,7 @@ Run 00
 
     stderr::
 
-        Traceback (most recent call last):
-          File "benchmark/Python/convolve_3d.py", line 2, in <module>
-            import util
-          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 9, in <module>
-            import bohrium as bh
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 1, in <module>
-            from array_create import *
-        ImportError: No module named array_create
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 
@@ -36,14 +29,7 @@ Run 01
 
     stderr::
 
-        Traceback (most recent call last):
-          File "benchmark/Python/convolve_3d.py", line 2, in <module>
-            import util
-          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 9, in <module>
-            import bohrium as bh
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 1, in <module>
-            from array_create import *
-        ImportError: No module named array_create
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 
@@ -56,14 +42,7 @@ Run 02
 
     stderr::
 
-        Traceback (most recent call last):
-          File "benchmark/Python/convolve_3d.py", line 2, in <module>
-            import util
-          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 9, in <module>
-            import bohrium as bh
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 1, in <module>
-            from array_create import *
-        ImportError: No module named array_create
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 
