@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Convolution 2D on Octuplets using NumPy/CPU
     commit: `#e2eb8cda5af33d49993cdc9c0473aa962908adf4 <https://bitbucket.org/bohrium/bohrium/commits/e2eb8cda5af33d49993cdc9c0473aa962908adf4>`_,
-    time: 2014-09-20 04:04:04.944559.
+    time: 2014-09-21 04:04:06.056419.
 
     command: ``python benchmark/Python/convolve_2d.py --size=5 --bohrium=False``
 
