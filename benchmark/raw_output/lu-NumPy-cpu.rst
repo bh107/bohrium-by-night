@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running LU Factorization on Octuplets using NumPy/CPU
     commit: `#e2eb8cda5af33d49993cdc9c0473aa962908adf4 <https://bitbucket.org/bohrium/bohrium/commits/e2eb8cda5af33d49993cdc9c0473aa962908adf4>`_,
-    time: 2014-09-21 04:04:06.056419.
+    time: 2014-09-22 04:04:02.377327.
 
     command: ``python benchmark/Python/lu.py --size=100 --bohrium=False``
 

@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Wire World on Octuplets using Bohrium/GPU
     commit: `#e2eb8cda5af33d49993cdc9c0473aa962908adf4 <https://bitbucket.org/bohrium/bohrium/commits/e2eb8cda5af33d49993cdc9c0473aa962908adf4>`_,
-    time: 2014-09-21 04:04:06.056419.
+    time: 2014-09-22 04:04:02.377327.
 
     command: ``python benchmark/Python/wireworld.py --size=10*10 --bohrium=True``
 
@@ -29,7 +29,11 @@ Run 00
             from _util import dtype_equal
           File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
             import bhc
-        ImportError: No module named bhc
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/bhc.py", line 28, in <module>
+            _bhc = swig_import_helper()
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/bhc.py", line 20, in swig_import_helper
+            import _bhc
+        ImportError: No module named _bhc
         
 
 
@@ -55,7 +59,11 @@ Run 01
             from _util import dtype_equal
           File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
             import bhc
-        ImportError: No module named bhc
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/bhc.py", line 28, in <module>
+            _bhc = swig_import_helper()
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/bhc.py", line 20, in swig_import_helper
+            import _bhc
+        ImportError: No module named _bhc
         
 
 
@@ -81,7 +89,11 @@ Run 02
             from _util import dtype_equal
           File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
             import bhc
-        ImportError: No module named bhc
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/bhc.py", line 28, in <module>
+            _bhc = swig_import_helper()
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/bhc.py", line 20, in swig_import_helper
+            import _bhc
+        ImportError: No module named _bhc
         
 
 
