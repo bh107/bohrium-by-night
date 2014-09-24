@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Snakes and Ladders on Octuplets using NumPy/CPU
-    commit: `#e2eb8cda5af33d49993cdc9c0473aa962908adf4 <https://bitbucket.org/bohrium/bohrium/commits/e2eb8cda5af33d49993cdc9c0473aa962908adf4>`_,
-    time: 2014-09-23 04:05:48.110042.
+    commit: `#bbe0e6d6a7b38272dfd5d5ad2f2be99bb2292f4c <https://bitbucket.org/bohrium/bohrium/commits/bbe0e6d6a7b38272dfd5d5ad2f2be99bb2292f4c>`_,
+    time: 2014-09-24 04:09:54.147184.
 
     command: ``python benchmark/Python/snakes_and_ladders.py --size=100*10 --bohrium=False``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/snakes_and_ladders.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.010631
+        benchmark/Python/snakes_and_ladders.py - backend: None, bohrium: False, size: 100*10, elapsed-time: 0.010688
         
 
     stderr::
