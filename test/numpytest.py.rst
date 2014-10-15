@@ -4,7 +4,7 @@ Python Test Suite
 
 Running suites/numpytest.py on Octuplets
     commit: `#0422b812bb026bb213aace5bf9a9bfb8f978b58d <https://bitbucket.org/bohrium/bohrium/commits/0422b812bb026bb213aace5bf9a9bfb8f978b58d>`_,
-    time: 2014-10-14 04:01:21.977988.
+    time: 2014-10-15 04:01:24.495159.
 
 The CPU results::
 
@@ -70,7 +70,7 @@ The GPU results::
   Testing test_benchmarks.py/gauss/gauss
   Testing test_benchmarks.py/gauss_20x20/gauss_20x20
   [91m[Error] test_benchmarks.py/gauss_20x20/gauss_20x20[0m
-  [94m[CMD]   <type 'numpy.float32'>: /usr/bin/python -m bohrium.examples.gauss --size=20*20 --dtype=float32 --backend=None --outputfn=/tmp/gauss_float32_None_output_539ced26-8633-4fc8-9eec-0a4ab16eb67e.npz --inputfn test/numpy/datasets/gauss_input-float32-20*20.npz[0m
+  [94m[CMD]   <type 'numpy.float32'>: /usr/bin/python -m bohrium.examples.gauss --size=20*20 --dtype=float32 --backend=None --outputfn=/tmp/gauss_float32_None_output_bb8b7e70-fa25-4276-b9b9-209441b3c123.npz --inputfn test/numpy/datasets/gauss_input-float32-20*20.npz[0m
   [92m[[  1.00000000e+00   5.91428697e-01   1.08101726e+00   3.39251727e-01
       1.22667301e+00   3.10989052e-01   1.45689055e-01   7.23238647e-01
       1.13766885e+00   3.35535944e-01   2.49283254e-01   4.35566902e-01
