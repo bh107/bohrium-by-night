@@ -4,7 +4,7 @@ Python Test Suite
 
 Running suites/numpytest.py on Octuplets
     commit: `#7b9b43918fd9fcc017c043405c1482875b413793 <https://bitbucket.org/bohrium/bohrium/commits/7b9b43918fd9fcc017c043405c1482875b413793>`_,
-    time: 2014-11-01 04:02:45.257295.
+    time: 2014-11-02 04:01:14.749829.
 
 The CPU results::
 
@@ -60,9 +60,21 @@ The GPU results::
 
   *** Testing the equivalency of Bohrium-NumPy and NumPy ***
   Testing test_accumulate.py/accumulate/cumprod
+  Testing test_accumulate.py/accumulate/cumsum
+  Testing test_ndstencil.py/ndstencil_1D/ndstencil_1D
+  Testing test_ndstencil.py/ndstencil_2D/ndstencil_2D
+  Testing test_ndstencil.py/ndstencil_3D/ndstencil_3D
+  Testing test_ndstencil.py/ndstencil_4D/ndstencil_4D
+  Testing test_benchmarks.py/black_scholes/black_scholes
   
-  Error in [gpu:impl]: /home/bhbuilder/.local/lib/libbh_ve_gpu.so: cannot open shared object file: No such file or directory
-  terminate called after throwing an instance of 'std::runtime_error'
-    what():  Error in the initialization of the VEM.
-  
+  Traceback (most recent call last):
+    File "test/numpy/numpytest.py", line 297, in <module>
+      (res2,cmd2) = getattr(cls_inst,mth)(bh_arys)
+    File "/home/bhbuilder/bohrium/test/numpy/test_benchmarks.py", line 33, in test_black_scholes
+      return self.run(pseudo_arrays)
+    File "/home/bhbuilder/bohrium/test/numpy/numpytest.py", line 223, in run
+      raise Exception("Benchmark error[%s]" % err)
+  Exception: Benchmark error[pure virtual method called
+  terminate called without an active exception
+  ]
   
