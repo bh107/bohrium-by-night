@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Convolution 2D on Octuplets using NumPy/CPU
-    commit: `#84083907fa6c76d7ab7e01356cd1607b0dc4bcc2 <https://bitbucket.org/bohrium/bohrium/commits/84083907fa6c76d7ab7e01356cd1607b0dc4bcc2>`_,
-    time: 2014-11-05 19:07:44.573576.
+    commit: `#fbb4f51971191402fc71c34310eae44732ee978f <https://bitbucket.org/bohrium/bohrium/commits/fbb4f51971191402fc71c34310eae44732ee978f>`_,
+    time: 2014-11-06 05:15:31.766887.
 
     command: ``python benchmark/Python/convolve_2d.py --size=5 --bohrium=False``
 
@@ -17,15 +17,12 @@ Run 00
     stderr::
 
         Traceback (most recent call last):
-          File "benchmark/Python/convolve_2d.py", line 61, in <module>
-            main()
-          File "benchmark/Python/convolve_2d.py", line 52, in main
-            image, image_filter = convolve_2d_init(N)
-          File "benchmark/Python/convolve_2d.py", line 31, in convolve_2d_init
-            img     = Image.open(photo)
-          File "/usr/lib/python2.7/dist-packages/PIL/Image.py", line 1996, in open
-            fp = builtins.open(fp, "rb")
-        IOError: [Errno 2] No such file or directory: '/tmp/Hell.jpg'
+          File "benchmark/Python/convolve_2d.py", line 3, in <module>
+            import util
+          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 1, in <module>
+            from .array_create import *
+        ImportError: No module named array_create
         
 
 

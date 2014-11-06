@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Gauss Elimination on Octuplets using Bohrium/GPU
-    commit: `#84083907fa6c76d7ab7e01356cd1607b0dc4bcc2 <https://bitbucket.org/bohrium/bohrium/commits/84083907fa6c76d7ab7e01356cd1607b0dc4bcc2>`_,
-    time: 2014-11-05 19:07:44.573576.
+    commit: `#fbb4f51971191402fc71c34310eae44732ee978f <https://bitbucket.org/bohrium/bohrium/commits/fbb4f51971191402fc71c34310eae44732ee978f>`_,
+    time: 2014-11-06 05:15:31.766887.
 
     command: ``python benchmark/Python/gauss.py --size=100 --bohrium=True``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/gauss.py - backend: bohrium, bohrium: True, size: 100, elapsed-time: 2.819860
+        benchmark/Python/gauss.py - target: bhc, bohrium: True, size: 100, elapsed-time: 2.588086
         
 
     stderr::
