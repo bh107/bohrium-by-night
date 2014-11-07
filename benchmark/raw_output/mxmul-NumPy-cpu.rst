@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Matrix Multiplication on Octuplets using NumPy/CPU
     commit: `#fbb4f51971191402fc71c34310eae44732ee978f <https://bitbucket.org/bohrium/bohrium/commits/fbb4f51971191402fc71c34310eae44732ee978f>`_,
-    time: 2014-11-06 05:15:31.766887.
+    time: 2014-11-07 04:05:18.276182.
 
     command: ``python benchmark/Python/mxmul.py --size=100 --bohrium=False``
 
@@ -12,18 +12,12 @@ Run 00
 ~~~~~~
     stdout::
 
-        N/A
+        benchmark/Python/mxmul.py - target: None, bohrium: False, size: 100, elapsed-time: 0.009262
+        
 
     stderr::
 
-        Traceback (most recent call last):
-          File "benchmark/Python/mxmul.py", line 2, in <module>
-            import util
-          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 1, in <module>
-            from .array_create import *
-        ImportError: No module named array_create
-        
+        N/A
 
 
 
