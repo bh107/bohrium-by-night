@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Convolution 2D on Octuplets using NumPy/CPU
-    commit: `#fbb4f51971191402fc71c34310eae44732ee978f <https://bitbucket.org/bohrium/bohrium/commits/fbb4f51971191402fc71c34310eae44732ee978f>`_,
-    time: 2014-11-13 04:04:43.836535.
+    commit: `#d028afdda2e07d67e9768d32b234cbea9a700054 <https://bitbucket.org/bohrium/bohrium/commits/d028afdda2e07d67e9768d32b234cbea9a700054>`_,
+    time: 2014-11-14 04:03:13.708249.
 
     command: ``python benchmark/Python/convolve_2d.py --size=5 --bohrium=False``
 
@@ -17,15 +17,27 @@ Run 00
     stderr::
 
         Traceback (most recent call last):
-          File "benchmark/Python/convolve_2d.py", line 61, in <module>
-            main()
-          File "benchmark/Python/convolve_2d.py", line 52, in main
-            image, image_filter = convolve_2d_init(N)
-          File "benchmark/Python/convolve_2d.py", line 31, in convolve_2d_init
-            img     = Image.open(photo)
-          File "/usr/lib/python2.7/dist-packages/PIL/Image.py", line 1996, in open
-            fp = builtins.open(fp, "rb")
-        IOError: [Errno 2] No such file or directory: '/tmp/Hell.jpg'
+          File "benchmark/Python/convolve_2d.py", line 3, in <module>
+            import util
+          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
+            import bohrium as bh
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 8, in <module>
+            from .array_manipulation import *
+        ImportError: No module named array_manipulation
+        Error in atexit._run_exitfuncs:
+        Traceback (most recent call last):
+          File "/usr/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+            func(*targs, **kargs)
+          File "_util.pyx", line 98, in _util.shutdown (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:2156)
+          File "_util.pyx", line 29, in _util.flush (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:924)
+        SystemError: Parent module 'bohrium' not loaded, cannot perform relative import
+        Error in sys.exitfunc:
+        Traceback (most recent call last):
+          File "/usr/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+            func(*targs, **kargs)
+          File "_util.pyx", line 98, in _util.shutdown (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:2156)
+          File "_util.pyx", line 29, in _util.flush (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:924)
+        SystemError: Parent module 'bohrium' not loaded, cannot perform relative import
         
 
 

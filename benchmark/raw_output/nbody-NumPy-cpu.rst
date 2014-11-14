@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running N-Body on Octuplets using NumPy/CPU
-    commit: `#fbb4f51971191402fc71c34310eae44732ee978f <https://bitbucket.org/bohrium/bohrium/commits/fbb4f51971191402fc71c34310eae44732ee978f>`_,
-    time: 2014-11-13 04:04:43.836535.
+    commit: `#d028afdda2e07d67e9768d32b234cbea9a700054 <https://bitbucket.org/bohrium/bohrium/commits/d028afdda2e07d67e9768d32b234cbea9a700054>`_,
+    time: 2014-11-14 04:03:13.708249.
 
     command: ``python benchmark/Python/nbody.py --size=100*10 --bohrium=False``
 
@@ -12,39 +12,32 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/nbody.py - target: None, bohrium: False, size: 100*10, elapsed-time: 0.059008
-        
+        N/A
 
     stderr::
 
-        benchmark/Python/nbody.py:55: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(r)[:] = 1.0
-        benchmark/Python/nbody.py:68: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fx)[:] = 0.0
-        benchmark/Python/nbody.py:69: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fy)[:] = 0.0
-        benchmark/Python/nbody.py:70: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fz)[:] = 0.0
+        Traceback (most recent call last):
+          File "benchmark/Python/nbody.py", line 13, in <module>
+            import util
+          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
+            import bohrium as bh
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 8, in <module>
+            from .array_manipulation import *
+        ImportError: No module named array_manipulation
+        Error in atexit._run_exitfuncs:
+        Traceback (most recent call last):
+          File "/usr/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+            func(*targs, **kargs)
+          File "_util.pyx", line 98, in _util.shutdown (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:2156)
+          File "_util.pyx", line 29, in _util.flush (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:924)
+        SystemError: Parent module 'bohrium' not loaded, cannot perform relative import
+        Error in sys.exitfunc:
+        Traceback (most recent call last):
+          File "/usr/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+            func(*targs, **kargs)
+          File "_util.pyx", line 98, in _util.shutdown (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:2156)
+          File "_util.pyx", line 29, in _util.flush (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:924)
+        SystemError: Parent module 'bohrium' not loaded, cannot perform relative import
         
 
 

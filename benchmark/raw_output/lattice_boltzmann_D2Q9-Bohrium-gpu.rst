@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Lattice Boltzmann D2Q9 on Octuplets using Bohrium/GPU
-    commit: `#fbb4f51971191402fc71c34310eae44732ee978f <https://bitbucket.org/bohrium/bohrium/commits/fbb4f51971191402fc71c34310eae44732ee978f>`_,
-    time: 2014-11-13 04:04:43.836535.
+    commit: `#d028afdda2e07d67e9768d32b234cbea9a700054 <https://bitbucket.org/bohrium/bohrium/commits/d028afdda2e07d67e9768d32b234cbea9a700054>`_,
+    time: 2014-11-14 04:03:13.708249.
 
     command: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=100*100*10 --bohrium=True``
 
@@ -17,15 +17,27 @@ Run 00
     stderr::
 
         Traceback (most recent call last):
-          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 230, in <module>
-            main()
-          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 196, in main
-            state = cylinder(H, W, obstacle=False)
-          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 42, in cylinder
-            t_3d    = np.asarray(t)[:, np.newaxis, np.newaxis]
-        AttributeError: 'module' object has no attribute 'asarray'
-        pure virtual method called
-        terminate called without an active exception
+          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 11, in <module>
+            import util
+          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
+            import bohrium as bh
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 8, in <module>
+            from .array_manipulation import *
+        ImportError: No module named array_manipulation
+        Error in atexit._run_exitfuncs:
+        Traceback (most recent call last):
+          File "/usr/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+            func(*targs, **kargs)
+          File "_util.pyx", line 98, in _util.shutdown (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:2156)
+          File "_util.pyx", line 29, in _util.flush (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:924)
+        SystemError: Parent module 'bohrium' not loaded, cannot perform relative import
+        Error in sys.exitfunc:
+        Traceback (most recent call last):
+          File "/usr/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+            func(*targs, **kargs)
+          File "_util.pyx", line 98, in _util.shutdown (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:2156)
+          File "_util.pyx", line 29, in _util.flush (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:924)
+        SystemError: Parent module 'bohrium' not loaded, cannot perform relative import
         
 
 
