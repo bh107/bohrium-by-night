@@ -3,62 +3,40 @@ Python Test Suite
 =================
 
 Running suites/numpytest.py on Octuplets
-    commit: `#fbb4f51971191402fc71c34310eae44732ee978f <https://bitbucket.org/bohrium/bohrium/commits/fbb4f51971191402fc71c34310eae44732ee978f>`_,
-    time: 2014-11-13 04:01:34.410535.
+    commit: `#d028afdda2e07d67e9768d32b234cbea9a700054 <https://bitbucket.org/bohrium/bohrium/commits/d028afdda2e07d67e9768d32b234cbea9a700054>`_,
+    time: 2014-11-14 04:01:41.625519.
 
 The CPU results::
 
-  *** Testing the equivalency of Bohrium-NumPy and NumPy ***
-  Testing test_accumulate.py/accumulate/cumprod
-  Testing test_accumulate.py/accumulate/cumsum
-  Testing test_ndstencil.py/ndstencil_1D/ndstencil_1D
-  Testing test_ndstencil.py/ndstencil_2D/ndstencil_2D
-  Testing test_ndstencil.py/ndstencil_3D/ndstencil_3D
-  Testing test_ndstencil.py/ndstencil_4D/ndstencil_4D
-  Testing test_benchmarks.py/black_scholes/black_scholes
-  Testing test_benchmarks.py/gameoflife/gameoflife
-  Testing test_benchmarks.py/gauss/gauss
-  Testing test_benchmarks.py/gauss_20x20/gauss_20x20
-  Testing test_benchmarks.py/heat_equation/heat_equation
-  Testing test_benchmarks.py/jacobi_fixed/jacobi_fixed
-  Testing test_benchmarks.py/jacobi_module/jacobi_module
-  We need to implement numpy.norm() for test_jacobi() to work
-  Testing test_benchmarks.py/jacobi_solve/jacobi_solve
-  Testing test_benchmarks.py/jacobi_stencil/jacobi_stencil
-  Testing test_benchmarks.py/knn/knn
-  Testing test_benchmarks.py/knn_naive/knn_naive
-  Testing test_benchmarks.py/lu/lu
-  Testing test_benchmarks.py/mxmul/mxmul
-  Testing test_benchmarks.py/point27/point27
-  Testing test_benchmarks.py/shallow_water/shallow_water
-  Testing test_benchmarks.py/snakes_and_ladders/snakes_and_ladders
   
   Traceback (most recent call last):
-    File "test/numpy/numpytest.py", line 311, in <module>
-      (res2,cmd2) = getattr(cls_inst,mth)(bh_arys)
-    File "/home/bhbuilder/bohrium/test/numpy/test_benchmarks.py", line 369, in test_snakes_and_ladders
-      return self.run(pseudo_arrays)
-    File "/home/bhbuilder/bohrium/test/numpy/numpytest.py", line 223, in run
-      raise Exception("Benchmark error [stdout:%s,stderr:%s]" % (out, err))
-  Exception: Benchmark error [stdout:,stderr:python: <stdin>:43: KRN_4038254239379796925721904974253386899415: Assertion `a0_first != ((void *)0)' failed.
-  ]
+    File "test/numpy/numpytest.py", line 18, in <module>
+      import bohrium as bh
+    File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 7, in <module>
+      from .array_create import *
+  ImportError: No module named array_create
   
 The GPU results::
 
-  *** Testing the equivalency of Bohrium-NumPy and NumPy ***
-  Testing test_accumulate.py/accumulate/cumprod
-  Testing test_accumulate.py/accumulate/cumsum
-  Testing test_ndstencil.py/ndstencil_1D/ndstencil_1D
-  Testing test_ndstencil.py/ndstencil_2D/ndstencil_2D
   
   Traceback (most recent call last):
-    File "test/numpy/numpytest.py", line 311, in <module>
-      (res2,cmd2) = getattr(cls_inst,mth)(bh_arys)
-    File "/home/bhbuilder/bohrium/test/numpy/test_ndstencil.py", line 34, in test_ndstencil_2D
-      return self.run(pseudo_arrays)
-    File "/home/bhbuilder/bohrium/test/numpy/numpytest.py", line 225, in run
-      raise Exception("Benchmark error[%s]" % err)
-  Exception: Benchmark error[pure virtual method called
-  terminate called without an active exception
-  ]
+    File "test/numpy/numpytest.py", line 18, in <module>
+      import bohrium as bh
+    File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 8, in <module>
+      from .array_manipulation import *
+  ImportError: No module named array_manipulation
+  Error in atexit._run_exitfuncs:
+  Traceback (most recent call last):
+    File "/usr/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+      func(*targs, **kargs)
+    File "_util.pyx", line 98, in _util.shutdown (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:2156)
+    File "_util.pyx", line 29, in _util.flush (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:924)
+  SystemError: Parent module 'bohrium' not loaded, cannot perform relative import
+  Error in sys.exitfunc:
+  Traceback (most recent call last):
+    File "/usr/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+      func(*targs, **kargs)
+    File "_util.pyx", line 98, in _util.shutdown (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:2156)
+    File "_util.pyx", line 29, in _util.flush (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:924)
+  SystemError: Parent module 'bohrium' not loaded, cannot perform relative import
   
