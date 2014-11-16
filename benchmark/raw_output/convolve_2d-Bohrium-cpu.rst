@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Convolution 2D on Octuplets using Bohrium/CPU
     commit: `#4063fbf9497b979ca4a59ed845f3f1b189c88fc5 <https://bitbucket.org/bohrium/bohrium/commits/4063fbf9497b979ca4a59ed845f3f1b189c88fc5>`_,
-    time: 2014-11-15 04:03:02.245392.
+    time: 2014-11-16 04:02:54.522467.
 
     command: ``python benchmark/Python/convolve_2d.py --size=5 --bohrium=True``
 
@@ -17,18 +17,15 @@ Run 00
     stderr::
 
         Traceback (most recent call last):
-          File "benchmark/Python/convolve_2d.py", line 3, in <module>
-            import util
-          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
-            import bohrium as bh
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 7, in <module>
-            from .array_create import *
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/array_create.py", line 7, in <module>
-            from . import ndarray
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/ndarray.py", line 23, in <module>
-            from _util import dtype_equal
-          File "_util.pyx", line 22, in init _util (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:2470)
-        ImportError: cannot import name _info
+          File "benchmark/Python/convolve_2d.py", line 61, in <module>
+            main()
+          File "benchmark/Python/convolve_2d.py", line 52, in main
+            image, image_filter = convolve_2d_init(N)
+          File "benchmark/Python/convolve_2d.py", line 31, in convolve_2d_init
+            img     = Image.open(photo)
+          File "/usr/lib/python2.7/dist-packages/PIL/Image.py", line 1996, in open
+            fp = builtins.open(fp, "rb")
+        IOError: [Errno 2] No such file or directory: '/tmp/Hell.jpg'
         
 
 

@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Lattice Boltzmann D2Q9 on Octuplets using Bohrium/CPU
     commit: `#4063fbf9497b979ca4a59ed845f3f1b189c88fc5 <https://bitbucket.org/bohrium/bohrium/commits/4063fbf9497b979ca4a59ed845f3f1b189c88fc5>`_,
-    time: 2014-11-15 04:03:02.245392.
+    time: 2014-11-16 04:02:54.522467.
 
     command: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=100*100*10 --bohrium=True``
 
@@ -17,18 +17,13 @@ Run 00
     stderr::
 
         Traceback (most recent call last):
-          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 11, in <module>
-            import util
-          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
-            import bohrium as bh
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 7, in <module>
-            from .array_create import *
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/array_create.py", line 7, in <module>
-            from . import ndarray
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/ndarray.py", line 23, in <module>
-            from _util import dtype_equal
-          File "_util.pyx", line 22, in init _util (/home/bhbuilder/bohrium/build/bridge/npbackend/_util.c:2470)
-        ImportError: cannot import name _info
+          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 230, in <module>
+            main()
+          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 196, in main
+            state = cylinder(H, W, obstacle=False)
+          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 42, in cylinder
+            t_3d    = np.asarray(t)[:, np.newaxis, np.newaxis]
+        AttributeError: 'module' object has no attribute 'asarray'
         
 
 
