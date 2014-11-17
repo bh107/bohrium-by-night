@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running LU Factorization on Octuplets using Bohrium/GPU
-    commit: `#4063fbf9497b979ca4a59ed845f3f1b189c88fc5 <https://bitbucket.org/bohrium/bohrium/commits/4063fbf9497b979ca4a59ed845f3f1b189c88fc5>`_,
-    time: 2014-11-16 04:02:54.522467.
+    commit: `#01b6230bfd1cac67164bc5a3590d03d7400588a0 <https://bitbucket.org/bohrium/bohrium/commits/01b6230bfd1cac67164bc5a3590d03d7400588a0>`_,
+    time: 2014-11-17 04:03:04.515681.
 
     command: ``python benchmark/Python/lu.py --size=100 --bohrium=True``
 
@@ -12,12 +12,19 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 100, elapsed-time: 2.790514
-        
+        N/A
 
     stderr::
 
-        N/A
+        Traceback (most recent call last):
+          File "benchmark/Python/lu.py", line 2, in <module>
+            import util
+          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
+            import bohrium as bh
+          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 11, in <module>
+            from .array_create import *
+        ImportError: No module named array_create
+        
 
 
 
