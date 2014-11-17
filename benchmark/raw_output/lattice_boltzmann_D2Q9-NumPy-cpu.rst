@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Lattice Boltzmann D2Q9 on Octuplets using NumPy/CPU
-    commit: `#01b6230bfd1cac67164bc5a3590d03d7400588a0 <https://bitbucket.org/bohrium/bohrium/commits/01b6230bfd1cac67164bc5a3590d03d7400588a0>`_,
-    time: 2014-11-17 04:03:04.515681.
+    commit: `#b4d8bfe38389d9c2667c5152e52c456d50977f0d <https://bitbucket.org/bohrium/bohrium/commits/b4d8bfe38389d9c2667c5152e52c456d50977f0d>`_,
+    time: 2014-11-17 18:05:56.036748.
 
     command: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=100*100*10 --bohrium=False``
 
@@ -12,19 +12,12 @@ Run 00
 ~~~~~~
     stdout::
 
-        N/A
+        benchmark/Python/lattice_boltzmann_D2Q9.py - target: None, bohrium: False, size: 100*100*10, elapsed-time: 0.065151
+        
 
     stderr::
 
-        Traceback (most recent call last):
-          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 11, in <module>
-            import util
-          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
-            import bohrium as bh
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 11, in <module>
-            from .array_create import *
-        ImportError: No module named array_create
-        
+        N/A
 
 
 
