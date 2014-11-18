@@ -66,14 +66,24 @@ if __name__ == "__main__":
     else:
         slurm = '--slurm'
 
-    #We run/submit the benchmark suite
     tmpdir = tempfile.mkdtemp()
     tmpdir_root = tmpdir
+    
+    #Lets update the bohrium and benchpress repos
+    bash_cmd("git pull", cwd=args.bohrium_src)
+    bash_cmd("git pull", cwd=args.benchpress_src)
+
+    #We build and install bohrium in ~/.local
+    bash_cmd("mkdir -p build && cd build && cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo .."\
+             " && make install", cwd=args.bohrium_src)
+
+    #We run/submit the benchmark suite
     bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; "\
              "git clone git@bitbucket.org:bohrium/bohrium-by-night.git'", cwd=tmpdir)
     tmpdir += "/bohrium-by-night" #move to the git repos
     cmd = "./press.py %s suites/daily_benchmark.py --no-perf --wait --runs 3 %s --publish-cmd='mv $OUT "\
           "%s/benchmark/daily.py.json'"%(args.bohrium_src, slurm, tmpdir)
+    print cmd
     bash_cmd(cmd, cwd=args.benchpress_src)
 
     #We commit the result

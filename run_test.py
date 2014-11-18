@@ -66,8 +66,18 @@ if __name__ == "__main__":
     else:
         slurm = '--slurm'
 
-    #First we run/submit the test suite
     tmpdir = tempfile.mkdtemp()
+    tmpdir_root = tmpdir
+
+    #Lets update the bohrium and benchpress repos
+    bash_cmd("git pull", cwd=args.bohrium_src)
+    bash_cmd("git pull", cwd=args.benchpress_src)
+
+    #We build and install bohrium in ~/.local
+    bash_cmd("mkdir -p build && cd build && cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo .."\
+             " && make install", cwd=args.bohrium_src)
+
+    #First we run/submit the test suite
     bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; "\
              "git clone git@bitbucket.org:bohrium/bohrium-by-night.git'", cwd=tmpdir)
     tmpdir += "/bohrium-by-night" #move to the git repos
@@ -112,3 +122,5 @@ Running %s on Octuplets
         bash_cmd("git add %s/test/numpytest.py.rst"%tmpdir, cwd=tmpdir)
         bash_cmd("git commit -m 'nightly-test-rst'", cwd=tmpdir)
         bash_cmd("ssh-agent bash -c 'ssh-add ~/.ssh/bhbuilder_rsa; git push'", cwd=tmpdir)
+    bash_cmd("rm -Rf %s"%tmpdir_root)
+
