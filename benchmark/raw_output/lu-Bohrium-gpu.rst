@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running LU Factorization on Octuplets using Bohrium/GPU
-    commit: `#541610fc2ad8a811fc78975452c3d4d238a77b51 <https://bitbucket.org/bohrium/bohrium/commits/541610fc2ad8a811fc78975452c3d4d238a77b51>`_,
-    time: 2014-11-18 04:04:56.090847.
+    commit: `#0e67b7b00f693b98b768cfc3d3c85c2370605c86 <https://bitbucket.org/bohrium/bohrium/commits/0e67b7b00f693b98b768cfc3d3c85c2370605c86>`_,
+    time: 2014-11-18 13:40:32.472579.
 
     command: ``python benchmark/Python/lu.py --size=100 --bohrium=True``
 
@@ -12,12 +12,14 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 100, elapsed-time: 3.033362
+        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 100, elapsed-time: 2.825257
         
 
     stderr::
 
-        N/A
+        pure virtual method called
+        terminate called without an active exception
+        
 
 
 
