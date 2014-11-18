@@ -4,42 +4,42 @@ Python Benchmark Suite
 
 Running suites/daily_benchmark.py on Octuplets
     commit: `#0e67b7b00f693b98b768cfc3d3c85c2370605c86 <https://bitbucket.org/bohrium/bohrium/commits/0e67b7b00f693b98b768cfc3d3c85c2370605c86>`_,
-    time: 2014-11-18 13:40:32.472579.
+    time: 2014-11-18 14:15:52.338679.
 
 Heat Equation
 -------------
 
-`NumPy/CPU <raw_output/heat_equation-NumPy-cpu.rst>`_: ``python benchmark/Python/heat_equation.py --size=100*100*10 --bohrium=False``
+`NumPy/CPU <raw_output/heat_equation-NumPy-cpu.rst>`_: ``python benchmark/Python/heat_equation.py --size=3000*3000*100 --bohrium=False``
 
-`Bohrium/CPU <raw_output/heat_equation-Bohrium-cpu.rst>`_: ``python benchmark/Python/heat_equation.py --size=100*100*10 --bohrium=True``
+`Bohrium/CPU <raw_output/heat_equation-Bohrium-cpu.rst>`_: ``python benchmark/Python/heat_equation.py --size=3000*3000*100 --bohrium=True``
 
-`Bohrium/GPU <raw_output/heat_equation-Bohrium-gpu.rst>`_: ``python benchmark/Python/heat_equation.py --size=100*100*10 --bohrium=True``
+`Bohrium/GPU <raw_output/heat_equation-Bohrium-gpu.rst>`_: ``python benchmark/Python/heat_equation.py --size=3000*3000*100 --bohrium=True``
 
 
 
 .. image:: https://bytebucket.org/bohrium/bohrium-by-night/raw/master/benchmark/gfx/heat_equation_runtime.png
 
-Convolution 2D
---------------
+Black Scholes
+-------------
 
-`NumPy/CPU <raw_output/convolve_2d-NumPy-cpu.rst>`_: ``python benchmark/Python/convolve_2d.py --size=5 --bohrium=False``
+`NumPy/CPU <raw_output/black_scholes-NumPy-cpu.rst>`_: ``python benchmark/Python/black_scholes.py --size=1000000*100 --bohrium=False``
 
-`Bohrium/CPU <raw_output/convolve_2d-Bohrium-cpu.rst>`_: ``python benchmark/Python/convolve_2d.py --size=5 --bohrium=True``
+`Bohrium/CPU <raw_output/black_scholes-Bohrium-cpu.rst>`_: ``python benchmark/Python/black_scholes.py --size=1000000*100 --bohrium=True``
 
-`Bohrium/GPU <raw_output/convolve_2d-Bohrium-gpu.rst>`_: ``python benchmark/Python/convolve_2d.py --size=5 --bohrium=True``
+`Bohrium/GPU <raw_output/black_scholes-Bohrium-gpu.rst>`_: ``python benchmark/Python/black_scholes.py --size=1000000*100 --bohrium=True``
 
 
 
-.. image:: https://bytebucket.org/bohrium/bohrium-by-night/raw/master/benchmark/gfx/convolve_2d_runtime.png
+.. image:: https://bytebucket.org/bohrium/bohrium-by-night/raw/master/benchmark/gfx/black_scholes_runtime.png
 
 Monte Carlo Pi
 --------------
 
-`NumPy/CPU <raw_output/mc-NumPy-cpu.rst>`_: ``python benchmark/Python/mc.py --size=100*10 --bohrium=False``
+`NumPy/CPU <raw_output/mc-NumPy-cpu.rst>`_: ``python benchmark/Python/mc.py --size=10000000*100 --bohrium=False``
 
-`Bohrium/CPU <raw_output/mc-Bohrium-cpu.rst>`_: ``python benchmark/Python/mc.py --size=100*10 --bohrium=True``
+`Bohrium/CPU <raw_output/mc-Bohrium-cpu.rst>`_: ``python benchmark/Python/mc.py --size=10000000*100 --bohrium=True``
 
-`Bohrium/GPU <raw_output/mc-Bohrium-gpu.rst>`_: ``python benchmark/Python/mc.py --size=100*10 --bohrium=True``
+`Bohrium/GPU <raw_output/mc-Bohrium-gpu.rst>`_: ``python benchmark/Python/mc.py --size=10000000*100 --bohrium=True``
 
 
 
@@ -48,11 +48,11 @@ Monte Carlo Pi
 Convolution 3D
 --------------
 
-`NumPy/CPU <raw_output/convolve_3d-NumPy-cpu.rst>`_: ``python benchmark/Python/convolve_3d.py --size=5 --bohrium=False``
+`NumPy/CPU <raw_output/convolve_3d-NumPy-cpu.rst>`_: ``python benchmark/Python/convolve_3d.py --size=100 --bohrium=False``
 
-`Bohrium/CPU <raw_output/convolve_3d-Bohrium-cpu.rst>`_: ``python benchmark/Python/convolve_3d.py --size=5 --bohrium=True``
+`Bohrium/CPU <raw_output/convolve_3d-Bohrium-cpu.rst>`_: ``python benchmark/Python/convolve_3d.py --size=100 --bohrium=True``
 
-`Bohrium/GPU <raw_output/convolve_3d-Bohrium-gpu.rst>`_: ``python benchmark/Python/convolve_3d.py --size=5 --bohrium=True``
+`Bohrium/GPU <raw_output/convolve_3d-Bohrium-gpu.rst>`_: ``python benchmark/Python/convolve_3d.py --size=100 --bohrium=True``
 
 
 
@@ -61,11 +61,11 @@ Convolution 3D
 Wire World
 ----------
 
-`NumPy/CPU <raw_output/wireworld-NumPy-cpu.rst>`_: ``python benchmark/Python/wireworld.py --size=10*10 --bohrium=False``
+`NumPy/CPU <raw_output/wireworld-NumPy-cpu.rst>`_: ``python benchmark/Python/wireworld.py --size=100*100 --bohrium=False``
 
-`Bohrium/CPU <raw_output/wireworld-Bohrium-cpu.rst>`_: ``python benchmark/Python/wireworld.py --size=10*10 --bohrium=True``
+`Bohrium/CPU <raw_output/wireworld-Bohrium-cpu.rst>`_: ``python benchmark/Python/wireworld.py --size=100*100 --bohrium=True``
 
-`Bohrium/GPU <raw_output/wireworld-Bohrium-gpu.rst>`_: ``python benchmark/Python/wireworld.py --size=10*10 --bohrium=True``
+`Bohrium/GPU <raw_output/wireworld-Bohrium-gpu.rst>`_: ``python benchmark/Python/wireworld.py --size=100*100 --bohrium=True``
 
 
 
@@ -74,11 +74,11 @@ Wire World
 Lattice Boltzmann D2Q9
 ----------------------
 
-`NumPy/CPU <raw_output/lattice_boltzmann_D2Q9-NumPy-cpu.rst>`_: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=100*100*10 --bohrium=False``
+`NumPy/CPU <raw_output/lattice_boltzmann_D2Q9-NumPy-cpu.rst>`_: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=1000*1000*10 --bohrium=False``
 
-`Bohrium/CPU <raw_output/lattice_boltzmann_D2Q9-Bohrium-cpu.rst>`_: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=100*100*10 --bohrium=True``
+`Bohrium/CPU <raw_output/lattice_boltzmann_D2Q9-Bohrium-cpu.rst>`_: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=1000*1000*10 --bohrium=True``
 
-`Bohrium/GPU <raw_output/lattice_boltzmann_D2Q9-Bohrium-gpu.rst>`_: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=100*100*10 --bohrium=True``
+`Bohrium/GPU <raw_output/lattice_boltzmann_D2Q9-Bohrium-gpu.rst>`_: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=1000*1000*10 --bohrium=True``
 
 
 
@@ -87,11 +87,11 @@ Lattice Boltzmann D2Q9
 Gauss Elimination
 -----------------
 
-`NumPy/CPU <raw_output/gauss-NumPy-cpu.rst>`_: ``python benchmark/Python/gauss.py --size=100 --bohrium=False``
+`NumPy/CPU <raw_output/gauss-NumPy-cpu.rst>`_: ``python benchmark/Python/gauss.py --size=1000 --bohrium=False``
 
-`Bohrium/CPU <raw_output/gauss-Bohrium-cpu.rst>`_: ``python benchmark/Python/gauss.py --size=100 --bohrium=True``
+`Bohrium/CPU <raw_output/gauss-Bohrium-cpu.rst>`_: ``python benchmark/Python/gauss.py --size=1000 --bohrium=True``
 
-`Bohrium/GPU <raw_output/gauss-Bohrium-gpu.rst>`_: ``python benchmark/Python/gauss.py --size=100 --bohrium=True``
+`Bohrium/GPU <raw_output/gauss-Bohrium-gpu.rst>`_: ``python benchmark/Python/gauss.py --size=1000 --bohrium=True``
 
 
 
@@ -100,11 +100,11 @@ Gauss Elimination
 Matrix Multiplication
 ---------------------
 
-`NumPy/CPU <raw_output/mxmul-NumPy-cpu.rst>`_: ``python benchmark/Python/mxmul.py --size=100 --bohrium=False``
+`NumPy/CPU <raw_output/mxmul-NumPy-cpu.rst>`_: ``python benchmark/Python/mxmul.py --size=1000 --bohrium=False``
 
-`Bohrium/CPU <raw_output/mxmul-Bohrium-cpu.rst>`_: ``python benchmark/Python/mxmul.py --size=100 --bohrium=True``
+`Bohrium/CPU <raw_output/mxmul-Bohrium-cpu.rst>`_: ``python benchmark/Python/mxmul.py --size=1000 --bohrium=True``
 
-`Bohrium/GPU <raw_output/mxmul-Bohrium-gpu.rst>`_: ``python benchmark/Python/mxmul.py --size=100 --bohrium=True``
+`Bohrium/GPU <raw_output/mxmul-Bohrium-gpu.rst>`_: ``python benchmark/Python/mxmul.py --size=1000 --bohrium=True``
 
 
 
@@ -113,11 +113,11 @@ Matrix Multiplication
 LU Factorization
 ----------------
 
-`NumPy/CPU <raw_output/lu-NumPy-cpu.rst>`_: ``python benchmark/Python/lu.py --size=100 --bohrium=False``
+`NumPy/CPU <raw_output/lu-NumPy-cpu.rst>`_: ``python benchmark/Python/lu.py --size=1000 --bohrium=False``
 
-`Bohrium/CPU <raw_output/lu-Bohrium-cpu.rst>`_: ``python benchmark/Python/lu.py --size=100 --bohrium=True``
+`Bohrium/CPU <raw_output/lu-Bohrium-cpu.rst>`_: ``python benchmark/Python/lu.py --size=1000 --bohrium=True``
 
-`Bohrium/GPU <raw_output/lu-Bohrium-gpu.rst>`_: ``python benchmark/Python/lu.py --size=100 --bohrium=True``
+`Bohrium/GPU <raw_output/lu-Bohrium-gpu.rst>`_: ``python benchmark/Python/lu.py --size=1000 --bohrium=True``
 
 
 
@@ -126,11 +126,11 @@ LU Factorization
 Shallow Water
 -------------
 
-`NumPy/CPU <raw_output/shallow_water-NumPy-cpu.rst>`_: ``python benchmark/Python/shallow_water.py --size=100*100*10 --bohrium=False``
+`NumPy/CPU <raw_output/shallow_water-NumPy-cpu.rst>`_: ``python benchmark/Python/shallow_water.py --size=2000*2000*100 --bohrium=False``
 
-`Bohrium/CPU <raw_output/shallow_water-Bohrium-cpu.rst>`_: ``python benchmark/Python/shallow_water.py --size=100*100*10 --bohrium=True``
+`Bohrium/CPU <raw_output/shallow_water-Bohrium-cpu.rst>`_: ``python benchmark/Python/shallow_water.py --size=2000*2000*100 --bohrium=True``
 
-`Bohrium/GPU <raw_output/shallow_water-Bohrium-gpu.rst>`_: ``python benchmark/Python/shallow_water.py --size=100*100*10 --bohrium=True``
+`Bohrium/GPU <raw_output/shallow_water-Bohrium-gpu.rst>`_: ``python benchmark/Python/shallow_water.py --size=2000*2000*100 --bohrium=True``
 
 
 
@@ -139,11 +139,11 @@ Shallow Water
 Snakes and Ladders
 ------------------
 
-`NumPy/CPU <raw_output/snakes_and_ladders-NumPy-cpu.rst>`_: ``python benchmark/Python/snakes_and_ladders.py --size=100*10 --bohrium=False``
+`NumPy/CPU <raw_output/snakes_and_ladders-NumPy-cpu.rst>`_: ``python benchmark/Python/snakes_and_ladders.py --size=1000*10 --bohrium=False``
 
-`Bohrium/CPU <raw_output/snakes_and_ladders-Bohrium-cpu.rst>`_: ``python benchmark/Python/snakes_and_ladders.py --size=100*10 --bohrium=True``
+`Bohrium/CPU <raw_output/snakes_and_ladders-Bohrium-cpu.rst>`_: ``python benchmark/Python/snakes_and_ladders.py --size=1000*10 --bohrium=True``
 
-`Bohrium/GPU <raw_output/snakes_and_ladders-Bohrium-gpu.rst>`_: ``python benchmark/Python/snakes_and_ladders.py --size=100*10 --bohrium=True``
+`Bohrium/GPU <raw_output/snakes_and_ladders-Bohrium-gpu.rst>`_: ``python benchmark/Python/snakes_and_ladders.py --size=1000*10 --bohrium=True``
 
 
 
@@ -152,11 +152,11 @@ Snakes and Ladders
 Jacobi Stencil
 --------------
 
-`NumPy/CPU <raw_output/jacobi_stencil-NumPy-cpu.rst>`_: ``python benchmark/Python/jacobi_stencil.py --size=100*100*10 --bohrium=False``
+`NumPy/CPU <raw_output/jacobi_stencil-NumPy-cpu.rst>`_: ``python benchmark/Python/jacobi_stencil.py --size=3000*3000*100 --bohrium=False``
 
-`Bohrium/CPU <raw_output/jacobi_stencil-Bohrium-cpu.rst>`_: ``python benchmark/Python/jacobi_stencil.py --size=100*100*10 --bohrium=True``
+`Bohrium/CPU <raw_output/jacobi_stencil-Bohrium-cpu.rst>`_: ``python benchmark/Python/jacobi_stencil.py --size=3000*3000*100 --bohrium=True``
 
-`Bohrium/GPU <raw_output/jacobi_stencil-Bohrium-gpu.rst>`_: ``python benchmark/Python/jacobi_stencil.py --size=100*100*10 --bohrium=True``
+`Bohrium/GPU <raw_output/jacobi_stencil-Bohrium-gpu.rst>`_: ``python benchmark/Python/jacobi_stencil.py --size=3000*3000*100 --bohrium=True``
 
 
 
@@ -165,11 +165,11 @@ Jacobi Stencil
 N-Body
 ------
 
-`NumPy/CPU <raw_output/nbody-NumPy-cpu.rst>`_: ``python benchmark/Python/nbody.py --size=100*10 --bohrium=False``
+`NumPy/CPU <raw_output/nbody-NumPy-cpu.rst>`_: ``python benchmark/Python/nbody.py --size=1000*100 --bohrium=False``
 
-`Bohrium/CPU <raw_output/nbody-Bohrium-cpu.rst>`_: ``python benchmark/Python/nbody.py --size=100*10 --bohrium=True``
+`Bohrium/CPU <raw_output/nbody-Bohrium-cpu.rst>`_: ``python benchmark/Python/nbody.py --size=1000*100 --bohrium=True``
 
-`Bohrium/GPU <raw_output/nbody-Bohrium-gpu.rst>`_: ``python benchmark/Python/nbody.py --size=100*10 --bohrium=True``
+`Bohrium/GPU <raw_output/nbody-Bohrium-gpu.rst>`_: ``python benchmark/Python/nbody.py --size=1000*100 --bohrium=True``
 
 
 
