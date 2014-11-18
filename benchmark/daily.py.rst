@@ -4,7 +4,7 @@ Python Benchmark Suite
 
 Running suites/daily_benchmark.py on Octuplets
     commit: `#0e67b7b00f693b98b768cfc3d3c85c2370605c86 <https://bitbucket.org/bohrium/bohrium/commits/0e67b7b00f693b98b768cfc3d3c85c2370605c86>`_,
-    time: 2014-11-18 14:15:52.338679.
+    time: 2014-11-18 14:31:15.099487.
 
 Heat Equation
 -------------
@@ -44,19 +44,6 @@ Monte Carlo Pi
 
 
 .. image:: https://bytebucket.org/bohrium/bohrium-by-night/raw/master/benchmark/gfx/mc_runtime.png
-
-Convolution 3D
---------------
-
-`NumPy/CPU <raw_output/convolve_3d-NumPy-cpu.rst>`_: ``python benchmark/Python/convolve_3d.py --size=100 --bohrium=False``
-
-`Bohrium/CPU <raw_output/convolve_3d-Bohrium-cpu.rst>`_: ``python benchmark/Python/convolve_3d.py --size=100 --bohrium=True``
-
-`Bohrium/GPU <raw_output/convolve_3d-Bohrium-gpu.rst>`_: ``python benchmark/Python/convolve_3d.py --size=100 --bohrium=True``
-
-
-
-.. image:: https://bytebucket.org/bohrium/bohrium-by-night/raw/master/benchmark/gfx/convolve_3d_runtime.png
 
 Wire World
 ----------
@@ -123,6 +110,19 @@ LU Factorization
 
 .. image:: https://bytebucket.org/bohrium/bohrium-by-night/raw/master/benchmark/gfx/lu_runtime.png
 
+Convolution 3D
+--------------
+
+`NumPy/CPU <raw_output/convolve_3d-NumPy-cpu.rst>`_: ``python benchmark/Python/convolve_3d.py --size=100 --bohrium=False``
+
+`Bohrium/CPU <raw_output/convolve_3d-Bohrium-cpu.rst>`_: ``python benchmark/Python/convolve_3d.py --size=100 --bohrium=True``
+
+`Bohrium/GPU <raw_output/convolve_3d-Bohrium-gpu.rst>`_: ``python benchmark/Python/convolve_3d.py --size=100 --bohrium=True``
+
+
+
+.. image:: https://bytebucket.org/bohrium/bohrium-by-night/raw/master/benchmark/gfx/convolve_3d_runtime.png
+
 Shallow Water
 -------------
 
@@ -135,19 +135,6 @@ Shallow Water
 
 
 .. image:: https://bytebucket.org/bohrium/bohrium-by-night/raw/master/benchmark/gfx/shallow_water_runtime.png
-
-Snakes and Ladders
-------------------
-
-`NumPy/CPU <raw_output/snakes_and_ladders-NumPy-cpu.rst>`_: ``python benchmark/Python/snakes_and_ladders.py --size=1000*10 --bohrium=False``
-
-`Bohrium/CPU <raw_output/snakes_and_ladders-Bohrium-cpu.rst>`_: ``python benchmark/Python/snakes_and_ladders.py --size=1000*10 --bohrium=True``
-
-`Bohrium/GPU <raw_output/snakes_and_ladders-Bohrium-gpu.rst>`_: ``python benchmark/Python/snakes_and_ladders.py --size=1000*10 --bohrium=True``
-
-
-
-.. image:: https://bytebucket.org/bohrium/bohrium-by-night/raw/master/benchmark/gfx/snakes_and_ladders_runtime.png
 
 Jacobi Stencil
 --------------
