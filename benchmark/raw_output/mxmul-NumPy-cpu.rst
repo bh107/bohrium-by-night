@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Matrix Multiplication on Octuplets using NumPy/CPU
     commit: `#0e67b7b00f693b98b768cfc3d3c85c2370605c86 <https://bitbucket.org/bohrium/bohrium/commits/0e67b7b00f693b98b768cfc3d3c85c2370605c86>`_,
-    time: 2014-11-18 14:31:15.099487.
+    time: 2014-11-19 04:07:40.014932.
 
     command: ``python benchmark/Python/mxmul.py --size=1000 --bohrium=False``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/mxmul.py - target: None, bohrium: False, size: 1000, elapsed-time: 8.211608
+        benchmark/Python/mxmul.py - target: None, bohrium: False, size: 1000, elapsed-time: 7.740795
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/mxmul.py - target: None, bohrium: False, size: 1000, elapsed-time: 7.766897
+        benchmark/Python/mxmul.py - target: None, bohrium: False, size: 1000, elapsed-time: 7.748185
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/mxmul.py - target: None, bohrium: False, size: 1000, elapsed-time: 7.768657
+        benchmark/Python/mxmul.py - target: None, bohrium: False, size: 1000, elapsed-time: 7.747235
         
 
     stderr::
