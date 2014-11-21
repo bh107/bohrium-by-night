@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running N-Body on Octuplets using NumPy/CPU
-    commit: `#e3d68da17d69c00fb7d78e8bbbea6e1c0a6bc676 <https://bitbucket.org/bohrium/bohrium/commits/e3d68da17d69c00fb7d78e8bbbea6e1c0a6bc676>`_,
-    time: 2014-11-20 04:08:22.803723.
+    commit: `#da5202dad7b1049dfe367ab6981dac6cfba21eb4 <https://bitbucket.org/bohrium/bohrium/commits/da5202dad7b1049dfe367ab6981dac6cfba21eb4>`_,
+    time: 2014-11-21 04:05:12.084743.
 
     command: ``python benchmark/Python/nbody.py --size=1000*100 --bohrium=False``
 
@@ -12,39 +12,11 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 59.429509
-        
+        N/A
 
     stderr::
 
-        benchmark/Python/nbody.py:55: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(r)[:] = 1.0
-        benchmark/Python/nbody.py:68: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fx)[:] = 0.0
-        benchmark/Python/nbody.py:69: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fy)[:] = 0.0
-        benchmark/Python/nbody.py:70: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fz)[:] = 0.0
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 
@@ -53,39 +25,11 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 59.510179
-        
+        N/A
 
     stderr::
 
-        benchmark/Python/nbody.py:55: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(r)[:] = 1.0
-        benchmark/Python/nbody.py:68: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fx)[:] = 0.0
-        benchmark/Python/nbody.py:69: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fy)[:] = 0.0
-        benchmark/Python/nbody.py:70: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fz)[:] = 0.0
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 
@@ -94,39 +38,11 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 59.426259
-        
+        N/A
 
     stderr::
 
-        benchmark/Python/nbody.py:55: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(r)[:] = 1.0
-        benchmark/Python/nbody.py:68: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fx)[:] = 0.0
-        benchmark/Python/nbody.py:69: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fy)[:] = 0.0
-        benchmark/Python/nbody.py:70: FutureWarning: Numpy has detected that you (may be) writing to an array returned
-        by numpy.diagonal or by selecting multiple fields in a record
-        array. This code will likely break in a future numpy release --
-        see numpy.diagonal or arrays.indexing reference docs for details.
-        The quick fix is to make an explicit copy (e.g., do
-        arr.diagonal().copy() or arr[['f0','f1']].copy()).
-          np.diagonal(Fz)[:] = 0.0
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 

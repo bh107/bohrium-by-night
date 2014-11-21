@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Convolution 3D on Octuplets using Bohrium/CPU
-    commit: `#e3d68da17d69c00fb7d78e8bbbea6e1c0a6bc676 <https://bitbucket.org/bohrium/bohrium/commits/e3d68da17d69c00fb7d78e8bbbea6e1c0a6bc676>`_,
-    time: 2014-11-20 04:08:22.803723.
+    commit: `#da5202dad7b1049dfe367ab6981dac6cfba21eb4 <https://bitbucket.org/bohrium/bohrium/commits/da5202dad7b1049dfe367ab6981dac6cfba21eb4>`_,
+    time: 2014-11-21 04:05:12.084743.
 
     command: ``python benchmark/Python/convolve_3d.py --size=100 --bohrium=True``
 
@@ -16,8 +16,7 @@ Run 00
 
     stderr::
 
-        benchmark/Python/convolve_3d.py:24: RuntimeWarning: Encountering an operation not supported by Bohrium. It will be handled by the original NumPy.
-          totalsum += kernel[filterZ + kernelrad, filterY + kernelrad, filterX + kernelrad]
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 
@@ -30,8 +29,7 @@ Run 01
 
     stderr::
 
-        benchmark/Python/convolve_3d.py:24: RuntimeWarning: Encountering an operation not supported by Bohrium. It will be handled by the original NumPy.
-          totalsum += kernel[filterZ + kernelrad, filterY + kernelrad, filterX + kernelrad]
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 
@@ -44,8 +42,7 @@ Run 02
 
     stderr::
 
-        benchmark/Python/convolve_3d.py:24: RuntimeWarning: Encountering an operation not supported by Bohrium. It will be handled by the original NumPy.
-          totalsum += kernel[filterZ + kernelrad, filterY + kernelrad, filterX + kernelrad]
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 

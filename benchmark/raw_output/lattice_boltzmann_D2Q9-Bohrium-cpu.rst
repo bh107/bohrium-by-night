@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Lattice Boltzmann D2Q9 on Octuplets using Bohrium/CPU
-    commit: `#e3d68da17d69c00fb7d78e8bbbea6e1c0a6bc676 <https://bitbucket.org/bohrium/bohrium/commits/e3d68da17d69c00fb7d78e8bbbea6e1c0a6bc676>`_,
-    time: 2014-11-20 04:08:22.803723.
+    commit: `#da5202dad7b1049dfe367ab6981dac6cfba21eb4 <https://bitbucket.org/bohrium/bohrium/commits/da5202dad7b1049dfe367ab6981dac6cfba21eb4>`_,
+    time: 2014-11-21 04:05:12.084743.
 
     command: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=1000*1000*10 --bohrium=True``
 
@@ -16,14 +16,7 @@ Run 00
 
     stderr::
 
-        Traceback (most recent call last):
-          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 230, in <module>
-            main()
-          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 196, in main
-            state = cylinder(H, W, obstacle=False)
-          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 42, in cylinder
-            t_3d    = np.asarray(t)[:, np.newaxis, np.newaxis]
-        AttributeError: 'module' object has no attribute 'asarray'
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 
@@ -36,14 +29,7 @@ Run 01
 
     stderr::
 
-        Traceback (most recent call last):
-          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 230, in <module>
-            main()
-          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 196, in main
-            state = cylinder(H, W, obstacle=False)
-          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 42, in cylinder
-            t_3d    = np.asarray(t)[:, np.newaxis, np.newaxis]
-        AttributeError: 'module' object has no attribute 'asarray'
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 
@@ -56,14 +42,7 @@ Run 02
 
     stderr::
 
-        Traceback (most recent call last):
-          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 230, in <module>
-            main()
-          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 196, in main
-            state = cylinder(H, W, obstacle=False)
-          File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 42, in cylinder
-            t_3d    = np.asarray(t)[:, np.newaxis, np.newaxis]
-        AttributeError: 'module' object has no attribute 'asarray'
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 
