@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Wire World on Octuplets using Bohrium/GPU
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-11-22 04:08:56.054795.
+    time: 2014-11-23 04:04:59.131609.
 
     command: ``python benchmark/Python/wireworld.py --size=100*100 --bohrium=True``
 
