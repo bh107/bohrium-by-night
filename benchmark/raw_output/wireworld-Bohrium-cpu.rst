@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Wire World on Octuplets using Bohrium/CPU
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-11-28 04:03:14.070912.
+    time: 2014-11-28 11:38:44.653913.
 
     command: ``python benchmark/Python/wireworld.py --size=100*100 --bohrium=True``
 
@@ -16,7 +16,14 @@ Run 00
 
     stderr::
 
-        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: undefined symbol: bh_component_config_lookup_bool
+        Traceback (most recent call last):
+          File "benchmark/Python/wireworld.py", line 73, in <module>
+            main()
+          File "benchmark/Python/wireworld.py", line 59, in main
+            world = wireworld_init(N)
+          File "benchmark/Python/wireworld.py", line 16, in wireworld_init
+            data[1:-1,1:-1] = np.tile(np.array([
+        AttributeError: 'module' object has no attribute 'tile'
         
 
 
@@ -29,7 +36,14 @@ Run 01
 
     stderr::
 
-        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: undefined symbol: bh_component_config_lookup_bool
+        Traceback (most recent call last):
+          File "benchmark/Python/wireworld.py", line 73, in <module>
+            main()
+          File "benchmark/Python/wireworld.py", line 59, in main
+            world = wireworld_init(N)
+          File "benchmark/Python/wireworld.py", line 16, in wireworld_init
+            data[1:-1,1:-1] = np.tile(np.array([
+        AttributeError: 'module' object has no attribute 'tile'
         
 
 
@@ -42,7 +56,14 @@ Run 02
 
     stderr::
 
-        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: undefined symbol: bh_component_config_lookup_bool
+        Traceback (most recent call last):
+          File "benchmark/Python/wireworld.py", line 73, in <module>
+            main()
+          File "benchmark/Python/wireworld.py", line 59, in main
+            world = wireworld_init(N)
+          File "benchmark/Python/wireworld.py", line 16, in wireworld_init
+            data[1:-1,1:-1] = np.tile(np.array([
+        AttributeError: 'module' object has no attribute 'tile'
         
 
 

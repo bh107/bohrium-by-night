@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Monte Carlo Pi on Octuplets using Bohrium/CPU
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-11-28 04:03:14.070912.
+    time: 2014-11-28 11:38:44.653913.
 
     command: ``python benchmark/Python/mc.py --size=10000000*100 --bohrium=True``
 
@@ -12,12 +12,12 @@ Run 00
 ~~~~~~
     stdout::
 
-        N/A
+        benchmark/Python/mc.py - target: bhc, bohrium: True, size: 10000000*100, elapsed-time: 58.466594
+        
 
     stderr::
 
-        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: undefined symbol: bh_component_config_lookup_bool
-        
+        N/A
 
 
 
@@ -25,12 +25,12 @@ Run 01
 ~~~~~~
     stdout::
 
-        N/A
+        benchmark/Python/mc.py - target: bhc, bohrium: True, size: 10000000*100, elapsed-time: 59.666630
+        
 
     stderr::
 
-        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: undefined symbol: bh_component_config_lookup_bool
-        
+        N/A
 
 
 
@@ -38,12 +38,12 @@ Run 02
 ~~~~~~
     stdout::
 
-        N/A
+        benchmark/Python/mc.py - target: bhc, bohrium: True, size: 10000000*100, elapsed-time: 58.948872
+        
 
     stderr::
 
-        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: undefined symbol: bh_component_config_lookup_bool
-        
+        N/A
 
 
 
