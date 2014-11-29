@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Monte Carlo Pi on Octuplets using NumPy/CPU
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-11-28 12:05:35.755630.
+    time: 2014-11-29 04:05:06.256950.
 
     command: ``python benchmark/Python/mc.py --size=10000000*100 --bohrium=False``
 
@@ -12,25 +12,12 @@ Run 00
 ~~~~~~
     stdout::
 
-        N/A
+        benchmark/Python/mc.py - target: None, bohrium: False, size: 10000000*100, elapsed-time: 105.016563
+        
 
     stderr::
 
-        Traceback (most recent call last):
-          File "benchmark/Python/mc.py", line 2, in <module>
-            import util
-          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
-            import bohrium as bh
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 11, in <module>
-            from .array_create import *
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/array_create.py", line 7, in <module>
-            from . import ndarray
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/ndarray.py", line 23, in <module>
-            from _util import dtype_equal
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
-            import bhc
-        ImportError: No module named bhc
-        
+        N/A
 
 
 
@@ -38,25 +25,12 @@ Run 01
 ~~~~~~
     stdout::
 
-        N/A
+        benchmark/Python/mc.py - target: None, bohrium: False, size: 10000000*100, elapsed-time: 105.252459
+        
 
     stderr::
 
-        Traceback (most recent call last):
-          File "benchmark/Python/mc.py", line 2, in <module>
-            import util
-          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
-            import bohrium as bh
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 11, in <module>
-            from .array_create import *
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/array_create.py", line 7, in <module>
-            from . import ndarray
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/ndarray.py", line 23, in <module>
-            from _util import dtype_equal
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
-            import bhc
-        ImportError: No module named bhc
-        
+        N/A
 
 
 
@@ -64,25 +38,12 @@ Run 02
 ~~~~~~
     stdout::
 
-        N/A
+        benchmark/Python/mc.py - target: None, bohrium: False, size: 10000000*100, elapsed-time: 106.838340
+        
 
     stderr::
 
-        Traceback (most recent call last):
-          File "benchmark/Python/mc.py", line 2, in <module>
-            import util
-          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
-            import bohrium as bh
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 11, in <module>
-            from .array_create import *
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/array_create.py", line 7, in <module>
-            from . import ndarray
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/ndarray.py", line 23, in <module>
-            from _util import dtype_equal
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
-            import bhc
-        ImportError: No module named bhc
-        
+        N/A
 
 
 
