@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Heat Equation on Octuplets using Bohrium/CPU
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-11-29 12:04:18.429912.
+    time: 2014-11-30 04:05:43.343350.
 
     command: ``python benchmark/Python/heat_equation.py --size=3000*3000*100 --bohrium=True``
 
@@ -25,8 +25,7 @@ Run 00
             from .array_create import *
           File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/array_create.py", line 7, in <module>
             from . import ndarray
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/ndarray.py", line 23, in <module>
-            from _util import dtype_equal
+          File "ndarray.pyx", line 28, in init ndarray (/home/bhbuilder/bohrium/build/bridge/npbackend/ndarray.c:4999)
           File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
             import bhc
         ImportError: No module named bhc
@@ -51,8 +50,7 @@ Run 01
             from .array_create import *
           File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/array_create.py", line 7, in <module>
             from . import ndarray
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/ndarray.py", line 23, in <module>
-            from _util import dtype_equal
+          File "ndarray.pyx", line 28, in init ndarray (/home/bhbuilder/bohrium/build/bridge/npbackend/ndarray.c:4999)
           File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
             import bhc
         ImportError: No module named bhc
@@ -77,8 +75,7 @@ Run 02
             from .array_create import *
           File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/array_create.py", line 7, in <module>
             from . import ndarray
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/ndarray.py", line 23, in <module>
-            from _util import dtype_equal
+          File "ndarray.pyx", line 28, in init ndarray (/home/bhbuilder/bohrium/build/bridge/npbackend/ndarray.c:4999)
           File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
             import bhc
         ImportError: No module named bhc
