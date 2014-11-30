@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Convolution 3D on Octuplets using NumPy/CPU
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-11-30 04:05:43.343350.
+    time: 2014-11-30 12:05:35.051724.
 
     command: ``python benchmark/Python/convolve_3d.py --size=100 --bohrium=False``
 
@@ -17,18 +17,15 @@ Run 00
     stderr::
 
         Traceback (most recent call last):
-          File "benchmark/Python/convolve_3d.py", line 3, in <module>
-            import util
-          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
-            import bohrium as bh
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 11, in <module>
-            from .array_create import *
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/array_create.py", line 7, in <module>
-            from . import ndarray
-          File "ndarray.pyx", line 28, in init ndarray (/home/bhbuilder/bohrium/build/bridge/npbackend/ndarray.c:4999)
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
-            import bhc
-        ImportError: No module named bhc
+          File "benchmark/Python/convolve_3d.py", line 59, in <module>
+            main()
+          File "benchmark/Python/convolve_3d.py", line 50, in main
+            image, image_filter = convolve_3d_init(N)
+          File "benchmark/Python/convolve_3d.py", line 33, in convolve_3d_init
+            kernel  = gen_3d_filter(fsize, 13.0)
+          File "benchmark/Python/convolve_3d.py", line 23, in gen_3d_filter
+            kernel[filterZ + kernelrad, filterY + kernelrad,filterX + kernelrad] = caleuler * np.exp(-distance) 
+        IndexError: index 100 is out of bounds for axis 2 with size 100
         
 
 
@@ -42,18 +39,15 @@ Run 01
     stderr::
 
         Traceback (most recent call last):
-          File "benchmark/Python/convolve_3d.py", line 3, in <module>
-            import util
-          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
-            import bohrium as bh
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 11, in <module>
-            from .array_create import *
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/array_create.py", line 7, in <module>
-            from . import ndarray
-          File "ndarray.pyx", line 28, in init ndarray (/home/bhbuilder/bohrium/build/bridge/npbackend/ndarray.c:4999)
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
-            import bhc
-        ImportError: No module named bhc
+          File "benchmark/Python/convolve_3d.py", line 59, in <module>
+            main()
+          File "benchmark/Python/convolve_3d.py", line 50, in main
+            image, image_filter = convolve_3d_init(N)
+          File "benchmark/Python/convolve_3d.py", line 33, in convolve_3d_init
+            kernel  = gen_3d_filter(fsize, 13.0)
+          File "benchmark/Python/convolve_3d.py", line 23, in gen_3d_filter
+            kernel[filterZ + kernelrad, filterY + kernelrad,filterX + kernelrad] = caleuler * np.exp(-distance) 
+        IndexError: index 100 is out of bounds for axis 2 with size 100
         
 
 
@@ -67,18 +61,15 @@ Run 02
     stderr::
 
         Traceback (most recent call last):
-          File "benchmark/Python/convolve_3d.py", line 3, in <module>
-            import util
-          File "/home/bhbuilder/bohrium/benchmark/Python/util.py", line 10, in <module>
-            import bohrium as bh
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/__init__.py", line 11, in <module>
-            from .array_create import *
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/array_create.py", line 7, in <module>
-            from . import ndarray
-          File "ndarray.pyx", line 28, in init ndarray (/home/bhbuilder/bohrium/build/bridge/npbackend/ndarray.c:4999)
-          File "/home/bhbuilder/.local/lib/python2.7/site-packages/bohrium/_util.py", line 25, in <module>
-            import bhc
-        ImportError: No module named bhc
+          File "benchmark/Python/convolve_3d.py", line 59, in <module>
+            main()
+          File "benchmark/Python/convolve_3d.py", line 50, in main
+            image, image_filter = convolve_3d_init(N)
+          File "benchmark/Python/convolve_3d.py", line 33, in convolve_3d_init
+            kernel  = gen_3d_filter(fsize, 13.0)
+          File "benchmark/Python/convolve_3d.py", line 23, in gen_3d_filter
+            kernel[filterZ + kernelrad, filterY + kernelrad,filterX + kernelrad] = caleuler * np.exp(-distance) 
+        IndexError: index 100 is out of bounds for axis 2 with size 100
         
 
 

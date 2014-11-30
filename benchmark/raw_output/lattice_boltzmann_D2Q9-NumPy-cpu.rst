@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Lattice Boltzmann D2Q9 on Octuplets using NumPy/CPU
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-11-30 04:05:43.343350.
+    time: 2014-11-30 12:05:35.051724.
 
     command: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=1000*1000*10 --bohrium=False``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/lattice_boltzmann_D2Q9.py - target: None, bohrium: False, size: 1000*1000*10, elapsed-time: 8.674020
+        benchmark/Python/lattice_boltzmann_D2Q9.py - target: None, bohrium: False, size: 1000*1000*10, elapsed-time: 8.687286
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/lattice_boltzmann_D2Q9.py - target: None, bohrium: False, size: 1000*1000*10, elapsed-time: 8.653856
+        benchmark/Python/lattice_boltzmann_D2Q9.py - target: None, bohrium: False, size: 1000*1000*10, elapsed-time: 8.678584
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/lattice_boltzmann_D2Q9.py - target: None, bohrium: False, size: 1000*1000*10, elapsed-time: 8.703131
+        benchmark/Python/lattice_boltzmann_D2Q9.py - target: None, bohrium: False, size: 1000*1000*10, elapsed-time: 8.610520
         
 
     stderr::
