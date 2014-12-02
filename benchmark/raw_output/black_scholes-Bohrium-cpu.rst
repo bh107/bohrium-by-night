@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Black Scholes on Octuplets using Bohrium/CPU
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-12-02 04:07:39.063734.
+    time: 2014-12-02 12:06:09.616324.
 
     command: ``python benchmark/Python/black_scholes.py --size=1000000*100 --bohrium=True``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/black_scholes.py - target: bhc, bohrium: True, size: 1000000*100, elapsed-time: 11.846555
+        benchmark/Python/black_scholes.py - target: bhc, bohrium: True, size: 1000000*100, elapsed-time: 11.780141
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/black_scholes.py - target: bhc, bohrium: True, size: 1000000*100, elapsed-time: 11.645897
+        benchmark/Python/black_scholes.py - target: bhc, bohrium: True, size: 1000000*100, elapsed-time: 11.890511
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/black_scholes.py - target: bhc, bohrium: True, size: 1000000*100, elapsed-time: 11.938572
+        benchmark/Python/black_scholes.py - target: bhc, bohrium: True, size: 1000000*100, elapsed-time: 11.824255
         
 
     stderr::
