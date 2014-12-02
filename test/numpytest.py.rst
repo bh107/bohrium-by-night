@@ -4,7 +4,7 @@ Python Test Suite
 
 Running suites/numpytest.py on Octuplets
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-12-02 04:02:57.399406.
+    time: 2014-12-02 12:02:03.650076.
 
 The CPU results::
 
@@ -65,15 +65,20 @@ The GPU results::
   [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
   Testing test_accumulate.py/accumulate/cumsum
   Testing test_ndstencil.py/ndstencil_1D/ndstencil_1D
+  Testing test_ndstencil.py/ndstencil_2D/ndstencil_2D
+  Testing test_ndstencil.py/ndstencil_3D/ndstencil_3D
+  Testing test_ndstencil.py/ndstencil_4D/ndstencil_4D
+  Testing test_benchmarks.py/black_scholes/black_scholes
+  Testing test_benchmarks.py/gameoflife/gameoflife
   
   Traceback (most recent call last):
     File "test/numpy/numpytest.py", line 328, in <module>
       (res2,cmd2) = getattr(cls_inst,mth)(bh_arys)
-    File "/home/bhbuilder/bohrium/test/numpy/test_ndstencil.py", line 18, in test_ndstencil_1D
+    File "/home/bhbuilder/bohrium/test/numpy/test_benchmarks.py", line 61, in test_gameoflife
       return self.run(pseudo_arrays)
     File "/home/bhbuilder/bohrium/test/numpy/numpytest.py", line 226, in run
       raise Exception("Benchmark error[%s]" % err)
-  Exception: Benchmark error[pure virtual method called
-  terminate called without an active exception
+  Exception: Benchmark error[Program build error:
+  Program build error:
   ]
   
