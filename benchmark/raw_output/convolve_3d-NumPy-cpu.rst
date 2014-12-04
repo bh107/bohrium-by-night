@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Convolution 3D on Octuplets using NumPy/CPU
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-12-04 04:05:32.290150.
+    time: 2014-12-04 12:08:24.322788.
 
     command: ``python benchmark/Python/convolve_3d.py --size=100 --bohrium=False``
 
