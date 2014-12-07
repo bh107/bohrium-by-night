@@ -4,7 +4,7 @@ Python Test Suite
 
 Running suites/numpytest.py on Octuplets
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-12-06 12:01:45.397469.
+    time: 2014-12-07 04:02:04.487420.
 
 The CPU results::
 
@@ -65,12 +65,11 @@ The GPU results::
   [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
   Testing test_accumulate.py/accumulate/cumsum
   Testing test_ndstencil.py/ndstencil_1D/ndstencil_1D
-  Testing test_ndstencil.py/ndstencil_2D/ndstencil_2D
   
   Traceback (most recent call last):
     File "test/numpy/numpytest.py", line 328, in <module>
       (res2,cmd2) = getattr(cls_inst,mth)(bh_arys)
-    File "/home/bhbuilder/bohrium/test/numpy/test_ndstencil.py", line 34, in test_ndstencil_2D
+    File "/home/bhbuilder/bohrium/test/numpy/test_ndstencil.py", line 18, in test_ndstencil_1D
       return self.run(pseudo_arrays)
     File "/home/bhbuilder/bohrium/test/numpy/numpytest.py", line 226, in run
       raise Exception("Benchmark error[%s]" % err)
