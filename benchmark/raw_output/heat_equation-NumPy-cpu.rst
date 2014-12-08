@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Heat Equation on Octuplets using NumPy/CPU
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-12-07 12:06:09.602016.
+    time: 2014-12-08 04:06:11.911005.
 
     command: ``python benchmark/Python/heat_equation.py --size=3000*3000*100 --bohrium=False``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/heat_equation.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 38.636683
+        benchmark/Python/heat_equation.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 38.243480
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/heat_equation.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 37.637772
+        benchmark/Python/heat_equation.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 37.870602
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/heat_equation.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 38.023369
+        benchmark/Python/heat_equation.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 38.149734
         
 
     stderr::

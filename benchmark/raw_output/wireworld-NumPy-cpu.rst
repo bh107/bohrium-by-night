@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Wire World on Octuplets using NumPy/CPU
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-12-07 12:06:09.602016.
+    time: 2014-12-08 04:06:11.911005.
 
     command: ``python benchmark/Python/wireworld.py --size=100*100 --bohrium=False``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/wireworld.py - target: None, bohrium: False, size: 100*100, elapsed-time: 9.979935
+        benchmark/Python/wireworld.py - target: None, bohrium: False, size: 100*100, elapsed-time: 10.013989
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/wireworld.py - target: None, bohrium: False, size: 100*100, elapsed-time: 10.184371
+        benchmark/Python/wireworld.py - target: None, bohrium: False, size: 100*100, elapsed-time: 10.194054
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/wireworld.py - target: None, bohrium: False, size: 100*100, elapsed-time: 9.920132
+        benchmark/Python/wireworld.py - target: None, bohrium: False, size: 100*100, elapsed-time: 9.966023
         
 
     stderr::
