@@ -4,7 +4,7 @@ Python Benchmark Suite
 
 Running suites/daily_benchmark.py on Octuplets
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-12-09 12:06:30.665220.
+    time: 2014-12-10 04:06:49.600142.
 
 Heat Equation
 -------------
