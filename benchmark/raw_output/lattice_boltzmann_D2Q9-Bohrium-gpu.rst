@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Lattice Boltzmann D2Q9 on Octuplets using Bohrium/GPU
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-12-11 04:08:25.350095.
+    time: 2014-12-11 12:09:19.761457.
 
     command: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=1000*1000*10 --bohrium=True``
 
@@ -77,6 +77,8 @@ Run 02
           File "benchmark/Python/lattice_boltzmann_D2Q9.py", line 42, in cylinder
             t_3d    = np.asarray(t)[:, np.newaxis, np.newaxis]
         AttributeError: 'module' object has no attribute 'asarray'
+        pure virtual method called
+        terminate called without an active exception
         
 
 
