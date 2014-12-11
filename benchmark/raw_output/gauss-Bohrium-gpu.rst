@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Gauss Elimination on Octuplets using Bohrium/GPU
     commit: `#eae832cb99c47396c757e62f24ff9aa492fe95c7 <https://bitbucket.org/bohrium/bohrium/commits/eae832cb99c47396c757e62f24ff9aa492fe95c7>`_,
-    time: 2014-12-10 12:09:12.127464.
+    time: 2014-12-11 04:08:25.350095.
 
     command: ``python benchmark/Python/gauss.py --size=1000 --bohrium=True``
 
@@ -15,23 +15,7 @@ Run 00
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/gauss.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.481359
-        
-
-    stderr::
-
-        N/A
-
-
-
-Run 01
-~~~~~~
-    stdout::
-
-        [Info] [GPU] Kernel type: both
-        [Info] [GPU] Compile type: async.
-        [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/gauss.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.518288
+        benchmark/Python/gauss.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.527441
         
 
     stderr::
@@ -42,6 +26,22 @@ Run 01
 
 
 
+Run 01
+~~~~~~
+    stdout::
+
+        [Info] [GPU] Kernel type: both
+        [Info] [GPU] Compile type: async.
+        [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
+        benchmark/Python/gauss.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.448651
+        
+
+    stderr::
+
+        N/A
+
+
+
 Run 02
 ~~~~~~
     stdout::
@@ -49,7 +49,7 @@ Run 02
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/gauss.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.516629
+        benchmark/Python/gauss.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.576133
         
 
     stderr::
