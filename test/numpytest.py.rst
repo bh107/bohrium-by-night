@@ -4,7 +4,7 @@ Python Test Suite
 
 Running suites/numpytest.py on Octuplets
     commit: `#547326e20b909705a32277094af038672acc2e6f <https://bitbucket.org/bohrium/bohrium/commits/547326e20b909705a32277094af038672acc2e6f>`_,
-    time: 2014-12-13 12:02:32.718731.
+    time: 2014-12-14 04:02:34.141380.
 
 The CPU results::
 
@@ -74,5 +74,6 @@ The GPU results::
     File "/home/bhbuilder/bohrium/test/numpy/numpytest.py", line 226, in run
       raise Exception("Benchmark error[%s]" % err)
   Exception: Benchmark error[pure virtual method called
+  terminate called without an active exception
   ]
   
