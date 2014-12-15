@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running N-Body on Octuplets using NumPy/CPU
     commit: `#547326e20b909705a32277094af038672acc2e6f <https://bitbucket.org/bohrium/bohrium/commits/547326e20b909705a32277094af038672acc2e6f>`_,
-    time: 2014-12-15 04:07:27.526190.
+    time: 2014-12-15 12:08:18.771650.
 
     command: ``python benchmark/Python/nbody.py --size=1000*100 --bohrium=False``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 58.890095
+        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 59.034370
         
 
     stderr::
@@ -53,7 +53,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 59.019414
+        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 59.319532
         
 
     stderr::
@@ -94,7 +94,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 58.941272
+        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 58.851583
         
 
     stderr::
