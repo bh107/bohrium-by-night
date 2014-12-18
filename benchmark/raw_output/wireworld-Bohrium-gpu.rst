@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Wire World on Octuplets using Bohrium/GPU
-    commit: `#62cc53b60eae0a14bef165e853c7017ace4411e8 <https://bitbucket.org/bohrium/bohrium/commits/62cc53b60eae0a14bef165e853c7017ace4411e8>`_,
-    time: 2014-12-17 04:08:14.835360.
+    commit: `#75d48aa06a84862c800dd6bca1fbefdfe04db485 <https://bitbucket.org/bohrium/bohrium/commits/75d48aa06a84862c800dd6bca1fbefdfe04db485>`_,
+    time: 2014-12-18 04:09:58.091950.
 
     command: ``python benchmark/Python/wireworld.py --size=100*100 --bohrium=True``
 
@@ -77,8 +77,6 @@ Run 02
           File "benchmark/Python/wireworld.py", line 16, in wireworld_init
             data[1:-1,1:-1] = np.tile(np.array([
         AttributeError: 'module' object has no attribute 'tile'
-        pure virtual method called
-        terminate called without an active exception
         
 
 

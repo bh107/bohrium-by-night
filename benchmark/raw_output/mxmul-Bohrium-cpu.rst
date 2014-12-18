@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Matrix Multiplication on Octuplets using Bohrium/CPU
-    commit: `#62cc53b60eae0a14bef165e853c7017ace4411e8 <https://bitbucket.org/bohrium/bohrium/commits/62cc53b60eae0a14bef165e853c7017ace4411e8>`_,
-    time: 2014-12-17 04:08:14.835360.
+    commit: `#75d48aa06a84862c800dd6bca1fbefdfe04db485 <https://bitbucket.org/bohrium/bohrium/commits/75d48aa06a84862c800dd6bca1fbefdfe04db485>`_,
+    time: 2014-12-18 04:09:58.091950.
 
     command: ``python benchmark/Python/mxmul.py --size=1000 --bohrium=True``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/mxmul.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 0.963371
+        benchmark/Python/mxmul.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 1.023113
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/mxmul.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 0.874847
+        benchmark/Python/mxmul.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 1.054867
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/mxmul.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 1.038761
+        benchmark/Python/mxmul.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 0.876581
         
 
     stderr::
