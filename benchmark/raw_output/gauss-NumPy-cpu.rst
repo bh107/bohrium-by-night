@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Gauss Elimination on Octuplets using NumPy/CPU
     commit: `#fa32761e3dc4132d8188145007c8189576f85446 <https://bitbucket.org/bohrium/bohrium/commits/fa32761e3dc4132d8188145007c8189576f85446>`_,
-    time: 2014-12-20 04:07:36.583962.
+    time: 2014-12-21 04:09:18.375100.
 
     command: ``python benchmark/Python/gauss.py --size=1000 --bohrium=False``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/gauss.py - target: None, bohrium: False, size: 1000, elapsed-time: 3.677300
+        benchmark/Python/gauss.py - target: None, bohrium: False, size: 1000, elapsed-time: 3.652113
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/gauss.py - target: None, bohrium: False, size: 1000, elapsed-time: 3.685162
+        benchmark/Python/gauss.py - target: None, bohrium: False, size: 1000, elapsed-time: 3.640569
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/gauss.py - target: None, bohrium: False, size: 1000, elapsed-time: 3.661391
+        benchmark/Python/gauss.py - target: None, bohrium: False, size: 1000, elapsed-time: 3.641239
         
 
     stderr::
