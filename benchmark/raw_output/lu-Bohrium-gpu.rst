@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running LU Factorization on Octuplets using Bohrium/GPU
-    commit: `#fa32761e3dc4132d8188145007c8189576f85446 <https://bitbucket.org/bohrium/bohrium/commits/fa32761e3dc4132d8188145007c8189576f85446>`_,
-    time: 2014-12-22 04:06:54.728745.
+    commit: `#8682240b5c176d5732105d16028fb961cf771c7f <https://bitbucket.org/bohrium/bohrium/commits/8682240b5c176d5732105d16028fb961cf771c7f>`_,
+    time: 2014-12-23 04:06:56.503910.
 
     command: ``python benchmark/Python/lu.py --size=1000 --bohrium=True``
 
@@ -15,7 +15,7 @@ Run 00
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.128199
+        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.111191
         
 
     stderr::
@@ -31,7 +31,7 @@ Run 01
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.132502
+        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.123621
         
 
     stderr::
@@ -47,7 +47,7 @@ Run 02
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.150265
+        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.136143
         
 
     stderr::

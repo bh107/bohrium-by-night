@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Jacobi Stencil on Octuplets using Bohrium/GPU
-    commit: `#fa32761e3dc4132d8188145007c8189576f85446 <https://bitbucket.org/bohrium/bohrium/commits/fa32761e3dc4132d8188145007c8189576f85446>`_,
-    time: 2014-12-22 04:06:54.728745.
+    commit: `#8682240b5c176d5732105d16028fb961cf771c7f <https://bitbucket.org/bohrium/bohrium/commits/8682240b5c176d5732105d16028fb961cf771c7f>`_,
+    time: 2014-12-23 04:06:56.503910.
 
     command: ``python benchmark/Python/jacobi_stencil.py --size=3000*3000*100 --bohrium=True``
 
@@ -15,7 +15,7 @@ Run 00
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/jacobi_stencil.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 0.382896
+        benchmark/Python/jacobi_stencil.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 0.382053
         
 
     stderr::
@@ -33,12 +33,14 @@ Run 01
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/jacobi_stencil.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 0.385591
+        benchmark/Python/jacobi_stencil.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 0.383261
         
 
     stderr::
 
-        N/A
+        pure virtual method called
+        terminate called without an active exception
+        
 
 
 
@@ -49,12 +51,14 @@ Run 02
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/jacobi_stencil.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 0.380335
+        benchmark/Python/jacobi_stencil.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 0.383432
         
 
     stderr::
 
-        N/A
+        pure virtual method called
+        terminate called without an active exception
+        
 
 
 

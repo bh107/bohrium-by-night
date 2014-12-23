@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Matrix Multiplication on Octuplets using Bohrium/GPU
-    commit: `#fa32761e3dc4132d8188145007c8189576f85446 <https://bitbucket.org/bohrium/bohrium/commits/fa32761e3dc4132d8188145007c8189576f85446>`_,
-    time: 2014-12-22 04:06:54.728745.
+    commit: `#8682240b5c176d5732105d16028fb961cf771c7f <https://bitbucket.org/bohrium/bohrium/commits/8682240b5c176d5732105d16028fb961cf771c7f>`_,
+    time: 2014-12-23 04:06:56.503910.
 
     command: ``python benchmark/Python/mxmul.py --size=1000 --bohrium=True``
 
@@ -15,15 +15,13 @@ Run 00
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/mxmul.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 0.002358
-        Options :-I/home/bhbuilder/.local/share/bohrium/include 
+        benchmark/Python/mxmul.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 0.003189
         Options :-I/home/bhbuilder/.local/share/bohrium/include -DFIXED_SIZE
         Options :-I/home/bhbuilder/.local/share/bohrium/include -DFIXED_SIZE
         
 
     stderr::
 
-        Program build error:
         Program build error:
         ------------------- SOURCE -----------------------
         #pragma OPENCL EXTENSION cl_khr_fp64 : enable
@@ -145,7 +143,6 @@ Run 00
         	v0 = v1 * v2;
         	a0[gidz*v0s3 + gidy*v0s2 + gidx*v0s1 + v0s0] = v0;
         }
-        Program build error:
         
 
 
@@ -157,7 +154,7 @@ Run 01
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/mxmul.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 0.002638
+        benchmark/Python/mxmul.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 0.002616
         
 
     stderr::
@@ -175,7 +172,7 @@ Run 02
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/mxmul.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 0.002195
+        benchmark/Python/mxmul.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 0.003079
         
 
     stderr::
