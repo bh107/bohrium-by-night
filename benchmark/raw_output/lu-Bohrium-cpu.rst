@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running LU Factorization on Octuplets using Bohrium/CPU
-    commit: `#8682240b5c176d5732105d16028fb961cf771c7f <https://bitbucket.org/bohrium/bohrium/commits/8682240b5c176d5732105d16028fb961cf771c7f>`_,
-    time: 2014-12-23 04:06:56.503910.
+    commit: `#901c71bad23e6603afe61daa6330aaa6603550aa <https://bitbucket.org/bohrium/bohrium/commits/901c71bad23e6603afe61daa6330aaa6603550aa>`_,
+    time: 2014-12-24 04:06:55.602771.
 
     command: ``python benchmark/Python/lu.py --size=1000 --bohrium=True``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 6.761540
+        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 6.854029
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 6.681679
+        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 6.737899
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 6.645156
+        benchmark/Python/lu.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 6.649917
         
 
     stderr::
