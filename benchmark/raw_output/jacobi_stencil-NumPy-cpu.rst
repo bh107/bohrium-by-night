@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Jacobi Stencil on Octuplets using NumPy/CPU
     commit: `#901c71bad23e6603afe61daa6330aaa6603550aa <https://bitbucket.org/bohrium/bohrium/commits/901c71bad23e6603afe61daa6330aaa6603550aa>`_,
-    time: 2014-12-26 04:06:52.885196.
+    time: 2014-12-27 04:06:56.837065.
 
     command: ``python benchmark/Python/jacobi_stencil.py --size=3000*3000*100 --bohrium=False``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/jacobi_stencil.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 28.055591
+        benchmark/Python/jacobi_stencil.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 28.227729
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/jacobi_stencil.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 27.911054
+        benchmark/Python/jacobi_stencil.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 27.845584
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/jacobi_stencil.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 27.802226
+        benchmark/Python/jacobi_stencil.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 27.702153
         
 
     stderr::

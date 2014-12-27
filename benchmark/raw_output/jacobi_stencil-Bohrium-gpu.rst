@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Jacobi Stencil on Octuplets using Bohrium/GPU
     commit: `#901c71bad23e6603afe61daa6330aaa6603550aa <https://bitbucket.org/bohrium/bohrium/commits/901c71bad23e6603afe61daa6330aaa6603550aa>`_,
-    time: 2014-12-26 04:06:52.885196.
+    time: 2014-12-27 04:06:56.837065.
 
     command: ``python benchmark/Python/jacobi_stencil.py --size=3000*3000*100 --bohrium=True``
 
@@ -15,7 +15,7 @@ Run 00
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/jacobi_stencil.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 0.383841
+        benchmark/Python/jacobi_stencil.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 0.384048
         
 
     stderr::
@@ -33,14 +33,12 @@ Run 01
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/jacobi_stencil.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 0.383705
+        benchmark/Python/jacobi_stencil.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 0.380866
         
 
     stderr::
 
-        pure virtual method called
-        terminate called without an active exception
-        
+        N/A
 
 
 
@@ -51,7 +49,7 @@ Run 02
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/jacobi_stencil.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 0.386074
+        benchmark/Python/jacobi_stencil.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 0.382718
         
 
     stderr::
