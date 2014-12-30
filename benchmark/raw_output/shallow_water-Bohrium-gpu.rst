@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Shallow Water on Octuplets using Bohrium/GPU
     commit: `#87974a097720c3bf944f8d7b93c8752e16ec3c6d <https://bitbucket.org/bohrium/bohrium/commits/87974a097720c3bf944f8d7b93c8752e16ec3c6d>`_,
-    time: 2014-12-29 04:07:09.104753.
+    time: 2014-12-30 04:07:07.845036.
 
     command: ``python benchmark/Python/shallow_water.py --size=2000*2000*100 --bohrium=True``
 
