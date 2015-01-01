@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Monte Carlo Pi on Octuplets using NumPy/CPU
     commit: `#9a335eff7345f8d38f189f0b0f7a2f5d5c0e86a2 <https://bitbucket.org/bohrium/bohrium/commits/9a335eff7345f8d38f189f0b0f7a2f5d5c0e86a2>`_,
-    time: 2014-12-31 04:08:42.084770.
+    time: 2015-01-01 04:07:09.586552.
 
     command: ``python benchmark/Python/mc.py --size=10000000*100 --bohrium=False``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/mc.py - target: None, bohrium: False, size: 10000000*100, elapsed-time: 105.502639
+        benchmark/Python/mc.py - target: None, bohrium: False, size: 10000000*100, elapsed-time: 104.780326
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/mc.py - target: None, bohrium: False, size: 10000000*100, elapsed-time: 105.000216
+        benchmark/Python/mc.py - target: None, bohrium: False, size: 10000000*100, elapsed-time: 104.999560
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/mc.py - target: None, bohrium: False, size: 10000000*100, elapsed-time: 105.442485
+        benchmark/Python/mc.py - target: None, bohrium: False, size: 10000000*100, elapsed-time: 104.887521
         
 
     stderr::
