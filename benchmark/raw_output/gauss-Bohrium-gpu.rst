@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Gauss Elimination on Octuplets using Bohrium/GPU
-    commit: `#e1e01c761792dad3a810c0c1d3ae1073bc0ad029 <https://bitbucket.org/bohrium/bohrium/commits/e1e01c761792dad3a810c0c1d3ae1073bc0ad029>`_,
-    time: 2015-01-06 04:09:42.745116.
+    commit: `#a673929a5dfba7f9ad45cc9e15a8b62865e88876 <https://bitbucket.org/bohrium/bohrium/commits/a673929a5dfba7f9ad45cc9e15a8b62865e88876>`_,
+    time: 2015-01-07 04:08:41.054075.
 
     command: ``python benchmark/Python/gauss.py --size=1000 --bohrium=True``
 
@@ -15,7 +15,7 @@ Run 00
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/gauss.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.723386
+        benchmark/Python/gauss.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.516534
         
 
     stderr::
@@ -31,14 +31,12 @@ Run 01
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/gauss.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.552899
+        benchmark/Python/gauss.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.519717
         
 
     stderr::
 
-        pure virtual method called
-        terminate called without an active exception
-        
+        N/A
 
 
 
@@ -49,7 +47,7 @@ Run 02
         [Info] [GPU] Kernel type: both
         [Info] [GPU] Compile type: async.
         [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        benchmark/Python/gauss.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.420646
+        benchmark/Python/gauss.py - target: bhc, bohrium: True, size: 1000, elapsed-time: 4.455671
         
 
     stderr::
