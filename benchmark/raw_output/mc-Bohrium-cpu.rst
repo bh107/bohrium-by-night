@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Monte Carlo Pi on Octuplets using Bohrium/CPU
-    commit: `#a673929a5dfba7f9ad45cc9e15a8b62865e88876 <https://bitbucket.org/bohrium/bohrium/commits/a673929a5dfba7f9ad45cc9e15a8b62865e88876>`_,
-    time: 2015-01-07 04:08:41.054075.
+    commit: `#a7036bb012cf1d24764010f2ec1c4618ad4321d3 <https://bitbucket.org/bohrium/bohrium/commits/a7036bb012cf1d24764010f2ec1c4618ad4321d3>`_,
+    time: 2015-01-08 04:11:08.542788.
 
     command: ``python benchmark/Python/mc.py --size=10000000*100 --bohrium=True``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/mc.py - target: bhc, bohrium: True, size: 10000000*100, elapsed-time: 58.890328
+        benchmark/Python/mc.py - target: bhc, bohrium: True, size: 10000000*100, elapsed-time: 58.998634
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/mc.py - target: bhc, bohrium: True, size: 10000000*100, elapsed-time: 59.262080
+        benchmark/Python/mc.py - target: bhc, bohrium: True, size: 10000000*100, elapsed-time: 58.319030
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/mc.py - target: bhc, bohrium: True, size: 10000000*100, elapsed-time: 58.998960
+        benchmark/Python/mc.py - target: bhc, bohrium: True, size: 10000000*100, elapsed-time: 58.772599
         
 
     stderr::
