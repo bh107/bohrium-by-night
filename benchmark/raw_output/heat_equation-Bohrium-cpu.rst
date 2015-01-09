@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Heat Equation on Octuplets using Bohrium/CPU
-    commit: `#a7036bb012cf1d24764010f2ec1c4618ad4321d3 <https://bitbucket.org/bohrium/bohrium/commits/a7036bb012cf1d24764010f2ec1c4618ad4321d3>`_,
-    time: 2015-01-08 04:11:08.542788.
+    commit: `#c436af93e00e145dbbcf25e745526cf140b170f8 <https://bitbucket.org/bohrium/bohrium/commits/c436af93e00e145dbbcf25e745526cf140b170f8>`_,
+    time: 2015-01-09 04:07:43.400357.
 
     command: ``python benchmark/Python/heat_equation.py --size=3000*3000*100 --bohrium=True``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/heat_equation.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 4.854350
+        benchmark/Python/heat_equation.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 7.637747
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/heat_equation.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 4.963712
+        benchmark/Python/heat_equation.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 5.561690
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/heat_equation.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 4.946227
+        benchmark/Python/heat_equation.py - target: bhc, bohrium: True, size: 3000*3000*100, elapsed-time: 5.650928
         
 
     stderr::

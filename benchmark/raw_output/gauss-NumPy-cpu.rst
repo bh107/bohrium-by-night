@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Gauss Elimination on Octuplets using NumPy/CPU
-    commit: `#a7036bb012cf1d24764010f2ec1c4618ad4321d3 <https://bitbucket.org/bohrium/bohrium/commits/a7036bb012cf1d24764010f2ec1c4618ad4321d3>`_,
-    time: 2015-01-08 04:11:08.542788.
+    commit: `#c436af93e00e145dbbcf25e745526cf140b170f8 <https://bitbucket.org/bohrium/bohrium/commits/c436af93e00e145dbbcf25e745526cf140b170f8>`_,
+    time: 2015-01-09 04:07:43.400357.
 
     command: ``python benchmark/Python/gauss.py --size=1000 --bohrium=False``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/gauss.py - target: None, bohrium: False, size: 1000, elapsed-time: 3.649919
+        benchmark/Python/gauss.py - target: None, bohrium: False, size: 1000, elapsed-time: 3.811532
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/gauss.py - target: None, bohrium: False, size: 1000, elapsed-time: 3.644846
+        benchmark/Python/gauss.py - target: None, bohrium: False, size: 1000, elapsed-time: 3.642827
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/gauss.py - target: None, bohrium: False, size: 1000, elapsed-time: 3.654546
+        benchmark/Python/gauss.py - target: None, bohrium: False, size: 1000, elapsed-time: 3.642972
         
 
     stderr::
