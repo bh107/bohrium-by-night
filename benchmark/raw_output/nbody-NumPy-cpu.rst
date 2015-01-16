@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running N-Body on Octuplets using NumPy/CPU
-    commit: `#35b8627558e1e4dce220ee17fae487c1c3cbd33c <https://bitbucket.org/bohrium/bohrium/commits/35b8627558e1e4dce220ee17fae487c1c3cbd33c>`_,
-    time: 2015-01-15 04:09:13.857642.
+    commit: `#a7c7de58bfac65ff7fa94aafe87188ca182a9b7f <https://bitbucket.org/bohrium/bohrium/commits/a7c7de58bfac65ff7fa94aafe87188ca182a9b7f>`_,
+    time: 2015-01-16 04:10:41.191099.
 
     command: ``python benchmark/Python/nbody.py --size=1000*100 --bohrium=False``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 58.456514
+        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 58.057195
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 58.316156
+        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 58.119970
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 58.239890
+        benchmark/Python/nbody.py - target: None, bohrium: False, size: 1000*100, elapsed-time: 58.220348
         
 
     stderr::
