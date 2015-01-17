@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Black Scholes on Octuplets using Bohrium/CPU
-    commit: `#a7c7de58bfac65ff7fa94aafe87188ca182a9b7f <https://bitbucket.org/bohrium/bohrium/commits/a7c7de58bfac65ff7fa94aafe87188ca182a9b7f>`_,
-    time: 2015-01-16 04:10:41.191099.
+    commit: `#ab2423965300f898abbf676d8643a6f9cf6f92db <https://bitbucket.org/bohrium/bohrium/commits/ab2423965300f898abbf676d8643a6f9cf6f92db>`_,
+    time: 2015-01-17 04:08:14.423629.
 
     command: ``python benchmark/Python/black_scholes.py --size=1000000*100 --bohrium=True``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/black_scholes.py - target: bhc, bohrium: True, size: 1000000*100, elapsed-time: 11.680384
+        benchmark/Python/black_scholes.py - target: bhc, bohrium: True, size: 1000000*100, elapsed-time: 11.988329
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/black_scholes.py - target: bhc, bohrium: True, size: 1000000*100, elapsed-time: 11.634310
+        benchmark/Python/black_scholes.py - target: bhc, bohrium: True, size: 1000000*100, elapsed-time: 11.951162
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/black_scholes.py - target: bhc, bohrium: True, size: 1000000*100, elapsed-time: 11.704833
+        benchmark/Python/black_scholes.py - target: bhc, bohrium: True, size: 1000000*100, elapsed-time: 12.047664
         
 
     stderr::

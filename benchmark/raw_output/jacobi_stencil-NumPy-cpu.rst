@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Jacobi Stencil on Octuplets using NumPy/CPU
-    commit: `#a7c7de58bfac65ff7fa94aafe87188ca182a9b7f <https://bitbucket.org/bohrium/bohrium/commits/a7c7de58bfac65ff7fa94aafe87188ca182a9b7f>`_,
-    time: 2015-01-16 04:10:41.191099.
+    commit: `#ab2423965300f898abbf676d8643a6f9cf6f92db <https://bitbucket.org/bohrium/bohrium/commits/ab2423965300f898abbf676d8643a6f9cf6f92db>`_,
+    time: 2015-01-17 04:08:14.423629.
 
     command: ``python benchmark/Python/jacobi_stencil.py --size=3000*3000*100 --bohrium=False``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/jacobi_stencil.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 27.439006
+        benchmark/Python/jacobi_stencil.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 27.305641
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/jacobi_stencil.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 27.753289
+        benchmark/Python/jacobi_stencil.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 27.851058
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/jacobi_stencil.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 28.125141
+        benchmark/Python/jacobi_stencil.py - target: None, bohrium: False, size: 3000*3000*100, elapsed-time: 27.407409
         
 
     stderr::

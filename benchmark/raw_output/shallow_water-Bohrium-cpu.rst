@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Shallow Water on Octuplets using Bohrium/CPU
-    commit: `#a7c7de58bfac65ff7fa94aafe87188ca182a9b7f <https://bitbucket.org/bohrium/bohrium/commits/a7c7de58bfac65ff7fa94aafe87188ca182a9b7f>`_,
-    time: 2015-01-16 04:10:41.191099.
+    commit: `#ab2423965300f898abbf676d8643a6f9cf6f92db <https://bitbucket.org/bohrium/bohrium/commits/ab2423965300f898abbf676d8643a6f9cf6f92db>`_,
+    time: 2015-01-17 04:08:14.423629.
 
     command: ``python benchmark/Python/shallow_water.py --size=2000*2000*100 --bohrium=True``
 
@@ -12,7 +12,7 @@ Run 00
 ~~~~~~
     stdout::
 
-        benchmark/Python/shallow_water.py - target: bhc, bohrium: True, size: 2000*2000*100, elapsed-time: 39.875269
+        benchmark/Python/shallow_water.py - target: bhc, bohrium: True, size: 2000*2000*100, elapsed-time: 57.354880
         
 
     stderr::
@@ -25,7 +25,7 @@ Run 01
 ~~~~~~
     stdout::
 
-        benchmark/Python/shallow_water.py - target: bhc, bohrium: True, size: 2000*2000*100, elapsed-time: 40.220317
+        benchmark/Python/shallow_water.py - target: bhc, bohrium: True, size: 2000*2000*100, elapsed-time: 39.411583
         
 
     stderr::
@@ -38,7 +38,7 @@ Run 02
 ~~~~~~
     stdout::
 
-        benchmark/Python/shallow_water.py - target: bhc, bohrium: True, size: 2000*2000*100, elapsed-time: 41.566044
+        benchmark/Python/shallow_water.py - target: bhc, bohrium: True, size: 2000*2000*100, elapsed-time: 39.830565
         
 
     stderr::
