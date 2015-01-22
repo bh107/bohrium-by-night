@@ -3,8 +3,8 @@ Python Benchmark Suite
 ======================
 
 Running suites/daily_benchmark.py on Octuplets
-    commit: `#5658bbbd87d6fa5dc2935e0e14b2df428b928a42 <https://bitbucket.org/bohrium/bohrium/commits/5658bbbd87d6fa5dc2935e0e14b2df428b928a42>`_,
-    time: 2015-01-21 04:08:08.480016.
+    commit: `#6103f1ec1b8914f895dfb1b8f89c1ddb92e660e6 <https://bitbucket.org/bohrium/bohrium/commits/6103f1ec1b8914f895dfb1b8f89c1ddb92e660e6>`_,
+    time: 2015-01-22 04:07:38.186877.
 
 Heat Equation
 -------------
