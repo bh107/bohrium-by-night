@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Convolution 3D on Octuplets using Bohrium/GPU
-    commit: `#6103f1ec1b8914f895dfb1b8f89c1ddb92e660e6 <https://bitbucket.org/bohrium/bohrium/commits/6103f1ec1b8914f895dfb1b8f89c1ddb92e660e6>`_,
-    time: 2015-01-22 04:07:38.186877.
+    commit: `#6d02506af0d0884f64f209fed16fbaa3045fc78e <https://bitbucket.org/bohrium/bohrium/commits/6d02506af0d0884f64f209fed16fbaa3045fc78e>`_,
+    time: 2015-01-23 04:05:14.128727.
 
     command: ``python benchmark/Python/convolve_3d.py --size=100 --bohrium=True``
 
@@ -12,15 +12,11 @@ Run 00
 ~~~~~~
     stdout::
 
-        [Info] [GPU] Kernel type: both
-        [Info] [GPU] Compile type: async.
-        [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        
+        N/A
 
     stderr::
 
-        benchmark/Python/convolve_3d.py:24: RuntimeWarning: Encountering an operation not supported by Bohrium. It will be handled by the original NumPy.
-          totalsum += kernel[filterZ + kernelrad, filterY + kernelrad, filterX + kernelrad]
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 
@@ -29,15 +25,11 @@ Run 01
 ~~~~~~
     stdout::
 
-        [Info] [GPU] Kernel type: both
-        [Info] [GPU] Compile type: async.
-        [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        
+        N/A
 
     stderr::
 
-        benchmark/Python/convolve_3d.py:24: RuntimeWarning: Encountering an operation not supported by Bohrium. It will be handled by the original NumPy.
-          totalsum += kernel[filterZ + kernelrad, filterY + kernelrad, filterX + kernelrad]
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 
@@ -46,15 +38,11 @@ Run 02
 ~~~~~~
     stdout::
 
-        [Info] [GPU] Kernel type: both
-        [Info] [GPU] Compile type: async.
-        [Info] [GPU] Work group sizes: 1D[128], 2D[32, 4], 3D[32, 2, 2]
-        
+        N/A
 
     stderr::
 
-        benchmark/Python/convolve_3d.py:24: RuntimeWarning: Encountering an operation not supported by Bohrium. It will be handled by the original NumPy.
-          totalsum += kernel[filterZ + kernelrad, filterY + kernelrad, filterX + kernelrad]
+        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
         
 
 
