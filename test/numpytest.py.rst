@@ -4,7 +4,7 @@ Python Test Suite
 
 Running suites/numpytest.py on Octuplets
     commit: `#64c5ff7d5e8e677a6cd21948c48827d5d7b94f7e <https://bitbucket.org/bohrium/bohrium/commits/64c5ff7d5e8e677a6cd21948c48827d5d7b94f7e>`_,
-    time: 2015-01-29 04:02:56.548847.
+    time: 2015-01-30 04:02:59.389193.
 
 The CPU results::
 
