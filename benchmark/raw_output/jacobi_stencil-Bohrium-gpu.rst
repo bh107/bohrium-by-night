@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Jacobi Stencil on Octuplets using Bohrium/GPU
     commit: `#16b580e13fc8ef1b3c8d0c0e5eee8445ed6ae404 <https://bitbucket.org/bohrium/bohrium/commits/16b580e13fc8ef1b3c8d0c0e5eee8445ed6ae404>`_,
-    time: 2015-02-07 04:06:33.834770.
+    time: 2015-02-08 04:06:01.131484.
 
     command: ``python benchmark/Python/jacobi_stencil.py --size=3000*3000*100 --bohrium=True``
 
