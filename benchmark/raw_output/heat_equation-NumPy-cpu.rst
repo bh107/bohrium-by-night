@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Heat Equation on Octuplets using NumPy/CPU
     commit: `#16b580e13fc8ef1b3c8d0c0e5eee8445ed6ae404 <https://bitbucket.org/bohrium/bohrium/commits/16b580e13fc8ef1b3c8d0c0e5eee8445ed6ae404>`_,
-    time: 2015-02-08 04:06:01.131484.
+    time: 2015-02-09 04:05:58.140677.
 
     command: ``python benchmark/Python/heat_equation.py --size=3000*3000*100 --bohrium=False``
 
