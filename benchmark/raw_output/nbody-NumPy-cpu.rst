@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running N-Body on Octuplets using NumPy/CPU
     commit: `#09506e722e4f13906b59f3397521dcdb6d728aa3 <https://bitbucket.org/bohrium/bohrium/commits/09506e722e4f13906b59f3397521dcdb6d728aa3>`_,
-    time: 2015-02-14 04:05:39.884144.
+    time: 2015-02-15 04:05:52.276514.
 
     command: ``python benchmark/Python/nbody.py --size=1000*100 --bohrium=False``
 
