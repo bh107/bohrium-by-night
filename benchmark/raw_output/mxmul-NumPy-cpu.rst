@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Matrix Multiplication on Octuplets using NumPy/CPU
-    commit: `#09506e722e4f13906b59f3397521dcdb6d728aa3 <https://bitbucket.org/bohrium/bohrium/commits/09506e722e4f13906b59f3397521dcdb6d728aa3>`_,
-    time: 2015-02-16 04:05:54.732041.
+    commit: `#8ddf789db27793397627e7b87dcc5c363e8ee1ea <https://bitbucket.org/bohrium/bohrium/commits/8ddf789db27793397627e7b87dcc5c363e8ee1ea>`_,
+    time: 2015-02-17 04:06:00.010348.
 
     command: ``python benchmark/Python/mxmul.py --size=1000 --bohrium=False``
 
