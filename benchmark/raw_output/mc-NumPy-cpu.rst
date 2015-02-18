@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Monte Carlo Pi on Octuplets using NumPy/CPU
-    commit: `#8ddf789db27793397627e7b87dcc5c363e8ee1ea <https://bitbucket.org/bohrium/bohrium/commits/8ddf789db27793397627e7b87dcc5c363e8ee1ea>`_,
-    time: 2015-02-17 04:06:00.010348.
+    commit: `#a696cfcba19a946c52ec17f785ee764b9e764820 <https://bitbucket.org/bohrium/bohrium/commits/a696cfcba19a946c52ec17f785ee764b9e764820>`_,
+    time: 2015-02-18 04:06:03.130635.
 
     command: ``python benchmark/Python/mc.py --size=10000000*100 --bohrium=False``
 
