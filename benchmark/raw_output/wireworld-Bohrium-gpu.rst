@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Wire World on Octuplets using Bohrium/GPU
-    commit: `#a696cfcba19a946c52ec17f785ee764b9e764820 <https://bitbucket.org/bohrium/bohrium/commits/a696cfcba19a946c52ec17f785ee764b9e764820>`_,
-    time: 2015-02-18 04:06:03.130635.
+    commit: `#acc667ade27e15f1d5881fae841e494c912dd0eb <https://bitbucket.org/bohrium/bohrium/commits/acc667ade27e15f1d5881fae841e494c912dd0eb>`_,
+    time: 2015-02-19 04:07:19.439715.
 
     command: ``python benchmark/Python/wireworld.py --size=100*100 --bohrium=True``
 
@@ -16,7 +16,7 @@ Run 00
 
     stderr::
 
-        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
+        python: can't open file 'benchmark/Python/wireworld.py': [Errno 2] No such file or directory
         
 
 
@@ -29,7 +29,7 @@ Run 01
 
     stderr::
 
-        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
+        python: can't open file 'benchmark/Python/wireworld.py': [Errno 2] No such file or directory
         
 
 
@@ -42,7 +42,7 @@ Run 02
 
     stderr::
 
-        Error in [node:impl]: /home/bhbuilder/.local/lib/libbh_vem_node.so: cannot open shared object file: No such file or directory
+        python: can't open file 'benchmark/Python/wireworld.py': [Errno 2] No such file or directory
         
 
 
