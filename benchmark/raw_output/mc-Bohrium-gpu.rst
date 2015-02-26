@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Monte Carlo Pi on Octuplets using Bohrium/GPU
     commit: `#f1ee9991b2c74608e982a7d974c6fa4a524a3863 <https://bitbucket.org/bohrium/bohrium/commits/f1ee9991b2c74608e982a7d974c6fa4a524a3863>`_,
-    time: 2015-02-25 04:08:39.204251.
+    time: 2015-02-26 04:07:54.903778.
 
     command: ``python benchmark/Python/mc.py --size=10000000*100 --bohrium=True``
 
