@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Heat Equation on Octuplets using Bohrium/GPU
-    commit: `#f1ee9991b2c74608e982a7d974c6fa4a524a3863 <https://bitbucket.org/bohrium/bohrium/commits/f1ee9991b2c74608e982a7d974c6fa4a524a3863>`_,
-    time: 2015-03-02 04:06:01.028723.
+    commit: `#6534e11af914b3a6fd234178e8da78e66a7a7446 <https://bitbucket.org/bohrium/bohrium/commits/6534e11af914b3a6fd234178e8da78e66a7a7446>`_,
+    time: 2015-03-03 04:06:59.541653.
 
     command: ``python benchmark/Python/heat_equation.py --size=3000*3000*100 --bohrium=True``
 
