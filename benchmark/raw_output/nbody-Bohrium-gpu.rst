@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running N-Body on Octuplets using Bohrium/GPU
-    commit: `#6534e11af914b3a6fd234178e8da78e66a7a7446 <https://bitbucket.org/bohrium/bohrium/commits/6534e11af914b3a6fd234178e8da78e66a7a7446>`_,
-    time: 2015-03-03 04:06:59.541653.
+    commit: `#d2b549b1c91deaf87ba4728fce670065aeeaac12 <https://bitbucket.org/bohrium/bohrium/commits/d2b549b1c91deaf87ba4728fce670065aeeaac12>`_,
+    time: 2015-03-04 04:06:25.063373.
 
     command: ``python benchmark/Python/nbody.py --size=1000*100 --bohrium=True``
 
