@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Shallow Water on Octuplets using NumPy/CPU
-    commit: `#2166fd35003c140685babc026a4b4f12ba7403b9 <https://bitbucket.org/bohrium/bohrium/commits/2166fd35003c140685babc026a4b4f12ba7403b9>`_,
-    time: 2015-03-11 04:13:34.993959.
+    commit: `#0cde09e5ea3c749bd9dc5a85d26e7def03207c46 <https://bitbucket.org/bohrium/bohrium/commits/0cde09e5ea3c749bd9dc5a85d26e7def03207c46>`_,
+    time: 2015-03-12 04:05:55.433833.
 
     command: ``python benchmark/Python/shallow_water.py --size=2000*2000*100 --bohrium=False``
 
