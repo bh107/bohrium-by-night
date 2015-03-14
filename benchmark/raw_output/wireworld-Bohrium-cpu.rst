@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Wire World on Octuplets using Bohrium/CPU
-    commit: `#ac496192fc2431d5fdf7635eccf58f8bdc115379 <https://bitbucket.org/bohrium/bohrium/commits/ac496192fc2431d5fdf7635eccf58f8bdc115379>`_,
-    time: 2015-03-13 04:06:01.254858.
+    commit: `#c4ada3c23dd4171d002cb099fb85fa72aa195bd0 <https://bitbucket.org/bohrium/bohrium/commits/c4ada3c23dd4171d002cb099fb85fa72aa195bd0>`_,
+    time: 2015-03-14 04:06:00.851907.
 
     command: ``python benchmark/Python/wireworld.py --size=100*100 --bohrium=True``
 
