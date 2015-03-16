@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Convolution 3D on Octuplets using Bohrium/GPU
-    commit: `#fa00a842de7b795abe88cb33f4696b92db6a08df <https://bitbucket.org/bohrium/bohrium/commits/fa00a842de7b795abe88cb33f4696b92db6a08df>`_,
-    time: 2015-03-15 04:05:47.331624.
+    commit: `#c0b56884ebe67fcb871d2c798370a2df66688b76 <https://bitbucket.org/bohrium/bohrium/commits/c0b56884ebe67fcb871d2c798370a2df66688b76>`_,
+    time: 2015-03-16 04:26:23.964501.
 
     command: ``python benchmark/Python/convolve_3d.py --size=100 --bohrium=True``
 
