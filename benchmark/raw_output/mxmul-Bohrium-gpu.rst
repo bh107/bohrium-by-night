@@ -4,7 +4,7 @@ Raw Benchmark Output
 
 Running Matrix Multiplication on Octuplets using Bohrium/GPU
     commit: `#c0b56884ebe67fcb871d2c798370a2df66688b76 <https://bitbucket.org/bohrium/bohrium/commits/c0b56884ebe67fcb871d2c798370a2df66688b76>`_,
-    time: 2015-03-20 04:06:13.551675.
+    time: 2015-03-21 04:14:56.875288.
 
     command: ``python benchmark/Python/mxmul.py --size=1000 --bohrium=True``
 
