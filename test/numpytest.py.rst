@@ -3,8 +3,8 @@ Python Test Suite
 =================
 
 Running suites/numpytest.py on Octuplets
-    commit: `#c0b56884ebe67fcb871d2c798370a2df66688b76 <https://bitbucket.org/bohrium/bohrium/commits/c0b56884ebe67fcb871d2c798370a2df66688b76>`_,
-    time: 2015-03-23 04:03:06.228535.
+    commit: `#5d22356dbd2c59b3e8d9be4cf1eda7573c649a89 <https://bitbucket.org/bohrium/bohrium/commits/5d22356dbd2c59b3e8d9be4cf1eda7573c649a89>`_,
+    time: 2015-03-24 04:03:46.439779.
 
 The CPU results::
 
