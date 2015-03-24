@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Lattice Boltzmann D2Q9 on Octuplets using Bohrium/CPU
-    commit: `#c0b56884ebe67fcb871d2c798370a2df66688b76 <https://bitbucket.org/bohrium/bohrium/commits/c0b56884ebe67fcb871d2c798370a2df66688b76>`_,
-    time: 2015-03-23 04:05:49.802373.
+    commit: `#5d22356dbd2c59b3e8d9be4cf1eda7573c649a89 <https://bitbucket.org/bohrium/bohrium/commits/5d22356dbd2c59b3e8d9be4cf1eda7573c649a89>`_,
+    time: 2015-03-24 04:06:27.869495.
 
     command: ``python benchmark/Python/lattice_boltzmann_D2Q9.py --size=1000*1000*10 --bohrium=True``
 

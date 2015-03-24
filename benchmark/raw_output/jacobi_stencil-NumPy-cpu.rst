@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Jacobi Stencil on Octuplets using NumPy/CPU
-    commit: `#c0b56884ebe67fcb871d2c798370a2df66688b76 <https://bitbucket.org/bohrium/bohrium/commits/c0b56884ebe67fcb871d2c798370a2df66688b76>`_,
-    time: 2015-03-23 04:05:49.802373.
+    commit: `#5d22356dbd2c59b3e8d9be4cf1eda7573c649a89 <https://bitbucket.org/bohrium/bohrium/commits/5d22356dbd2c59b3e8d9be4cf1eda7573c649a89>`_,
+    time: 2015-03-24 04:06:27.869495.
 
     command: ``python benchmark/Python/jacobi_stencil.py --size=3000*3000*100 --bohrium=False``
 
