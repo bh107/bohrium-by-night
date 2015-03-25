@@ -3,8 +3,8 @@ Raw Benchmark Output
 ====================
 
 Running Black Scholes on Octuplets using Bohrium/CPU
-    commit: `#5d22356dbd2c59b3e8d9be4cf1eda7573c649a89 <https://bitbucket.org/bohrium/bohrium/commits/5d22356dbd2c59b3e8d9be4cf1eda7573c649a89>`_,
-    time: 2015-03-24 04:06:27.869495.
+    commit: `#dea7f4018dcc1c5cd880ccb61a1b32d7e0b93b04 <https://bitbucket.org/bohrium/bohrium/commits/dea7f4018dcc1c5cd880ccb61a1b32d7e0b93b04>`_,
+    time: 2015-03-25 04:06:33.465334.
 
     command: ``python benchmark/Python/black_scholes.py --size=1000000*100 --bohrium=True``
 
