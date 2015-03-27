@@ -3,10 +3,10 @@ Raw Benchmark Output
 ====================
 
 Running Jacobi Stencil on Octuplets using Bohrium/GPU
-    commit: `#b11f24fd2c44c4d5a0979fc1ef3fd94e59ccd878 <https://bitbucket.org/bohrium/bohrium/commits/b11f24fd2c44c4d5a0979fc1ef3fd94e59ccd878>`_,
-    time: 2015-03-26 04:06:12.417209.
+    commit: `#ab3ae314f108b7046dead79b06cc6c836f2380ff <https://bitbucket.org/bohrium/bohrium/commits/ab3ae314f108b7046dead79b06cc6c836f2380ff>`_,
+    time: 2015-03-27 04:05:53.722646.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 0 2 1 3 3 1 5 8 - d 4 2 8 - 4 0 1 a - b e 3 1 - 4 3 8 d 7 b 5 b 0 8 a 6 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / j a c o b i _ s t e n c i l . p y   - - s i z e = 3 0 0 0 * 3 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 9 3 e 4 f f 8 b - f 0 0 c - 4 b 4 e - 9 0 3 0 - f b d d 0 f 9 4 0 3 f e . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / j a c o b i _ s t e n c i l . p y   - - s i z e = 3 0 0 0 * 3 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~

@@ -3,10 +3,10 @@ Raw Benchmark Output
 ====================
 
 Running Shallow Water on Octuplets using Bohrium/GPU
-    commit: `#b11f24fd2c44c4d5a0979fc1ef3fd94e59ccd878 <https://bitbucket.org/bohrium/bohrium/commits/b11f24fd2c44c4d5a0979fc1ef3fd94e59ccd878>`_,
-    time: 2015-03-26 04:06:12.417209.
+    commit: `#ab3ae314f108b7046dead79b06cc6c836f2380ff <https://bitbucket.org/bohrium/bohrium/commits/ab3ae314f108b7046dead79b06cc6c836f2380ff>`_,
+    time: 2015-03-27 04:05:53.722646.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 0 f 9 e 2 0 c a - f b 6 3 - 4 5 e f - b d 6 e - 4 b 2 6 0 9 6 7 3 e 5 4 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / s h a l l o w _ w a t e r . p y   - - s i z e = 2 0 0 0 * 2 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - c 1 4 c 3 6 d e - 0 9 5 8 - 4 7 a 7 - 8 1 3 a - 6 4 d f a 4 a f 9 4 6 8 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / s h a l l o w _ w a t e r . p y   - - s i z e = 2 0 0 0 * 2 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~

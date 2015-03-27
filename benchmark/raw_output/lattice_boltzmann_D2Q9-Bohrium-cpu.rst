@@ -3,10 +3,10 @@ Raw Benchmark Output
 ====================
 
 Running Lattice Boltzmann D2Q9 on Octuplets using Bohrium/CPU
-    commit: `#b11f24fd2c44c4d5a0979fc1ef3fd94e59ccd878 <https://bitbucket.org/bohrium/bohrium/commits/b11f24fd2c44c4d5a0979fc1ef3fd94e59ccd878>`_,
-    time: 2015-03-26 04:06:12.417209.
+    commit: `#ab3ae314f108b7046dead79b06cc6c836f2380ff <https://bitbucket.org/bohrium/bohrium/commits/ab3ae314f108b7046dead79b06cc6c836f2380ff>`_,
+    time: 2015-03-27 04:05:53.722646.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - a 3 1 1 1 7 8 c - f 3 0 8 - 4 8 e 6 - a a 6 1 - d c 6 1 d 1 1 6 1 1 e 3 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / l a t t i c e _ b o l t z m a n n _ D 2 Q 9 . p y   - - s i z e = 1 0 0 0 * 1 0 0 0 * 1 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 9 e 1 8 b c 3 a - 8 0 3 c - 4 b c b - 8 f e a - 7 7 9 d 5 f 8 f e 8 4 f . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / l a t t i c e _ b o l t z m a n n _ D 2 Q 9 . p y   - - s i z e = 1 0 0 0 * 1 0 0 0 * 1 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~
