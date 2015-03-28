@@ -3,10 +3,10 @@ Raw Benchmark Output
 ====================
 
 Running Heat Equation on Octuplets using Bohrium/GPU
-    commit: `#ab3ae314f108b7046dead79b06cc6c836f2380ff <https://bitbucket.org/bohrium/bohrium/commits/ab3ae314f108b7046dead79b06cc6c836f2380ff>`_,
-    time: 2015-03-27 04:05:53.722646.
+    commit: `#35fb9d26caef7cff2dbb2d46e309cab63ad10aaa <https://bitbucket.org/bohrium/bohrium/commits/35fb9d26caef7cff2dbb2d46e309cab63ad10aaa>`_,
+    time: 2015-03-28 04:05:58.224891.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 2 1 d 3 4 c 0 1 - 6 9 5 f - 4 4 0 4 - b 3 b 3 - b 5 b 4 8 1 7 f 8 8 9 2 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / h e a t _ e q u a t i o n . p y   - - s i z e = 3 0 0 0 * 3 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 5 c 7 f 1 b 0 d - a f 6 7 - 4 4 0 a - b b 6 6 - d a 8 4 4 2 3 5 c 9 c 6 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / h e a t _ e q u a t i o n . p y   - - s i z e = 3 0 0 0 * 3 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~

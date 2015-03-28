@@ -3,10 +3,10 @@ Raw Benchmark Output
 ====================
 
 Running Wire World on Octuplets using Bohrium/CPU
-    commit: `#ab3ae314f108b7046dead79b06cc6c836f2380ff <https://bitbucket.org/bohrium/bohrium/commits/ab3ae314f108b7046dead79b06cc6c836f2380ff>`_,
-    time: 2015-03-27 04:05:53.722646.
+    commit: `#35fb9d26caef7cff2dbb2d46e309cab63ad10aaa <https://bitbucket.org/bohrium/bohrium/commits/35fb9d26caef7cff2dbb2d46e309cab63ad10aaa>`_,
+    time: 2015-03-28 04:05:58.224891.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 8 6 1 b 9 3 1 2 - 3 e e 2 - 4 7 f b - b 5 b b - e 5 d 0 a d a 6 3 5 c 9 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / w i r e w o r l d . p y   - - s i z e = 1 0 0 * 1 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - a 1 1 0 2 7 f 9 - a c f 6 - 4 f 2 d - 9 1 1 0 - 1 e c 3 0 2 8 f 5 0 a 7 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / w i r e w o r l d . p y   - - s i z e = 1 0 0 * 1 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~

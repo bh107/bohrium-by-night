@@ -3,10 +3,10 @@ Raw Benchmark Output
 ====================
 
 Running Gauss Elimination on Octuplets using Bohrium/GPU
-    commit: `#ab3ae314f108b7046dead79b06cc6c836f2380ff <https://bitbucket.org/bohrium/bohrium/commits/ab3ae314f108b7046dead79b06cc6c836f2380ff>`_,
-    time: 2015-03-27 04:05:53.722646.
+    commit: `#35fb9d26caef7cff2dbb2d46e309cab63ad10aaa <https://bitbucket.org/bohrium/bohrium/commits/35fb9d26caef7cff2dbb2d46e309cab63ad10aaa>`_,
+    time: 2015-03-28 04:05:58.224891.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - f b e 2 9 c a e - b c 9 4 - 4 2 2 2 - 8 3 e c - 1 7 0 1 d 7 8 7 c b 9 f . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / g a u s s . p y   - - s i z e = 1 0 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - d 7 f 8 e 6 8 1 - b 3 e 5 - 4 4 7 f - 8 0 c 3 - c 5 2 3 6 e 2 1 1 e 6 0 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / g a u s s . p y   - - s i z e = 1 0 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~
