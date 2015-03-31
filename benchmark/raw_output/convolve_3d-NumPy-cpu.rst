@@ -3,10 +3,10 @@ Raw Benchmark Output
 ====================
 
 Running Convolution 3D on Octuplets using NumPy/CPU
-    commit: `#35fb9d26caef7cff2dbb2d46e309cab63ad10aaa <https://bitbucket.org/bohrium/bohrium/commits/35fb9d26caef7cff2dbb2d46e309cab63ad10aaa>`_,
-    time: 2015-03-30 04:06:53.674937.
+    commit: `#54a1c60d0e4017540d69cc8ebad6062985483023 <https://bitbucket.org/bohrium/bohrium/commits/54a1c60d0e4017540d69cc8ebad6062985483023>`_,
+    time: 2015-03-31 04:07:19.531110.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - e d d 8 5 f e 4 - 8 5 1 8 - 4 0 d b - 9 b 0 0 - 1 6 1 0 0 f b 1 5 c 5 7 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / c o n v o l v e _ 3 d . p y   - - s i z e = 1 0 0   - - b o h r i u m = F a l s e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 3 c 3 1 0 7 3 4 - c 0 5 f - 4 d 8 1 - b 1 5 4 - 1 3 b d 8 f d 9 d d b 0 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / c o n v o l v e _ 3 d . p y   - - s i z e = 1 0 0   - - b o h r i u m = F a l s e``
 
 Run 00
 ~~~~~~

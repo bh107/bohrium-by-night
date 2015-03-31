@@ -3,10 +3,10 @@ Raw Benchmark Output
 ====================
 
 Running Matrix Multiplication on Octuplets using Bohrium/CPU
-    commit: `#35fb9d26caef7cff2dbb2d46e309cab63ad10aaa <https://bitbucket.org/bohrium/bohrium/commits/35fb9d26caef7cff2dbb2d46e309cab63ad10aaa>`_,
-    time: 2015-03-30 04:06:53.674937.
+    commit: `#54a1c60d0e4017540d69cc8ebad6062985483023 <https://bitbucket.org/bohrium/bohrium/commits/54a1c60d0e4017540d69cc8ebad6062985483023>`_,
+    time: 2015-03-31 04:07:19.531110.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - f 5 3 2 3 b 9 9 - 9 0 7 0 - 4 7 3 2 - b 8 1 0 - 4 6 e 5 a 8 e e 5 8 8 8 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / m x m u l . p y   - - s i z e = 1 0 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - d a 6 3 a 3 0 a - 9 e 1 a - 4 e 1 9 - 8 8 f b - c 5 9 b f 9 9 e 5 9 d 5 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / m x m u l . p y   - - s i z e = 1 0 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~
