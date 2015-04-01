@@ -3,10 +3,10 @@ Raw Benchmark Output
 ====================
 
 Running Gauss Elimination on Octuplets using NumPy/CPU
-    commit: `#54a1c60d0e4017540d69cc8ebad6062985483023 <https://bitbucket.org/bohrium/bohrium/commits/54a1c60d0e4017540d69cc8ebad6062985483023>`_,
-    time: 2015-03-31 04:07:19.531110.
+    commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
+    time: 2015-04-01 04:06:23.455747.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 9 6 e d 0 c 1 8 - 0 d 9 b - 4 b 5 f - 9 2 a 1 - 9 5 6 6 f e a 1 b 8 2 3 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / g a u s s . p y   - - s i z e = 1 0 0 0   - - b o h r i u m = F a l s e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - f 1 6 d e 1 c 3 - 1 2 a 4 - 4 7 5 6 - 8 1 f 8 - 2 9 5 a e e 0 3 f 5 0 d . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / g a u s s . p y   - - s i z e = 1 0 0 0   - - b o h r i u m = F a l s e``
 
 Run 00
 ~~~~~~
