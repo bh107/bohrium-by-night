@@ -4,9 +4,9 @@ Raw Benchmark Output
 
 Running Gauss Elimination on Octuplets using NumPy/CPU
     commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
-    time: 2015-04-03 04:17:23.172977.
+    time: 2015-04-04 04:07:52.389246.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 8 6 b a f c 9 6 - 7 0 f b - 4 5 b d - b 2 4 1 - e d 2 6 8 6 f e 3 9 e d . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / g a u s s . p y   - - s i z e = 1 0 0 0   - - b o h r i u m = F a l s e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 3 2 7 3 a a 6 9 - 2 8 4 7 - 4 2 3 0 - a a 4 0 - e d e 1 9 6 b c 5 0 5 1 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / g a u s s . p y   - - s i z e = 1 0 0 0   - - b o h r i u m = F a l s e``
 
 Run 00
 ~~~~~~

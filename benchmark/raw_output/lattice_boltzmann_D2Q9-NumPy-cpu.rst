@@ -4,9 +4,9 @@ Raw Benchmark Output
 
 Running Lattice Boltzmann D2Q9 on Octuplets using NumPy/CPU
     commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
-    time: 2015-04-03 04:17:23.172977.
+    time: 2015-04-04 04:07:52.389246.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - e 6 4 b 6 8 b d - d 5 5 a - 4 5 6 3 - 8 b f 1 - 6 6 7 2 9 9 b 9 f b 8 2 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / l a t t i c e _ b o l t z m a n n _ D 2 Q 9 . p y   - - s i z e = 1 0 0 0 * 1 0 0 0 * 1 0   - - b o h r i u m = F a l s e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - f 0 5 5 1 a 0 a - a 3 7 6 - 4 d 5 4 - b d e 9 - 7 9 b e 3 8 2 4 0 a 1 2 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / l a t t i c e _ b o l t z m a n n _ D 2 Q 9 . p y   - - s i z e = 1 0 0 0 * 1 0 0 0 * 1 0   - - b o h r i u m = F a l s e``
 
 Run 00
 ~~~~~~
