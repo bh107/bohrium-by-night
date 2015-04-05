@@ -4,9 +4,9 @@ Raw Benchmark Output
 
 Running Jacobi Stencil on Octuplets using Bohrium/CPU
     commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
-    time: 2015-04-04 04:07:52.389246.
+    time: 2015-04-05 04:06:30.952301.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 6 0 a 8 f 4 c 8 - a 0 5 6 - 4 5 1 4 - b 4 0 2 - d a a d 4 0 9 e 5 f 0 6 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / j a c o b i _ s t e n c i l . p y   - - s i z e = 3 0 0 0 * 3 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - b 4 b 1 3 b 3 3 - 4 c d b - 4 d f 4 - 9 2 d 9 - 0 f e 8 3 2 e a 6 0 b e . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / j a c o b i _ s t e n c i l . p y   - - s i z e = 3 0 0 0 * 3 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~
