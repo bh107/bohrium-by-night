@@ -4,9 +4,9 @@ Raw Benchmark Output
 
 Running Monte Carlo Pi on Octuplets using Bohrium/GPU
     commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
-    time: 2015-04-05 04:06:30.952301.
+    time: 2015-04-06 04:08:16.441542.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - d 3 d 4 f 9 9 e - b 6 4 5 - 4 c e 5 - 9 5 4 d - 7 e e 0 9 6 b 5 0 3 e a . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / m c . p y   - - s i z e = 1 0 0 0 0 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 9 0 5 2 6 b e a - 1 5 6 f - 4 5 c 0 - a b f 7 - 0 6 3 6 2 1 4 f f e e 8 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / m c . p y   - - s i z e = 1 0 0 0 0 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~

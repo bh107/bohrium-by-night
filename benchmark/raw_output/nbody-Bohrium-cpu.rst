@@ -4,9 +4,9 @@ Raw Benchmark Output
 
 Running N-Body on Octuplets using Bohrium/CPU
     commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
-    time: 2015-04-05 04:06:30.952301.
+    time: 2015-04-06 04:08:16.441542.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - b 1 9 3 4 4 a b - f a 9 e - 4 3 4 d - a 3 0 1 - 6 9 e 3 1 a b b e d 3 d . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / n b o d y . p y   - - s i z e = 1 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 5 4 1 5 e 2 4 f - a e 5 7 - 4 6 7 8 - a 0 8 3 - 6 f d 5 d 5 e a d 2 b c . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / n b o d y . p y   - - s i z e = 1 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~
