@@ -4,9 +4,9 @@ Raw Benchmark Output
 
 Running Gauss Elimination on Octuplets using Bohrium/GPU
     commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
-    time: 2015-04-07 04:06:28.152628.
+    time: 2015-04-08 04:06:25.488757.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 9 b 7 a a 4 a b - 3 e 1 7 - 4 e e e - 8 1 2 2 - 6 8 5 2 0 d 1 3 e 6 c 9 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / g a u s s . p y   - - s i z e = 1 0 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 6 7 0 b 5 8 2 a - a 6 f 4 - 4 2 1 8 - 9 2 6 8 - 8 a 9 1 7 b c c e 9 c 2 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / g a u s s . p y   - - s i z e = 1 0 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~
