@@ -4,9 +4,9 @@ Raw Benchmark Output
 
 Running Shallow Water on Octuplets using Bohrium/GPU
     commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
-    time: 2015-04-10 04:06:19.914508.
+    time: 2015-04-11 04:06:35.469541.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 7 5 d 7 3 4 2 a - 3 2 4 a - 4 b 8 7 - a 3 e 2 - d 6 9 c 6 b 2 a 5 4 e b . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / s h a l l o w _ w a t e r . p y   - - s i z e = 2 0 0 0 * 2 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - b 8 c 7 c 1 3 8 - 1 8 d c - 4 3 1 5 - a 4 7 b - e 2 9 1 9 f 1 c 1 4 a b . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / s h a l l o w _ w a t e r . p y   - - s i z e = 2 0 0 0 * 2 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~
