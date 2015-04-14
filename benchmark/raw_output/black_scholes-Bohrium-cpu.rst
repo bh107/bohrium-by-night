@@ -4,9 +4,9 @@ Raw Benchmark Output
 
 Running Black Scholes on Octuplets using Bohrium/CPU
     commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
-    time: 2015-04-13 04:06:20.712853.
+    time: 2015-04-14 04:06:27.939397.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - b 4 9 f 9 9 a e - 0 8 3 7 - 4 7 a 2 - 9 c d f - d 8 8 e 1 9 3 d 9 9 0 6 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / b l a c k _ s c h o l e s . p y   - - s i z e = 1 0 0 0 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - a 6 8 5 5 4 5 a - 3 e 7 c - 4 d a 8 - a 6 f 5 - f f d d 4 5 3 7 d 7 6 9 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / b l a c k _ s c h o l e s . p y   - - s i z e = 1 0 0 0 0 0 0 * 1 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~

@@ -4,9 +4,9 @@ Raw Benchmark Output
 
 Running Wire World on Octuplets using NumPy/CPU
     commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
-    time: 2015-04-13 04:06:20.712853.
+    time: 2015-04-14 04:06:27.939397.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 8 c c 2 3 f 0 0 - 2 a f c - 4 6 d 8 - 8 7 9 0 - 8 2 4 d 9 e 6 9 2 4 2 8 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / w i r e w o r l d . p y   - - s i z e = 1 0 0 * 1 0 0   - - b o h r i u m = F a l s e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 5 5 f 3 4 5 d 0 - 3 f 2 1 - 4 8 4 d - 9 1 a e - c 0 d 2 e 6 0 1 d 9 8 f . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / w i r e w o r l d . p y   - - s i z e = 1 0 0 * 1 0 0   - - b o h r i u m = F a l s e``
 
 Run 00
 ~~~~~~

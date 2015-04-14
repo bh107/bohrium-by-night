@@ -4,9 +4,9 @@ Raw Benchmark Output
 
 Running Heat Equation on Octuplets using NumPy/CPU
     commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
-    time: 2015-04-13 04:06:20.712853.
+    time: 2015-04-14 04:06:27.939397.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 5 4 8 6 b 1 2 7 - 0 2 1 2 - 4 2 d 2 - a f 1 b - 6 2 8 9 2 9 7 6 f 8 6 d . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / h e a t _ e q u a t i o n . p y   - - s i z e = 3 0 0 0 * 3 0 0 0 * 1 0 0   - - b o h r i u m = F a l s e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 3 f 9 b 5 a 7 4 - 5 6 e 8 - 4 5 6 d - 9 6 4 3 - 8 4 a 8 8 6 6 3 9 9 4 5 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / h e a t _ e q u a t i o n . p y   - - s i z e = 3 0 0 0 * 3 0 0 0 * 1 0 0   - - b o h r i u m = F a l s e``
 
 Run 00
 ~~~~~~
