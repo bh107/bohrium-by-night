@@ -4,9 +4,9 @@ Raw Benchmark Output
 
 Running Matrix Multiplication on Octuplets using Bohrium/CPU
     commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
-    time: 2015-04-14 04:06:27.939397.
+    time: 2015-04-15 04:06:10.757681.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - a 5 f 3 1 9 0 d - e 8 e c - 4 a a f - a 8 5 4 - 7 3 f b 8 a e 0 6 c 4 7 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / m x m u l . p y   - - s i z e = 1 0 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 3 d 6 f 1 3 9 4 - 9 0 1 2 - 4 6 b 8 - 8 a a 5 - 8 5 6 f 1 4 3 c c 6 f d . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / m x m u l . p y   - - s i z e = 1 0 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~
