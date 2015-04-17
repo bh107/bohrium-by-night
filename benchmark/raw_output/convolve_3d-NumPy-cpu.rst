@@ -4,9 +4,9 @@ Raw Benchmark Output
 
 Running Convolution 3D on Octuplets using NumPy/CPU
     commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
-    time: 2015-04-16 04:06:39.218684.
+    time: 2015-04-17 04:06:33.692317.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 7 d a e b c e 1 - e 6 b 2 - 4 e 0 f - b 4 8 e - 5 b f 7 5 a 7 9 f 6 a 4 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / c o n v o l v e _ 3 d . p y   - - s i z e = 1 0 0   - - b o h r i u m = F a l s e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 1 1 1 c f 5 3 d - 6 5 c 4 - 4 8 8 6 - b d 9 0 - 0 e 1 b c 4 8 f 8 7 0 7 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / c o n v o l v e _ 3 d . p y   - - s i z e = 1 0 0   - - b o h r i u m = F a l s e``
 
 Run 00
 ~~~~~~

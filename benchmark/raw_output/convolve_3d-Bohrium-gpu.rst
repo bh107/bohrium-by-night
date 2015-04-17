@@ -4,9 +4,9 @@ Raw Benchmark Output
 
 Running Convolution 3D on Octuplets using Bohrium/GPU
     commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
-    time: 2015-04-16 04:06:39.218684.
+    time: 2015-04-17 04:06:33.692317.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 1 b 5 4 3 b 9 a - 5 c e 8 - 4 2 f c - 9 1 e d - 9 c 6 2 9 e 5 c 9 4 6 a . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / c o n v o l v e _ 3 d . p y   - - s i z e = 1 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 7 f c b 4 8 a 6 - 9 5 e 7 - 4 e 0 f - b 6 6 2 - 9 6 e 0 3 3 c d f a 9 9 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / c o n v o l v e _ 3 d . p y   - - s i z e = 1 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~
