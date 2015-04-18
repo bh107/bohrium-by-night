@@ -4,9 +4,9 @@ Raw Benchmark Output
 
 Running Wire World on Octuplets using Bohrium/GPU
     commit: `#369b33555f0b3b45fc0dde490cf2f7340b51843f <https://bitbucket.org/bohrium/bohrium/commits/369b33555f0b3b45fc0dde490cf2f7340b51843f>`_,
-    time: 2015-04-17 04:06:33.692317.
+    time: 2015-04-18 05:42:02.134734.
 
-    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 4 c 6 9 f 2 4 0 - 8 4 5 7 - 4 3 f 6 - a a d b - 6 2 6 d 7 c 4 d 1 4 5 1 . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / w i r e w o r l d . p y   - - s i z e = 1 0 0 * 1 0 0   - - b o h r i u m = T r u e``
+    command: ``  / u s r / b i n / t i m e   - v   - o   / h o m e / b h b u i l d e r / b e n c h p r e s s / b h - j o b - 3 d d 5 d f 1 b - a 8 5 0 - 4 a 6 5 - b b f 3 - e 2 6 7 a b 9 4 d 0 2 f . s h - 2 . t i m e   p y t h o n   b e n c h m a r k / p y t h o n / w i r e w o r l d . p y   - - s i z e = 1 0 0 * 1 0 0   - - b o h r i u m = T r u e``
 
 Run 00
 ~~~~~~
